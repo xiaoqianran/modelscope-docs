@@ -1,0 +1,3471 @@
+{
+  "title": "",
+  "filename": "",
+  "url": "",
+  "path": "",
+  "dir": true,
+  "children": [
+    {
+      "title": "概览",
+      "filename": "overview",
+      "url": "overview",
+      "path": "overview/overview_CN.md",
+      "intlDisabled": false,
+      "key": "0-0",
+      "md": true
+    },
+    {
+      "title": "快速入门",
+      "filename": "intro",
+      "url": "intro",
+      "path": "intro",
+      "dir": true,
+      "children": [
+        {
+          "title": "快速开始",
+          "filename": "quickstart",
+          "url": "quickstart",
+          "path": "intro/quickstart/quickstart_CN.md",
+          "intlDisabled": false,
+          "key": "0-1-0",
+          "md": true
+        },
+        {
+          "title": "环境安装",
+          "filename": "environment-setup",
+          "url": "environment-setup",
+          "path": "intro/environment-setup/environment-setup_CN.md",
+          "intlDisabled": false,
+          "key": "0-1-1",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-1"
+    },
+    {
+      "title": "模型库",
+      "filename": "models",
+      "url": "models",
+      "path": "models",
+      "dir": true,
+      "children": [
+        {
+          "title": "模型库介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "models/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-2-0",
+          "md": true
+        },
+        {
+          "title": "模型的下载",
+          "filename": "download",
+          "url": "download",
+          "path": "models/download/download_CN.md",
+          "intlDisabled": false,
+          "key": "0-2-1",
+          "md": true
+        },
+        {
+          "title": "模型的上传",
+          "filename": "upload",
+          "url": "upload",
+          "path": "models/upload/upload_CN.md",
+          "intlDisabled": false,
+          "key": "0-2-2",
+          "md": true
+        },
+        {
+          "title": "模型卡片",
+          "filename": "model-card",
+          "url": "model-card",
+          "path": "models/model-card/model-card_CN.md",
+          "intlDisabled": false,
+          "key": "0-2-3",
+          "md": true
+        },
+        {
+          "title": "模型的版本",
+          "filename": "version",
+          "url": "version",
+          "path": "models/version/version_CN.md",
+          "intlDisabled": false,
+          "key": "0-2-4",
+          "md": true
+        },
+        {
+          "title": "模型检索与体验",
+          "filename": "discovery",
+          "url": "discovery",
+          "path": "models/discovery/discovery_CN.md",
+          "intlDisabled": false,
+          "key": "0-2-5",
+          "md": true
+        },
+        {
+          "title": "高阶使用",
+          "filename": "advanced-usage",
+          "url": "advanced-usage",
+          "path": "models/advanced-usage",
+          "dir": true,
+          "children": [
+            {
+              "title": "Ollama加载ModelScope模型",
+              "filename": "ollama-integration",
+              "url": "ollama-integration",
+              "path": "models/advanced-usage/ollama-integration/ollama-integration_CN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-0",
+              "md": true
+            },
+            {
+              "title": "llamacpp加载ModelScope模型",
+              "filename": "llama-cpp-integration",
+              "url": "llama-cpp-integration",
+              "path": "models/advanced-usage/llama-cpp-integration/llama-cpp-integration_CN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-1",
+              "md": true
+            },
+            {
+              "title": "直接运行llamafile格式模型",
+              "filename": "llamafile",
+              "url": "llamafile",
+              "path": "models/advanced-usage/llamafile/llamafile_CN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-2",
+              "md": true
+            },
+            {
+              "title": "阿里云内网环境加速",
+              "filename": "cloud-accelerator",
+              "url": "cloud-accelerator",
+              "path": "models/advanced-usage/cloud-accelerator/cloud-accelerator_CN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-3",
+              "md": true
+            },
+            {
+              "title": "跨地域内网加速下载（CEN）",
+              "filename": "cen-accelerator",
+              "url": "cen-accelerator",
+              "path": "models/advanced-usage/cen-accelerator/cen-accelerator_CN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-4",
+              "md": true
+            },
+            {
+              "title": "发起Pull-Requests",
+              "filename": "pull-requests",
+              "url": "pull-requests",
+              "path": "models/advanced-usage/pull-requests/pull-requests_CN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-5",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-2-6"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-2"
+    },
+    {
+      "title": "数据集",
+      "filename": "datasets",
+      "url": "datasets",
+      "path": "datasets",
+      "dir": true,
+      "children": [
+        {
+          "title": "数据集介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "datasets/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-0",
+          "md": true
+        },
+        {
+          "title": "数据集的创建",
+          "filename": "create",
+          "url": "create",
+          "path": "datasets/create/create_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-1",
+          "md": true
+        },
+        {
+          "title": "数据集的上传",
+          "filename": "upload",
+          "url": "upload",
+          "path": "datasets/upload/upload_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-2",
+          "md": true
+        },
+        {
+          "title": "数据集的下载",
+          "filename": "download",
+          "url": "download",
+          "path": "datasets/download/download_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-3",
+          "md": true
+        },
+        {
+          "title": "数据集卡片",
+          "filename": "dataset-card",
+          "url": "dataset-card",
+          "path": "datasets/dataset-card/dataset-card_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-4",
+          "md": true
+        },
+        {
+          "title": "数据集的维护",
+          "filename": "maintenance",
+          "url": "maintenance",
+          "path": "datasets/maintenance/maintenance_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-5",
+          "md": true
+        },
+        {
+          "title": "数据集文件规范",
+          "filename": "guidance",
+          "url": "guidance",
+          "path": "datasets/guidance/guidance_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-6",
+          "md": true
+        },
+        {
+          "title": "数据集示例",
+          "filename": "examples",
+          "url": "examples",
+          "path": "datasets/examples",
+          "dir": true,
+          "children": [
+            {
+              "title": "文本数据集",
+              "filename": "text-dataset",
+              "url": "text-dataset",
+              "path": "datasets/examples/text-dataset/text-dataset_CN.md",
+              "intlDisabled": false,
+              "key": "0-3-7-0",
+              "md": true
+            },
+            {
+              "title": "图片数据集",
+              "filename": "image-dataset",
+              "url": "image-dataset",
+              "path": "datasets/examples/image-dataset/image-dataset_CN.md",
+              "intlDisabled": false,
+              "key": "0-3-7-1",
+              "md": true
+            },
+            {
+              "title": "音频数据集",
+              "filename": "audio-dataset",
+              "url": "audio-dataset",
+              "path": "datasets/examples/audio-dataset/audio-dataset_CN.md",
+              "intlDisabled": false,
+              "key": "0-3-7-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-3-7"
+        },
+        {
+          "title": "自定义数据集接入流程",
+          "filename": "custom-datasets",
+          "url": "custom-datasets",
+          "path": "datasets/custom-datasets/custom-datasets_CN.md",
+          "intlDisabled": false,
+          "key": "0-3-8",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-3"
+    },
+    {
+      "title": "创空间",
+      "filename": "studios",
+      "url": "studios",
+      "path": "studios",
+      "dir": true,
+      "children": [
+        {
+          "title": "创空间介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "studios/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-0",
+          "md": true
+        },
+        {
+          "title": "创空间卡片",
+          "filename": "studio-card",
+          "url": "studio-card",
+          "path": "studios/studio-card/studio-card_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-1",
+          "md": true
+        },
+        {
+          "title": "创空间创建与搭建",
+          "filename": "create",
+          "url": "create",
+          "path": "studios/create/create_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-2",
+          "md": true
+        },
+        {
+          "title": "快速创建并部署",
+          "filename": "quick-create",
+          "url": "quick-create",
+          "path": "studios/quick-create/quick-create_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-3",
+          "md": true
+        },
+        {
+          "title": "Docker创空间介绍",
+          "filename": "docker",
+          "url": "docker",
+          "path": "studios/docker/docker_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-4",
+          "md": true
+        },
+        {
+          "title": "创空间示例",
+          "filename": "examples",
+          "url": "examples",
+          "path": "studios/examples",
+          "dir": true,
+          "children": [
+            {
+              "title": "Gradio SDK示例",
+              "filename": "gradio",
+              "url": "gradio",
+              "path": "studios/examples/gradio/gradio_CN.md",
+              "intlDisabled": false,
+              "key": "0-4-5-0",
+              "md": true
+            },
+            {
+              "title": "Streamlit SDK示例",
+              "filename": "streamlit",
+              "url": "streamlit",
+              "path": "studios/examples/streamlit/streamlit_CN.md",
+              "intlDisabled": false,
+              "key": "0-4-5-1",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-4-5"
+        },
+        {
+          "title": "创空间资源规格",
+          "filename": "resource-selections",
+          "url": "resource-selections",
+          "path": "studios/resource-selections/resource-selections_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-6",
+          "md": true
+        },
+        {
+          "title": "xGPU创空间介绍",
+          "filename": "xGPU",
+          "url": "xGPU",
+          "path": "studios/xGPU/xGPU_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-7",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-4"
+    },
+    {
+      "title": "Notebook",
+      "filename": "notebook",
+      "url": "notebook",
+      "path": "notebook",
+      "dir": true,
+      "children": [
+        {
+          "title": "Notebook介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "notebook/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-5-0",
+          "md": true
+        },
+        {
+          "title": "新版编辑器",
+          "filename": "new-editor",
+          "url": "new-editor",
+          "path": "notebook/new-editor/new-editor_CN.md",
+          "intlDisabled": false,
+          "key": "0-5-1",
+          "md": true
+        },
+        {
+          "title": "通过Web-IDE使用VS-Code",
+          "filename": "web-ide",
+          "url": "web-ide",
+          "path": "notebook/web-ide/web-ide_CN.md",
+          "intlDisabled": false,
+          "key": "0-5-2",
+          "md": true
+        },
+        {
+          "title": "Notebook分享与协作",
+          "filename": "sharing",
+          "url": "sharing",
+          "path": "notebook/sharing/sharing_CN.md",
+          "intlDisabled": false,
+          "key": "0-5-3",
+          "md": true
+        },
+        {
+          "title": "Notebook实例创建与管理",
+          "filename": "instance-management",
+          "url": "instance-management",
+          "path": "notebook/instance-management/instance-management_CN.md",
+          "intlDisabled": false,
+          "key": "0-5-4",
+          "md": true
+        },
+        {
+          "title": "Notebook环境配置与管理",
+          "filename": "environment-setup",
+          "url": "environment-setup",
+          "path": "notebook/environment-setup/environment-setup_CN.md",
+          "intlDisabled": false,
+          "key": "0-5-5",
+          "md": true
+        },
+        {
+          "title": "Notebook数据存储",
+          "filename": "data-storage",
+          "url": "data-storage",
+          "path": "notebook/data-storage/data-storage_CN.md",
+          "intlDisabled": false,
+          "key": "0-5-6",
+          "md": true
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-5"
+    },
+    {
+      "title": "合集",
+      "filename": "collections",
+      "url": "collections",
+      "path": "collections",
+      "dir": true,
+      "children": [
+        {
+          "title": "合集的介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "collections/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-6-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-6"
+    },
+    {
+      "title": "AIGC专区",
+      "filename": "aigc",
+      "url": "aigc",
+      "path": "aigc",
+      "dir": true,
+      "children": [
+        {
+          "title": "AIGC专区简介",
+          "filename": "intro",
+          "url": "intro",
+          "path": "aigc/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-7-0",
+          "md": true
+        },
+        {
+          "title": "快速生图",
+          "filename": "image-gen-basic",
+          "url": "image-gen-basic",
+          "path": "aigc/image-gen-basic/image-gen-basic_CN.md",
+          "intlDisabled": false,
+          "key": "0-7-1",
+          "md": true
+        },
+        {
+          "title": "专业生图",
+          "filename": "image-gen-pro",
+          "url": "image-gen-pro",
+          "path": "aigc/image-gen-pro/image-gen-pro_CN.md",
+          "intlDisabled": false,
+          "key": "0-7-2",
+          "md": true
+        },
+        {
+          "title": "训练教程",
+          "filename": "train",
+          "url": "train",
+          "path": "aigc/train/train_CN.md",
+          "intlDisabled": false,
+          "key": "0-7-3",
+          "md": true
+        },
+        {
+          "title": "AIGC专区常见问题",
+          "filename": "aigc-faq",
+          "url": "aigc-faq",
+          "path": "aigc/aigc-faq/aigc-faq_CN.md",
+          "intlDisabled": false,
+          "key": "0-7-5",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-7"
+    },
+    {
+      "title": "MCP广场",
+      "filename": "mcp",
+      "url": "mcp",
+      "path": "mcp",
+      "dir": true,
+      "children": [
+        {
+          "title": "MCP广场简介",
+          "filename": "intro",
+          "url": "intro",
+          "path": "mcp/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-0",
+          "md": true
+        },
+        {
+          "title": "创建MCP服务",
+          "filename": "create",
+          "url": "create",
+          "path": "mcp/create/create_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-1",
+          "md": true
+        },
+        {
+          "title": "MCP部署服务使用限制",
+          "filename": "limits",
+          "url": "limits",
+          "path": "mcp/limits/limits_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-2",
+          "md": true
+        },
+        {
+          "title": "MCP SDK接口",
+          "filename": "sdk",
+          "url": "sdk",
+          "path": "mcp/sdk/sdk_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-3",
+          "md": true
+        },
+        {
+          "title": "ModelScope MCP Server OAuth 配置",
+          "filename": "ms-mcp-oauth",
+          "url": "ms-mcp-oauth",
+          "path": "mcp/ms-mcp-oauth/ms-mcp-oauth_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-4",
+          "md": true
+        },
+        {
+          "title": "Cherry Studio集成",
+          "filename": "cherry-studio",
+          "url": "cherry-studio",
+          "path": "mcp/cherry-studio/cherry-studio_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-5",
+          "md": true
+        },
+        {
+          "title": "Kimi Playground集成",
+          "filename": "kimi-playground",
+          "url": "kimi-playground",
+          "path": "mcp/kimi-playground/kimi-playground_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-6",
+          "md": true
+        },
+        {
+          "title": "通义灵码集成",
+          "filename": "lingma",
+          "url": "lingma",
+          "path": "mcp/lingma/lingma_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-7",
+          "md": true
+        },
+        {
+          "title": "Intel AI Assistant Builder集成",
+          "filename": "intel-ai-integration",
+          "url": "intel-ai-integration",
+          "path": "mcp/intel-ai-integration/intel-ai-integration_CN.md",
+          "intlDisabled": false,
+          "key": "0-8-8",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-8"
+    },
+    {
+      "title": "Skills 中心",
+      "filename": "skills",
+      "url": "skills",
+      "path": "skills",
+      "dir": true,
+      "children": [
+        {
+          "title": "Skills中心简介",
+          "filename": "intro",
+          "url": "intro",
+          "path": "skills/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-9-0",
+          "md": true
+        },
+        {
+          "title": "Skills的下载安装",
+          "filename": "install",
+          "url": "install",
+          "path": "skills/install/install_CN.md",
+          "intlDisabled": false,
+          "key": "0-9-1",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-9"
+    },
+    {
+      "title": "Agents",
+      "filename": "agent",
+      "url": "agents",
+      "path": "agent",
+      "dir": true,
+      "children": [
+        {
+          "title": "Agent身份服务",
+          "filename": "agent-identity",
+          "url": "agent-identity",
+          "path": "agent/agent-identity/agent-identity_CN.md",
+          "intlDisabled": false,
+          "key": "0-10-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-10"
+    },
+    {
+      "title": "科学智能专区",
+      "filename": "nexa",
+      "url": "nexa",
+      "path": "nexa",
+      "dir": true,
+      "children": [
+        {
+          "title": "科学智能专区介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "nexa/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-11-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-11"
+    },
+    {
+      "title": "账号管理与组织",
+      "filename": "accounts",
+      "url": "accounts",
+      "path": "accounts",
+      "dir": true,
+      "children": [
+        {
+          "title": "账号注册与登录",
+          "filename": "registration",
+          "url": "registration",
+          "path": "accounts/registration/registration_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-0",
+          "md": true
+        },
+        {
+          "title": "密码修改与密码找回",
+          "filename": "password",
+          "url": "password",
+          "path": "accounts/password/password_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-1",
+          "md": true
+        },
+        {
+          "title": "如何创建组织",
+          "filename": "create-a-org",
+          "url": "create-a-org",
+          "path": "accounts/create-a-org/create-a-org_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-2",
+          "md": true
+        },
+        {
+          "title": "组织权限说明",
+          "filename": "org-permission",
+          "url": "org-permission",
+          "path": "accounts/org-permission/org-permission_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-3",
+          "md": true
+        },
+        {
+          "title": "模型及数据集owner权限转交",
+          "filename": "ownership-transfer",
+          "url": "ownership-transfer",
+          "path": "accounts/ownership-transfer/ownership-transfer_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-4",
+          "md": true
+        },
+        {
+          "title": "访问令牌",
+          "filename": "token",
+          "url": "token",
+          "path": "accounts/token/token_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-5",
+          "md": true
+        },
+        {
+          "title": "通过魔搭登录(OAuth)",
+          "filename": "oauth",
+          "url": "oauth",
+          "path": "accounts/oauth/oauth_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-6",
+          "md": true
+        },
+        {
+          "title": "阿里云账号绑定与授权教程",
+          "filename": "aliyun-binding-and-authorization",
+          "url": "aliyun-binding-and-authorization",
+          "path": "accounts/aliyun-binding-and-authorization/aliyun-binding-and-authorization_CN.md",
+          "intlDisabled": false,
+          "key": "0-12-7",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-12"
+    },
+    {
+      "title": "Library与命令行教程",
+      "filename": "sdk",
+      "url": "sdk",
+      "path": "sdk",
+      "dir": true,
+      "children": [
+        {
+          "title": "Library介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "sdk/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-13-0",
+          "md": true
+        },
+        {
+          "title": "命令行工具参考",
+          "filename": "cli",
+          "url": "cli",
+          "path": "sdk/cli/cli_CN.md",
+          "intlDisabled": false,
+          "key": "0-13-1",
+          "md": true
+        },
+        {
+          "title": "模型加载和预处理",
+          "filename": "model-load-and-preprocess",
+          "url": "model-load-and-preprocess",
+          "path": "sdk/model-load-and-preprocess/model-load-and-preprocess_CN.md",
+          "intlDisabled": false,
+          "key": "0-13-2",
+          "md": true
+        },
+        {
+          "title": "模型推理Pipeline",
+          "filename": "pipelines",
+          "url": "pipelines",
+          "path": "sdk/pipelines/pipelines_CN.md",
+          "intlDisabled": false,
+          "key": "0-13-3",
+          "md": true
+        },
+        {
+          "title": "数据集使用指南",
+          "filename": "dataset",
+          "url": "dataset",
+          "path": "sdk/dataset/dataset_CN.md",
+          "intlDisabled": false,
+          "key": "0-13-4",
+          "md": true
+        },
+        {
+          "title": "模型的训练",
+          "filename": "model-training",
+          "url": "model-training",
+          "path": "sdk/model-training/model-training_CN.md",
+          "intlDisabled": false,
+          "key": "0-13-5",
+          "md": true
+        },
+        {
+          "title": "模型的导出",
+          "filename": "model-export",
+          "url": "model-export",
+          "path": "sdk/model-export/model-export_CN.md",
+          "intlDisabled": false,
+          "key": "0-13-6",
+          "md": true
+        },
+        {
+          "title": "各任务最佳实践",
+          "filename": "tasks",
+          "url": "tasks",
+          "path": "sdk/tasks",
+          "dir": true,
+          "children": [
+            {
+              "title": "任务的介绍",
+              "filename": "intro",
+              "url": "intro",
+              "path": "sdk/tasks/intro/intro_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-0",
+              "md": true
+            },
+            {
+              "title": "NLG大模型使用介绍",
+              "filename": "nlg-models",
+              "url": "nlg-models",
+              "path": "sdk/tasks/nlg-models/nlg-models_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-1",
+              "md": true
+            },
+            {
+              "title": "文本分类任务",
+              "filename": "text-classification",
+              "url": "text-classification",
+              "path": "sdk/tasks/text-classification/text-classification_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-2",
+              "md": true
+            },
+            {
+              "title": "序列标注任务",
+              "filename": "token-classification",
+              "url": "token-classification",
+              "path": "sdk/tasks/token-classification/token-classification_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-3",
+              "md": true
+            },
+            {
+              "title": "文本生成任务",
+              "filename": "text-generation",
+              "url": "text-generation",
+              "path": "sdk/tasks/text-generation/text-generation_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-4",
+              "md": true
+            },
+            {
+              "title": "图像分割任务",
+              "filename": "image-segmentation",
+              "url": "image-segmentation",
+              "path": "sdk/tasks/image-segmentation/image-segmentation_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-5",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-13-7"
+        },
+        {
+          "title": "详细教程",
+          "filename": "tutorials",
+          "url": "tutorials",
+          "path": "sdk/tutorials",
+          "dir": true,
+          "children": [
+            {
+              "title": "Library框架机制",
+              "filename": "framework-design",
+              "url": "framework-design",
+              "path": "sdk/tutorials/framework-design/framework-design_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-0",
+              "md": true
+            },
+            {
+              "title": "Configuration详解",
+              "filename": "configuration",
+              "url": "configuration",
+              "path": "sdk/tutorials/configuration/configuration_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-1",
+              "md": true
+            },
+            {
+              "title": "回调函数机制",
+              "filename": "callbacks",
+              "url": "callbacks",
+              "path": "sdk/tutorials/callbacks/callbacks_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-2",
+              "md": true
+            },
+            {
+              "title": "数据的预处理",
+              "filename": "data-preprocessor",
+              "url": "data-preprocessor",
+              "path": "sdk/tutorials/data-preprocessor/data-preprocessor_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-3",
+              "md": true
+            },
+            {
+              "title": "模型的评估",
+              "filename": "model-evaluation",
+              "url": "model-evaluation",
+              "path": "sdk/tutorials/model-evaluation/model-evaluation_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-4",
+              "md": true
+            },
+            {
+              "title": "训练的详细参数",
+              "filename": "training-parameters",
+              "url": "training-parameters",
+              "path": "sdk/tutorials/training-parameters/training-parameters_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-5",
+              "md": true
+            },
+            {
+              "title": "Pipeline默认配置",
+              "filename": "pipeline-default-config",
+              "url": "pipeline-default-config",
+              "path": "sdk/tutorials/pipeline-default-config/pipeline-default-config_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-6",
+              "md": true
+            },
+            {
+              "title": "使用Flask搭建模型服务",
+              "filename": "use-flask-for-model-service",
+              "url": "use-flask-for-model-service",
+              "path": "sdk/tutorials/use-flask-for-model-service/use-flask-for-model-service_CN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-7",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-13-8"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-13"
+    },
+    {
+      "title": "大模型训练与推理",
+      "filename": "llm-training-and-inference",
+      "url": "llm-training-and-inference",
+      "path": "llm-training-and-inference",
+      "dir": true,
+      "children": [
+        {
+          "title": "入门介绍",
+          "filename": "intro",
+          "url": "intro",
+          "path": "llm-training-and-inference/intro",
+          "dir": true,
+          "children": [
+            {
+              "title": "快速开始",
+              "filename": "quickstart",
+              "url": "quickstart",
+              "path": "llm-training-and-inference/intro/quickstart/quickstart_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-0-0",
+              "md": true
+            },
+            {
+              "title": "SWIFT安装",
+              "filename": "swift-installation",
+              "url": "swift-installation",
+              "path": "llm-training-and-inference/intro/swift-installation/swift-installation_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-0-1",
+              "md": true
+            },
+            {
+              "title": "Web-UI",
+              "filename": "web-ui",
+              "url": "web-ui",
+              "path": "llm-training-and-inference/intro/web-ui/web-ui_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-0-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-0"
+        },
+        {
+          "title": "功能指引",
+          "filename": "user-guide",
+          "url": "user-guide",
+          "path": "llm-training-and-inference/user-guide",
+          "dir": true,
+          "children": [
+            {
+              "title": "命令行参数",
+              "filename": "command-line-parameters",
+              "url": "command-line-parameters",
+              "path": "llm-training-and-inference/user-guide/command-line-parameters/command-line-parameters_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-0",
+              "md": true
+            },
+            {
+              "title": "预训练与微调",
+              "filename": "pretraining-and-finetuning",
+              "url": "pretraining-and-finetuning",
+              "path": "llm-training-and-inference/user-guide/pretraining-and-finetuning/pretraining-and-finetuning_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-1",
+              "md": true
+            },
+            {
+              "title": "人类对齐",
+              "filename": "rlhf",
+              "url": "rlhf",
+              "path": "llm-training-and-inference/user-guide/rlhf/rlhf_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-2",
+              "md": true
+            },
+            {
+              "title": "Megatron-SWIFT训练",
+              "filename": "megatron-swift",
+              "url": "megatron-swift",
+              "path": "llm-training-and-inference/user-guide/megatron-swift/megatron-swift_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-3",
+              "md": true
+            },
+            {
+              "title": "推理和部署",
+              "filename": "inference-and-deployment",
+              "url": "inference-and-deployment",
+              "path": "llm-training-and-inference/user-guide/inference-and-deployment/inference-and-deployment_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-4",
+              "md": true
+            },
+            {
+              "title": "采样",
+              "filename": "sample",
+              "url": "sample",
+              "path": "llm-training-and-inference/user-guide/sample/sample_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-5",
+              "md": true
+            },
+            {
+              "title": "评测",
+              "filename": "evaluation",
+              "url": "evaluation",
+              "path": "llm-training-and-inference/user-guide/evaluation/evaluation_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-6",
+              "md": true
+            },
+            {
+              "title": "导出与推送",
+              "filename": "export-and-push",
+              "url": "export-and-push",
+              "path": "llm-training-and-inference/user-guide/export-and-push/export-and-push_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-7",
+              "md": true
+            },
+            {
+              "title": "强化微调",
+              "filename": "reinforced-fine-tuning",
+              "url": "reinforced-fine-tuning",
+              "path": "llm-training-and-inference/user-guide/reinforced-fine-tuning/reinforced-fine-tuning_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-8",
+              "md": true
+            },
+            {
+              "title": "GRPO",
+              "filename": "grpo-guide",
+              "url": "grpo-guide",
+              "path": "llm-training-and-inference/user-guide/grpo-guide",
+              "dir": true,
+              "children": [
+                {
+                  "title": "入门介绍",
+                  "filename": "quick-started",
+                  "url": "quick-started",
+                  "path": "llm-training-and-inference/user-guide/grpo-guide/quick-started",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "GRPO",
+                      "filename": "grpo",
+                      "url": "grpo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/quick-started/grpo/grpo_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-0-0",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-14-1-9-0"
+                },
+                {
+                  "title": "更多支持",
+                  "filename": "developer-guide",
+                  "url": "developer-guide",
+                  "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "多轮训练",
+                      "filename": "multi-turn",
+                      "url": "multi-turn",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/multi-turn/multi-turn_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-0",
+                      "md": true
+                    },
+                    {
+                      "title": "多任务",
+                      "filename": "multi-task",
+                      "url": "multi-task",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/multi-task/multi-task_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-1",
+                      "md": true
+                    },
+                    {
+                      "title": "奖励函数",
+                      "filename": "reward-function",
+                      "url": "reward-function",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/reward-function/reward-function_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-2",
+                      "md": true
+                    },
+                    {
+                      "title": "奖励模型",
+                      "filename": "reward-model",
+                      "url": "reward-model",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/reward-model/reward-model_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-3",
+                      "md": true
+                    },
+                    {
+                      "title": "损失类型",
+                      "filename": "loss-type",
+                      "url": "loss-type",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/loss-type/loss-type_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-4",
+                      "md": true
+                    },
+                    {
+                      "title": "gym环境",
+                      "filename": "gym-env",
+                      "url": "gym-env",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/gym-env/gym-env_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-5",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-14-1-9-1"
+                },
+                {
+                  "title": "先进算法",
+                  "filename": "advanced-research",
+                  "url": "advanced-research",
+                  "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "entropy_mask",
+                      "filename": "entropy-mask",
+                      "url": "entropy-mask",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/entropy-mask/entropy-mask_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-0",
+                      "md": true
+                    },
+                    {
+                      "title": "CISPO",
+                      "filename": "cispo",
+                      "url": "cispo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/cispo/cispo_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-1",
+                      "md": true
+                    },
+                    {
+                      "title": "DAPO",
+                      "filename": "dapo",
+                      "url": "dapo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/dapo/dapo_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-2",
+                      "md": true
+                    },
+                    {
+                      "title": "deepeyes",
+                      "filename": "deepeyes",
+                      "url": "deepeyes",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/deepeyes/deepeyes_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-3",
+                      "md": true
+                    },
+                    {
+                      "title": "GSPO",
+                      "filename": "gspo",
+                      "url": "gspo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/gspo/gspo_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-4",
+                      "md": true
+                    },
+                    {
+                      "title": "CHORD",
+                      "filename": "chord",
+                      "url": "chord",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/chord/chord_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-5",
+                      "md": true
+                    },
+                    {
+                      "title": "RLOO",
+                      "filename": "rloo",
+                      "url": "rloo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/rloo/rloo_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-6",
+                      "md": true
+                    },
+                    {
+                      "title": "REINFORCEPP",
+                      "filename": "reinforce-plus-plus",
+                      "url": "reinforce-plus-plus",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/reinforce-plus-plus/reinforce-plus-plus_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-7",
+                      "md": true
+                    },
+                    {
+                      "title": "SAPO",
+                      "filename": "sapo",
+                      "url": "sapo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/sapo/sapo_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-8",
+                      "md": true
+                    },
+                    {
+                      "title": "training_inference_mismatch",
+                      "filename": "training-inference-mismatch",
+                      "url": "training-inference-mismatch",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/training-inference-mismatch/training-inference-mismatch_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-9",
+                      "md": true
+                    },
+                    {
+                      "title": "treepo",
+                      "filename": "treepo",
+                      "url": "treepo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/treepo/treepo_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-10",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-14-1-9-2"
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-14-1-9"
+            },
+            {
+              "title": "GKD",
+              "filename": "GKD",
+              "url": "GKD",
+              "path": "llm-training-and-inference/user-guide/GKD/GKD_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-10",
+              "md": true
+            },
+            {
+              "title": "支持的模型和数据集",
+              "filename": "supported-models-and-datasets",
+              "url": "supported-models-and-datasets",
+              "path": "llm-training-and-inference/user-guide/supported-models-and-datasets/supported-models-and-datasets_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-11",
+              "md": true
+            },
+            {
+              "title": "使用tuners",
+              "filename": "tuners",
+              "url": "tuners",
+              "path": "llm-training-and-inference/user-guide/tuners/tuners_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-12",
+              "md": true
+            },
+            {
+              "title": "Agent支持",
+              "filename": "agent-support",
+              "url": "agent-support",
+              "path": "llm-training-and-inference/user-guide/agent-support/agent-support_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-13",
+              "md": true
+            },
+            {
+              "title": "Ray",
+              "filename": "Ray",
+              "url": "Ray",
+              "path": "llm-training-and-inference/user-guide/Ray/Ray_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-14",
+              "md": true
+            },
+            {
+              "title": "常见问题整理",
+              "filename": "faq",
+              "url": "faq",
+              "path": "llm-training-and-inference/user-guide/faq/faq_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-15",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-1"
+        },
+        {
+          "title": "Megatron训练",
+          "filename": "megatron-training",
+          "url": "megatron-training",
+          "path": "llm-training-and-inference/megatron-training",
+          "dir": true,
+          "children": [
+            {
+              "title": "快速开始",
+              "filename": "quick-start",
+              "url": "quick-start",
+              "path": "llm-training-and-inference/megatron-training/quick-start/quick-start_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-0",
+              "md": true
+            },
+            {
+              "title": "命令行参数",
+              "filename": "command-line-parameters",
+              "url": "command-line-parameters",
+              "path": "llm-training-and-inference/megatron-training/command-line-parameters/command-line-parameters_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-1",
+              "md": true
+            },
+            {
+              "title": "LoRA训练",
+              "filename": "lora-training",
+              "url": "lora-training",
+              "path": "llm-training-and-inference/megatron-training/lora-training/lora-training_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-2",
+              "md": true
+            },
+            {
+              "title": "多模态模型",
+              "filename": "multi-modal-model",
+              "url": "multi-modal-model",
+              "path": "llm-training-and-inference/megatron-training/multi-modal-model/multi-modal-model_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-3",
+              "md": true
+            },
+            {
+              "title": "Mcore-Bridge",
+              "filename": "mcore-bridge",
+              "url": "mcore-bridge",
+              "path": "llm-training-and-inference/megatron-training/mcore-bridge/mcore-bridge_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-4",
+              "md": true
+            },
+            {
+              "title": "GRPO",
+              "filename": "grpo",
+              "url": "grpo",
+              "path": "llm-training-and-inference/megatron-training/grpo/grpo_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-5",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-2"
+        },
+        {
+          "title": "定制化",
+          "filename": "customization",
+          "url": "customization",
+          "path": "llm-training-and-inference/customization",
+          "dir": true,
+          "children": [
+            {
+              "title": "自定义模型",
+              "filename": "custom-model",
+              "url": "custom-model",
+              "path": "llm-training-and-inference/customization/custom-model/custom-model_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-3-0",
+              "md": true
+            },
+            {
+              "title": "自定义数据集",
+              "filename": "custom-dataset",
+              "url": "custom-dataset",
+              "path": "llm-training-and-inference/customization/custom-dataset/custom-dataset_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-3-1",
+              "md": true
+            },
+            {
+              "title": "插件化",
+              "filename": "plugins",
+              "url": "plugins",
+              "path": "llm-training-and-inference/customization/plugins/plugins_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-3-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-3"
+        },
+        {
+          "title": "最佳实践",
+          "filename": "best-practices",
+          "url": "best-practices",
+          "path": "llm-training-and-inference/best-practices",
+          "dir": true,
+          "children": [
+            {
+              "title": "GRPO完整流程",
+              "filename": "grpo",
+              "url": "grpo",
+              "path": "llm-training-and-inference/best-practices/grpo/grpo_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-0",
+              "md": true
+            },
+            {
+              "title": "GRPO多模态训练",
+              "filename": "multimodal-grpo",
+              "url": "multimodal-grpo",
+              "path": "llm-training-and-inference/best-practices/multimodal-grpo/multimodal-grpo_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-1",
+              "md": true
+            },
+            {
+              "title": "GRPO代码训练",
+              "filename": "GRPO-dai-ma-xun-lian",
+              "url": "GRPO-dai-ma-xun-lian",
+              "path": "llm-training-and-inference/best-practices/GRPO-dai-ma-xun-lian/GRPO-dai-ma-xun-lian_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-2",
+              "md": true
+            },
+            {
+              "title": "Qwen3最佳实践",
+              "filename": "qwen3",
+              "url": "qwen3",
+              "path": "llm-training-and-inference/best-practices/qwen3/qwen3_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-3",
+              "md": true
+            },
+            {
+              "title": "Qwen3-VL最佳实践",
+              "filename": "Qwen3-VL-zui-jia-shi-jian",
+              "url": "Qwen3-VL-zui-jia-shi-jian",
+              "path": "llm-training-and-inference/best-practices/Qwen3-VL-zui-jia-shi-jian/Qwen3-VL-zui-jia-shi-jian_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-4",
+              "md": true
+            },
+            {
+              "title": "Embedding训练",
+              "filename": "embedding",
+              "url": "embedding",
+              "path": "llm-training-and-inference/best-practices/embedding/embedding_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-5",
+              "md": true
+            },
+            {
+              "title": "Reranker训练",
+              "filename": "reranker",
+              "url": "reranker",
+              "path": "llm-training-and-inference/best-practices/reranker/reranker_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-6",
+              "md": true
+            },
+            {
+              "title": "快速训练VL模型",
+              "filename": "vl-training",
+              "url": "vl-training",
+              "path": "llm-training-and-inference/best-practices/vl-training/vl-training_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-7",
+              "md": true
+            },
+            {
+              "title": "NPU支持",
+              "filename": "npu",
+              "url": "npu",
+              "path": "llm-training-and-inference/best-practices/npu/npu_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-8",
+              "md": true
+            },
+            {
+              "title": "更多最佳实践",
+              "filename": "more-best-practices",
+              "url": "more-best-practices",
+              "path": "llm-training-and-inference/best-practices/more-best-practices/more-best-practices_CN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-9",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-4"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-14"
+    },
+    {
+      "title": "模型评测",
+      "filename": "model-evaluation",
+      "url": "model-evaluation",
+      "path": "model-evaluation",
+      "dir": true,
+      "children": [
+        {
+          "title": "快速开始",
+          "filename": "get-started",
+          "url": "get-started",
+          "path": "model-evaluation/get-started",
+          "dir": true,
+          "children": [
+            {
+              "title": "简介",
+              "filename": "introduction",
+              "url": "introduction",
+              "path": "model-evaluation/get-started/introduction/introduction_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-0",
+              "md": true
+            },
+            {
+              "title": "安装",
+              "filename": "installation",
+              "url": "installation",
+              "path": "model-evaluation/get-started/installation/installation_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-1",
+              "md": true
+            },
+            {
+              "title": "快速上手",
+              "filename": "basic-usage",
+              "url": "basic-usage",
+              "path": "model-evaluation/get-started/basic-usage/basic-usage_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-2",
+              "md": true
+            },
+            {
+              "title": "可视化",
+              "filename": "visualization",
+              "url": "visualization",
+              "path": "model-evaluation/get-started/visualization/visualization_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-3",
+              "md": true
+            },
+            {
+              "title": "参数说明",
+              "filename": "parameters",
+              "url": "parameters",
+              "path": "model-evaluation/get-started/parameters/parameters_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-4",
+              "md": true
+            },
+            {
+              "title": "支持的数据集",
+              "filename": "supported-dataset",
+              "url": "supported-dataset",
+              "path": "model-evaluation/get-started/supported-dataset",
+              "dir": true,
+              "children": [
+                {
+                  "title": "LLM评测集",
+                  "filename": "llm",
+                  "url": "llm",
+                  "path": "model-evaluation/get-started/supported-dataset/llm/llm_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-0",
+                  "md": true
+                },
+                {
+                  "title": "VLM评测集",
+                  "filename": "vlm",
+                  "url": "vlm",
+                  "path": "model-evaluation/get-started/supported-dataset/vlm/vlm_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-1",
+                  "md": true
+                },
+                {
+                  "title": "AGENT评测集",
+                  "filename": "agent",
+                  "url": "agent",
+                  "path": "model-evaluation/get-started/supported-dataset/agent/agent_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-2",
+                  "md": true
+                },
+                {
+                  "title": "AIGC评测集",
+                  "filename": "aigc",
+                  "url": "aigc",
+                  "path": "model-evaluation/get-started/supported-dataset/aigc/aigc_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-3",
+                  "md": true
+                },
+                {
+                  "title": "其他数据集",
+                  "filename": "other",
+                  "url": "other",
+                  "path": "model-evaluation/get-started/supported-dataset/other",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "OpenCompass",
+                      "filename": "opencompass",
+                      "url": "opencompass",
+                      "path": "model-evaluation/get-started/supported-dataset/other/opencompass/opencompass_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-0",
+                      "md": true
+                    },
+                    {
+                      "title": "VLMEvalKit",
+                      "filename": "vlmevalkit",
+                      "url": "vlmevalkit",
+                      "path": "model-evaluation/get-started/supported-dataset/other/vlmevalkit/vlmevalkit_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-1",
+                      "md": true
+                    },
+                    {
+                      "title": "MTEB 评测数据集",
+                      "filename": "mteb",
+                      "url": "mteb",
+                      "path": "model-evaluation/get-started/supported-dataset/other/mteb/mteb_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-2",
+                      "md": true
+                    },
+                    {
+                      "title": "CLIP-Benchmark",
+                      "filename": "clip",
+                      "url": "clip",
+                      "path": "model-evaluation/get-started/supported-dataset/other/clip/clip_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-3",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-4"
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-0-5"
+            },
+            {
+              "title": "❓ 常见问题",
+              "filename": "faq",
+              "url": "faq",
+              "path": "model-evaluation/get-started/faq/faq_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-6",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-0"
+        },
+        {
+          "title": "教程",
+          "filename": "user-guides",
+          "url": "user-guides",
+          "path": "model-evaluation/user-guides",
+          "dir": true,
+          "children": [
+            {
+              "title": "其他评测后端",
+              "filename": "backend",
+              "url": "backend",
+              "path": "model-evaluation/user-guides/backend",
+              "dir": true,
+              "children": [
+                {
+                  "title": "OpenCompass",
+                  "filename": "opencompass-backend",
+                  "url": "opencompass-backend",
+                  "path": "model-evaluation/user-guides/backend/opencompass-backend/opencompass-backend_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-0-0",
+                  "md": true
+                },
+                {
+                  "title": "VLMEvalKit",
+                  "filename": "vlmevalkit-backend",
+                  "url": "vlmevalkit-backend",
+                  "path": "model-evaluation/user-guides/backend/vlmevalkit-backend/vlmevalkit-backend_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-0-1",
+                  "md": true
+                },
+                {
+                  "title": "RAG Eval",
+                  "filename": "rageval-backend",
+                  "url": "rageval-backend",
+                  "path": "model-evaluation/user-guides/backend/rageval-backend",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "MTEB",
+                      "filename": "mteb",
+                      "url": "mteb",
+                      "path": "model-evaluation/user-guides/backend/rageval-backend/mteb/mteb_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-1-0-2-0",
+                      "md": true
+                    },
+                    {
+                      "title": "CLIP Benchmark",
+                      "filename": "clip-benchmark",
+                      "url": "clip-benchmark",
+                      "path": "model-evaluation/user-guides/backend/rageval-backend/clip-benchmark/clip-benchmark_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-1-0-2-1",
+                      "md": true
+                    },
+                    {
+                      "title": "RAGAS",
+                      "filename": "ragas",
+                      "url": "ragas",
+                      "path": "model-evaluation/user-guides/backend/rageval-backend/ragas/ragas_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-1-0-2-2",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-15-1-0-2"
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-1-0"
+            },
+            {
+              "title": "模型推理性能压测",
+              "filename": "stress-test",
+              "url": "stress-test",
+              "path": "model-evaluation/user-guides/stress-test",
+              "dir": true,
+              "children": [
+                {
+                  "title": "快速开始",
+                  "filename": "quick-start",
+                  "url": "quick-start",
+                  "path": "model-evaluation/user-guides/stress-test/quick-start/quick-start_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-0",
+                  "md": true
+                },
+                {
+                  "title": "参数说明",
+                  "filename": "parameters",
+                  "url": "parameters",
+                  "path": "model-evaluation/user-guides/stress-test/parameters/parameters_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-1",
+                  "md": true
+                },
+                {
+                  "title": "使用示例",
+                  "filename": "examples",
+                  "url": "examples",
+                  "path": "model-evaluation/user-guides/stress-test/examples/examples_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-2",
+                  "md": true
+                },
+                {
+                  "title": "速度基准测试",
+                  "filename": "speed-benchmark",
+                  "url": "speed-benchmark",
+                  "path": "model-evaluation/user-guides/stress-test/speed-benchmark/speed-benchmark_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-3",
+                  "md": true
+                },
+                {
+                  "title": "自定义使用",
+                  "filename": "custom",
+                  "url": "custom",
+                  "path": "model-evaluation/user-guides/stress-test/custom/custom_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-4",
+                  "md": true
+                },
+                {
+                  "title": "vLLM Bench vs Evalscope Perf 压测对比",
+                  "filename": "vs-vllm-bench",
+                  "url": "vs-vllm-bench",
+                  "path": "model-evaluation/user-guides/stress-test/vs-vllm-bench/vs-vllm-bench_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-5",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-1-1"
+            },
+            {
+              "title": "AIGC",
+              "filename": "aigc",
+              "url": "aigc",
+              "path": "model-evaluation/user-guides/aigc",
+              "dir": true,
+              "children": [
+                {
+                  "title": "文生图评测",
+                  "filename": "t2i",
+                  "url": "t2i",
+                  "path": "model-evaluation/user-guides/aigc/t2i/t2i_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-2-0",
+                  "md": true
+                },
+                {
+                  "title": "图片编辑评测",
+                  "filename": "image-edit",
+                  "url": "image-edit",
+                  "path": "model-evaluation/user-guides/aigc/image-edit/image-edit_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-2-1",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-1-2"
+            },
+            {
+              "title": "竞技场模式",
+              "filename": "arena",
+              "url": "arena",
+              "path": "model-evaluation/user-guides/arena/arena_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-1-3",
+              "md": true
+            },
+            {
+              "title": "沙箱环境使用",
+              "filename": "sandbox",
+              "url": "sandbox",
+              "path": "model-evaluation/user-guides/sandbox/sandbox_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-1-4",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-1"
+        },
+        {
+          "title": "进阶教程",
+          "filename": "advanced-guides",
+          "url": "advanced-guides",
+          "path": "model-evaluation/advanced-guides",
+          "dir": true,
+          "children": [
+            {
+              "title": "数据混合评测",
+              "filename": "collection",
+              "url": "collection",
+              "path": "model-evaluation/advanced-guides/collection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "定义数据混合schema",
+                  "filename": "schema",
+                  "url": "schema",
+                  "path": "model-evaluation/advanced-guides/collection/schema/schema_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-0-0",
+                  "md": true
+                },
+                {
+                  "title": "采样数据",
+                  "filename": "sample",
+                  "url": "sample",
+                  "path": "model-evaluation/advanced-guides/collection/sample/sample_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-0-1",
+                  "md": true
+                },
+                {
+                  "title": "统一评测",
+                  "filename": "evaluate",
+                  "url": "evaluate",
+                  "path": "model-evaluation/advanced-guides/collection/evaluate/evaluate_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-0-2",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-2-0"
+            },
+            {
+              "title": "自定义评测数据集",
+              "filename": "custom-dataset",
+              "url": "custom-dataset",
+              "path": "model-evaluation/advanced-guides/custom-dataset",
+              "dir": true,
+              "children": [
+                {
+                  "title": "大语言模型",
+                  "filename": "llm",
+                  "url": "llm",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/llm/llm_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-0",
+                  "md": true
+                },
+                {
+                  "title": "多模态大模型",
+                  "filename": "vlm",
+                  "url": "vlm",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/vlm/vlm_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-1",
+                  "md": true
+                },
+                {
+                  "title": "Embedding模型",
+                  "filename": "embedding",
+                  "url": "embedding",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/embedding/embedding_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-2",
+                  "md": true
+                },
+                {
+                  "title": "CLIP模型",
+                  "filename": "clip",
+                  "url": "clip",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/clip/clip_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-3",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-2-1"
+            },
+            {
+              "title": "自定义模型评测",
+              "filename": "custom-model",
+              "url": "custom-model",
+              "path": "model-evaluation/advanced-guides/custom-model/custom-model_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-2-2",
+              "md": true
+            },
+            {
+              "title": "👍 贡献基准评测",
+              "filename": "add-benchmark",
+              "url": "add-benchmark",
+              "path": "model-evaluation/advanced-guides/add-benchmark/add-benchmark_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-2-3",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-2"
+        },
+        {
+          "title": "第三方工具",
+          "filename": "third-party",
+          "url": "third-party",
+          "path": "model-evaluation/third-party",
+          "dir": true,
+          "children": [
+            {
+              "title": "SWE-bench",
+              "filename": "swe-bench",
+              "url": "swe-bench",
+              "path": "model-evaluation/third-party/swe-bench/swe-bench_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-0",
+              "md": true
+            },
+            {
+              "title": "τ-bench",
+              "filename": "tau-bench",
+              "url": "tau-bench",
+              "path": "model-evaluation/third-party/tau-bench/tau-bench_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-1",
+              "md": true
+            },
+            {
+              "title": "τ²-bench",
+              "filename": "tau2-bench",
+              "url": "tau2-bench",
+              "path": "model-evaluation/third-party/tau2-bench/tau2-bench_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-2",
+              "md": true
+            },
+            {
+              "title": "BFCL-v3",
+              "filename": "bfcl-v3",
+              "url": "bfcl-v3",
+              "path": "model-evaluation/third-party/bfcl-v3/bfcl-v3_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-3",
+              "md": true
+            },
+            {
+              "title": "BFCL-v4",
+              "filename": "bfcl-v4",
+              "url": "bfcl-v4",
+              "path": "model-evaluation/third-party/bfcl-v4/bfcl-v4_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-4",
+              "md": true
+            },
+            {
+              "title": "大海捞针测试",
+              "filename": "needle-haystack",
+              "url": "needle-haystack",
+              "path": "model-evaluation/third-party/needle-haystack/needle-haystack_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-5",
+              "md": true
+            },
+            {
+              "title": "ToolBench",
+              "filename": "toolbench",
+              "url": "toolbench",
+              "path": "model-evaluation/third-party/toolbench/toolbench_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-6",
+              "md": true
+            },
+            {
+              "title": "LongBench-Write",
+              "filename": "longwriter",
+              "url": "longwriter",
+              "path": "model-evaluation/third-party/longwriter/longwriter_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-7",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-3"
+        },
+        {
+          "title": "最佳实践",
+          "filename": "best-practice",
+          "url": "best-practice",
+          "path": "model-evaluation/best-practice",
+          "dir": true,
+          "children": [
+            {
+              "title": "Qwen3-Next 模型评测最佳实践",
+              "filename": "qwen3-next",
+              "url": "qwen3-next",
+              "path": "model-evaluation/best-practice/qwen3-next/qwen3-next_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-0",
+              "md": true
+            },
+            {
+              "title": "Qwen3-Omni 模型评测最佳实践",
+              "filename": "qwen3-omni",
+              "url": "qwen3-omni",
+              "path": "model-evaluation/best-practice/qwen3-omni/qwen3-omni_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-1",
+              "md": true
+            },
+            {
+              "title": "Qwen3-VL 模型评测最佳实践",
+              "filename": "qwen3-vl",
+              "url": "qwen3-vl",
+              "path": "model-evaluation/best-practice/qwen3-vl/qwen3-vl_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-2",
+              "md": true
+            },
+            {
+              "title": "GPT-OSS 模型评测最佳实践",
+              "filename": "gpt-oss",
+              "url": "gpt-oss",
+              "path": "model-evaluation/best-practice/gpt-oss/gpt-oss_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-3",
+              "md": true
+            },
+            {
+              "title": "Qwen3-Coder+Instruct 模型评测最佳实践",
+              "filename": "qwen3-coder",
+              "url": "qwen3-coder",
+              "path": "model-evaluation/best-practice/qwen3-coder/qwen3-coder_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-4",
+              "md": true
+            },
+            {
+              "title": "文生图评测最佳实践",
+              "filename": "t2i-eval",
+              "url": "t2i-eval",
+              "path": "model-evaluation/best-practice/t2i-eval/t2i-eval_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-5",
+              "md": true
+            },
+            {
+              "title": "Qwen3 模型评测最佳实践",
+              "filename": "qwen3",
+              "url": "qwen3",
+              "path": "model-evaluation/best-practice/qwen3/qwen3_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-6",
+              "md": true
+            },
+            {
+              "title": "QwQ模型评测最佳实践",
+              "filename": "eval-qwq",
+              "url": "eval-qwq",
+              "path": "model-evaluation/best-practice/eval-qwq/eval-qwq_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-7",
+              "md": true
+            },
+            {
+              "title": "你家的AI有多聪明？智商和情商全评测！",
+              "filename": "iquiz",
+              "url": "iquiz",
+              "path": "model-evaluation/best-practice/iquiz/iquiz_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-8",
+              "md": true
+            },
+            {
+              "title": "模型思考效率评测最佳实践",
+              "filename": "think-eval",
+              "url": "think-eval",
+              "path": "model-evaluation/best-practice/think-eval/think-eval_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-9",
+              "md": true
+            },
+            {
+              "title": "R1类模型推理能力评测最佳实践",
+              "filename": "deepseek-r1-distill",
+              "url": "deepseek-r1-distill",
+              "path": "model-evaluation/best-practice/deepseek-r1-distill/deepseek-r1-distill_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-10",
+              "md": true
+            },
+            {
+              "title": "LLM全链路最佳实践",
+              "filename": "llm-full-stack",
+              "url": "llm-full-stack",
+              "path": "model-evaluation/best-practice/llm-full-stack/llm-full-stack_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-11",
+              "md": true
+            },
+            {
+              "title": "ms-swift 集成",
+              "filename": "swift-integration",
+              "url": "swift-integration",
+              "path": "model-evaluation/best-practice/swift-integration/swift-integration_CN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-12",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-4"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-15"
+    },
+    {
+      "title": "模型服务",
+      "filename": "model-service",
+      "url": "model-service",
+      "path": "model-service",
+      "dir": true,
+      "children": [
+        {
+          "title": "模型推理服务",
+          "filename": "API-Inference",
+          "url": "API-Inference",
+          "path": "model-service/API-Inference",
+          "dir": true,
+          "children": [
+            {
+              "title": "API推理介绍",
+              "filename": "intro",
+              "url": "intro",
+              "path": "model-service/API-Inference/intro/intro_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-0-0",
+              "md": true
+            },
+            {
+              "title": "API-Inference使用限制",
+              "filename": "limits",
+              "url": "limits",
+              "path": "model-service/API-Inference/limits/limits_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-0-1",
+              "md": true
+            },
+            {
+              "title": "API-Provider介绍",
+              "filename": "api-provider",
+              "url": "api-provider",
+              "path": "model-service/API-Inference/api-provider/api-provider_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-0-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-16-0"
+        },
+        {
+          "title": "模型部署服务",
+          "filename": "deployment",
+          "url": "deployment",
+          "path": "model-service/deployment",
+          "dir": true,
+          "children": [
+            {
+              "title": "模型部署简介",
+              "filename": "intro",
+              "url": "intro",
+              "path": "model-service/deployment/intro/intro_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-0",
+              "md": true
+            },
+            {
+              "title": "部署OpenAI-API兼容模型服务",
+              "filename": "swingdeploy-openai-api-compatible",
+              "url": "swingdeploy-openai-api-compatible",
+              "path": "model-service/deployment/swingdeploy-openai-api-compatible/swingdeploy-openai-api-compatible_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-1",
+              "md": true
+            },
+            {
+              "title": "基于原生Pipeline一键部署",
+              "filename": "swingdeploy-pipeline",
+              "url": "swingdeploy-pipeline",
+              "path": "model-service/deployment/swingdeploy-pipeline/swingdeploy-pipeline_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-2",
+              "md": true
+            },
+            {
+              "title": "本地部署",
+              "filename": "local-deploy",
+              "url": "local-deploy",
+              "path": "model-service/deployment/local-deploy/local-deploy_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-3",
+              "md": true
+            }
+          ],
+          "intlDisabled": true,
+          "key": "0-16-1"
+        },
+        {
+          "title": "模型训练服务",
+          "filename": "train",
+          "url": "train",
+          "path": "model-service/train",
+          "dir": true,
+          "children": [
+            {
+              "title": "FlexTrain使用指南",
+              "filename": "flextrain",
+              "url": "flextrain",
+              "path": "model-service/train/flextrain/flextrain_CN.md",
+              "intlDisabled": false,
+              "key": "0-16-2-0",
+              "md": true
+            }
+          ],
+          "intlDisabled": true,
+          "key": "0-16-2"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-16"
+    },
+    {
+      "title": "魔粒体系",
+      "filename": "magicube",
+      "url": "magicube",
+      "path": "magicube",
+      "dir": true,
+      "children": [
+        {
+          "title": "魔粒体系说明",
+          "filename": "intro",
+          "url": "intro",
+          "path": "magicube/intro/intro_CN.md",
+          "intlDisabled": false,
+          "key": "0-17-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-17"
+    },
+    {
+      "title": "贡献者指南",
+      "filename": "contribute",
+      "url": "contribute",
+      "path": "contribute",
+      "dir": true,
+      "children": [
+        {
+          "title": "模型接入流程",
+          "filename": "model-integration",
+          "url": "model-integration",
+          "path": "contribute/model-integration/model-integration_CN.md",
+          "intlDisabled": false,
+          "key": "0-18-0",
+          "md": true
+        },
+        {
+          "title": "贡献模型代码",
+          "filename": "code-based-integration",
+          "url": "code-based-integration",
+          "path": "contribute/code-based-integration",
+          "dir": true,
+          "children": [
+            {
+              "title": "准备工作",
+              "filename": "prep",
+              "url": "prep",
+              "path": "contribute/code-based-integration/prep/prep_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-0",
+              "md": true
+            },
+            {
+              "title": "拉分支并提交PR",
+              "filename": "branching",
+              "url": "branching",
+              "path": "contribute/code-based-integration/branching/branching_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-1",
+              "md": true
+            },
+            {
+              "title": "开发模型等组件及推理流程",
+              "filename": "process",
+              "url": "process",
+              "path": "contribute/code-based-integration/process/process_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-2",
+              "md": true
+            },
+            {
+              "title": "准备本地模型文件",
+              "filename": "local-model-files",
+              "url": "local-model-files",
+              "path": "contribute/code-based-integration/local-model-files/local-model-files_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-3",
+              "md": true
+            },
+            {
+              "title": "编写测试用例",
+              "filename": "tests",
+              "url": "tests",
+              "path": "contribute/code-based-integration/tests/tests_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-4",
+              "md": true
+            },
+            {
+              "title": "推送模型到ModelHub",
+              "filename": "push",
+              "url": "push",
+              "path": "contribute/code-based-integration/push/push_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-5",
+              "md": true
+            },
+            {
+              "title": "开发训练流程",
+              "filename": "training",
+              "url": "training",
+              "path": "contribute/code-based-integration/training/training_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-6",
+              "md": true
+            },
+            {
+              "title": "开发导出流程",
+              "filename": "model-exploration",
+              "url": "model-exploration",
+              "path": "contribute/code-based-integration/model-exploration/model-exploration_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-7",
+              "md": true
+            },
+            {
+              "title": "增加docstr并推送PR",
+              "filename": "submit-a-pr",
+              "url": "submit-a-pr",
+              "path": "contribute/code-based-integration/submit-a-pr/submit-a-pr_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-8",
+              "md": true
+            },
+            {
+              "title": "接入帮助",
+              "filename": "tutorials",
+              "url": "tutorials",
+              "path": "contribute/code-based-integration/tutorials",
+              "dir": true,
+              "children": [
+                {
+                  "title": "代码注释规范",
+                  "filename": "docstr",
+                  "url": "docstr",
+                  "path": "contribute/code-based-integration/tutorials/docstr/docstr_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-1-9-0",
+                  "md": true
+                },
+                {
+                  "title": "大模型开发",
+                  "filename": "large-model-development",
+                  "url": "large-model-development",
+                  "path": "contribute/code-based-integration/tutorials/large-model-development/large-model-development_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-1-9-1",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-18-1-9"
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-18-1"
+        },
+        {
+          "title": "接入模型文件",
+          "filename": "model-file",
+          "url": "model-file",
+          "path": "contribute/model-file",
+          "dir": true,
+          "children": [
+            {
+              "title": "模型的创建与文件上传",
+              "filename": "create-model-and-upload",
+              "url": "create-model-and-upload",
+              "path": "contribute/model-file/create-model-and-upload/create-model-and-upload_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-2-0",
+              "md": true
+            },
+            {
+              "title": "模型接入帮助",
+              "filename": "help",
+              "url": "help",
+              "path": "contribute/model-file/help",
+              "dir": true,
+              "children": [
+                {
+                  "title": "模型文件格式",
+                  "filename": "model-file-format",
+                  "url": "model-file-format",
+                  "path": "contribute/model-file/help/model-file-format/model-file-format_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-0",
+                  "md": true
+                },
+                {
+                  "title": "撰写完善的模型卡片",
+                  "filename": "wrtie-perfect-model-card",
+                  "url": "wrtie-perfect-model-card",
+                  "path": "contribute/model-file/help/wrtie-perfect-model-card/wrtie-perfect-model-card_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-1",
+                  "md": true
+                },
+                {
+                  "title": "接入模型Demo",
+                  "filename": "model-demo",
+                  "url": "model-demo",
+                  "path": "contribute/model-file/help/model-demo",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "模型Demo接入流程",
+                      "filename": "model-demo-configuration",
+                      "url": "model-demo-configuration",
+                      "path": "contribute/model-file/help/model-demo/model-demo-configuration/model-demo-configuration_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-18-2-1-2-0",
+                      "md": true
+                    },
+                    {
+                      "title": "widget配置文档",
+                      "filename": "widget-config",
+                      "url": "widget-config",
+                      "path": "contribute/model-file/help/model-demo/widget-config/widget-config_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-18-2-1-2-1",
+                      "md": true
+                    },
+                    {
+                      "title": "前端组件文档",
+                      "filename": "demo-fontend-component",
+                      "url": "demo-fontend-component",
+                      "path": "contribute/model-file/help/model-demo/demo-fontend-component/demo-fontend-component_CN.md",
+                      "intlDisabled": false,
+                      "key": "0-18-2-1-2-2",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-2"
+                },
+                {
+                  "title": "模型管理设置",
+                  "filename": "model-management",
+                  "url": "model-management",
+                  "path": "contribute/model-file/help/model-management/model-management_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-3",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-18-2-1"
+            },
+            {
+              "title": "成为社区认证模型",
+              "filename": "become-community-certified-model",
+              "url": "become-community-certified-model",
+              "path": "contribute/model-file/become-community-certified-model/become-community-certified-model_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-2-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-18-2"
+        },
+        {
+          "title": "注册外部组件",
+          "filename": "external-component",
+          "url": "external-component",
+          "path": "contribute/external-component",
+          "dir": true,
+          "children": [
+            {
+              "title": "基于modelhub注册自定义组件",
+              "filename": "register-custom-component-with-modelhub",
+              "url": "register-custom-component-with-modelhub",
+              "path": "contribute/external-component/register-custom-component-with-modelhub/register-custom-component-with-modelhub_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-3-0",
+              "md": true
+            },
+            {
+              "title": "基于github等场景注册独立repo",
+              "filename": "register-standalone-repo-with-github",
+              "url": "register-standalone-repo-with-github",
+              "path": "contribute/external-component/register-standalone-repo-with-github/register-standalone-repo-with-github_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-3-1",
+              "md": true
+            },
+            {
+              "title": "基于modelhub注册独立repo示例",
+              "filename": "register-standalone-repo-with-modelhub",
+              "url": "register-standalone-repo-with-modelhub",
+              "path": "contribute/external-component/register-standalone-repo-with-modelhub/register-standalone-repo-with-modelhub_CN.md",
+              "intlDisabled": false,
+              "key": "0-18-3-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-18-3"
+        },
+        {
+          "title": "预发布及状态申诉",
+          "filename": "pre-release",
+          "url": "pre-release",
+          "path": "contribute/pre-release/pre-release_CN.md",
+          "intlDisabled": false,
+          "key": "0-18-4",
+          "md": true
+        },
+        {
+          "title": "集成中及状态申诉",
+          "filename": "integrating-status",
+          "url": "integrating-status",
+          "path": "contribute/integrating-status/integrating-status_CN.md",
+          "intlDisabled": false,
+          "key": "0-18-5",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-18"
+    },
+    {
+      "title": "模型详解",
+      "filename": "model-overview",
+      "url": "model-overview",
+      "path": "model-overview",
+      "dir": true,
+      "children": [
+        {
+          "title": "模型概览",
+          "filename": "index",
+          "url": "index",
+          "path": "model-overview/index/index_CN.md",
+          "intlDisabled": false,
+          "key": "0-19-0",
+          "md": true
+        },
+        {
+          "title": "多模态模型",
+          "filename": "multimodal",
+          "url": "multimodal",
+          "path": "model-overview/multimodal",
+          "dir": true,
+          "children": [
+            {
+              "title": "OFA_Tutorial",
+              "filename": "OFA-Tutorial",
+              "url": "OFA-Tutorial",
+              "path": "model-overview/multimodal/OFA-Tutorial/OFA-Tutorial/OFA-Tutorial_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-1-0",
+              "md": true
+            },
+            {
+              "title": "mplug",
+              "filename": "mplug",
+              "url": "mplug",
+              "path": "model-overview/multimodal/mplug/mplug_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-1-1",
+              "md": true
+            },
+            {
+              "title": "中文CLIP Tutorial",
+              "filename": "clip-tutorial",
+              "url": "clip-tutorial",
+              "path": "model-overview/multimodal/clip-tutorial",
+              "dir": true,
+              "children": [
+                {
+                  "title": "CLIP_CN_Tutorial",
+                  "filename": "CLIP-CN-Tutorial",
+                  "url": "CLIP-CN-Tutorial",
+                  "path": "model-overview/multimodal/clip-tutorial/CLIP-CN-Tutorial/CLIP-CN-Tutorial_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-1-2-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-1-2"
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-1"
+        },
+        {
+          "title": "计算机视觉模型",
+          "filename": "vision",
+          "url": "vision",
+          "path": "model-overview/vision",
+          "dir": true,
+          "children": [
+            {
+              "title": "AAMS_style_transfer",
+              "filename": "AAMS-style-transfer",
+              "url": "AAMS-style-transfer",
+              "path": "model-overview/vision/AAMS-style-transfer",
+              "dir": true,
+              "children": [
+                {
+                  "title": "AAMS",
+                  "filename": "AAMS",
+                  "url": "AAMS",
+                  "path": "model-overview/vision/AAMS-style-transfer/AAMS/AAMS_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-0-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-0"
+            },
+            {
+              "title": "ABPN_skin_retouching",
+              "filename": "ABPN-skin-retouching",
+              "url": "ABPN-skin-retouching",
+              "path": "model-overview/vision/ABPN-skin-retouching/ABPN-skin-retouching_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-1",
+              "md": true
+            },
+            {
+              "title": "BSHM_human_matting",
+              "filename": "BSHM-human-matting",
+              "url": "BSHM-human-matting",
+              "path": "model-overview/vision/BSHM-human-matting",
+              "dir": true,
+              "children": [
+                {
+                  "title": "BSHM",
+                  "filename": "BSHM",
+                  "url": "BSHM",
+                  "path": "model-overview/vision/BSHM-human-matting/BSHM/BSHM_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-2-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-2"
+            },
+            {
+              "title": "BaSSL_movie_scene_segmentation",
+              "filename": "BaSSL-movie-scene-segmentation",
+              "url": "BaSSL-movie-scene-segmentation",
+              "path": "model-overview/vision/BaSSL-movie-scene-segmentation/BaSSL-movie-scene-segmentation_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-3",
+              "md": true
+            },
+            {
+              "title": "CascadeMaskRCNNSwin_instance_segmentation",
+              "filename": "CascadeMaskRCNNSwin-instance-segmentation",
+              "url": "CascadeMaskRCNNSwin-instance-segmentation",
+              "path": "model-overview/vision/CascadeMaskRCNNSwin-instance-segmentation",
+              "dir": true,
+              "children": [
+                {
+                  "title": "CascadeMaskRCNNSwin",
+                  "filename": "CascadeMaskRCNNSwin",
+                  "url": "CascadeMaskRCNNSwin",
+                  "path": "model-overview/vision/CascadeMaskRCNNSwin-instance-segmentation/CascadeMaskRCNNSwin/CascadeMaskRCNNSwin_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-4-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-4"
+            },
+            {
+              "title": "DCTNet_cartoon",
+              "filename": "DCTNet-cartoon",
+              "url": "DCTNet-cartoon",
+              "path": "model-overview/vision/DCTNet-cartoon/DCTNet-cartoon_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-5",
+              "md": true
+            },
+            {
+              "title": "GPEN-image-portrait-enhancement",
+              "filename": "GPEN-image-portrait-enhancement",
+              "url": "GPEN-image-portrait-enhancement",
+              "path": "model-overview/vision/GPEN-image-portrait-enhancement",
+              "dir": true,
+              "children": [
+                {
+                  "title": "GPEN",
+                  "filename": "GPEN",
+                  "url": "GPEN",
+                  "path": "model-overview/vision/GPEN-image-portrait-enhancement/GPEN/GPEN_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-6-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-6"
+            },
+            {
+              "title": "Hand_2d_keypoints_detection",
+              "filename": "Hand-2d-keypoints-detection",
+              "url": "Hand-2d-keypoints-detection",
+              "path": "model-overview/vision/Hand-2d-keypoints-detection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "DarkPose_2d_keypoints",
+                  "filename": "DarkPose-2d-keypoints",
+                  "url": "DarkPose-2d-keypoints",
+                  "path": "model-overview/vision/Hand-2d-keypoints-detection/DarkPose-2d-keypoints/DarkPose-2d-keypoints_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-7-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-7"
+            },
+            {
+              "title": "LaMa-image-inpainting",
+              "filename": "LaMa-image-inpainting",
+              "url": "LaMa-image-inpainting",
+              "path": "model-overview/vision/LaMa-image-inpainting/LaMa-image-inpainting_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-8",
+              "md": true
+            },
+            {
+              "title": "MTTR_referring_video_object_segmentation",
+              "filename": "MTTR-referring-video-object-segmentation",
+              "url": "MTTR-referring-video-object-segmentation",
+              "path": "model-overview/vision/MTTR-referring-video-object-segmentation/MTTR-referring-video-object-segmentation_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-9",
+              "md": true
+            },
+            {
+              "title": "NAFNet-image-denoising",
+              "filename": "NAFNet-image-denoising",
+              "url": "NAFNet-image-denoising",
+              "path": "model-overview/vision/NAFNet-image-denoising/NAFNet-image-denoising_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-10",
+              "md": true
+            },
+            {
+              "title": "SCRFD_card_detection",
+              "filename": "SCRFD-card-detection",
+              "url": "SCRFD-card-detection",
+              "path": "model-overview/vision/SCRFD-card-detection/SCRFD-card-detection_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-11",
+              "md": true
+            },
+            {
+              "title": "SCRFD_face_detection",
+              "filename": "SCRFD-face-detection",
+              "url": "SCRFD-face-detection",
+              "path": "model-overview/vision/SCRFD-face-detection/SCRFD-face-detection_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-12",
+              "md": true
+            },
+            {
+              "title": "Segformer-Bx_image_semantic_segmentation",
+              "filename": "Segformer-Bx-image-semantic-segmentation",
+              "url": "Segformer-Bx-image-semantic-segmentation",
+              "path": "model-overview/vision/Segformer-Bx-image-semantic-segmentation/Segformer-Bx-image-semantic-segmentation_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-13",
+              "md": true
+            },
+            {
+              "title": "body_2d_keypoints",
+              "filename": "body-2d-keypoints",
+              "url": "body-2d-keypoints",
+              "path": "model-overview/vision/body-2d-keypoints/body-2d-keypoints_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-14",
+              "md": true
+            },
+            {
+              "title": "face_2d_keypoints",
+              "filename": "face-2d-keypoints",
+              "url": "face-2d-keypoints",
+              "path": "model-overview/vision/face-2d-keypoints/face-2d-keypoints_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-15",
+              "md": true
+            },
+            {
+              "title": "human_detection",
+              "filename": "human-detection",
+              "url": "human-detection",
+              "path": "model-overview/vision/human-detection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "cv_resnet18_human-detection",
+                  "filename": "cv-resnet18-human-detection",
+                  "url": "cv-resnet18-human-detection",
+                  "path": "model-overview/vision/human-detection/cv-resnet18-human-detection/cv-resnet18-human-detection_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-16-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-16"
+            },
+            {
+              "title": "ocr_detection",
+              "filename": "ocr-detection",
+              "url": "ocr-detection",
+              "path": "model-overview/vision/ocr-detection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "cv_resnet18_ocr-detection",
+                  "filename": "cv-resnet18-ocr-detection",
+                  "url": "cv-resnet18-ocr-detection",
+                  "path": "model-overview/vision/ocr-detection/cv-resnet18-ocr-detection/cv-resnet18-ocr-detection_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-17-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-17"
+            },
+            {
+              "title": "ocr_recognition",
+              "filename": "ocr-recognition",
+              "url": "ocr-recognition",
+              "path": "model-overview/vision/ocr-recognition",
+              "dir": true,
+              "children": [
+                {
+                  "title": "convnextTiny_ocr-recognition",
+                  "filename": "convnextTiny-ocr-recognition",
+                  "url": "convnextTiny-ocr-recognition",
+                  "path": "model-overview/vision/ocr-recognition/convnextTiny-ocr-recognition/convnextTiny-ocr-recognition_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-18-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-18"
+            },
+            {
+              "title": "video_summarization",
+              "filename": "video-summarization",
+              "url": "video-summarization",
+              "path": "model-overview/vision/video-summarization",
+              "dir": true,
+              "children": [
+                {
+                  "title": "pgl_video_summatization",
+                  "filename": "pgl-video-summatization",
+                  "url": "pgl-video-summatization",
+                  "path": "model-overview/vision/video-summarization/pgl-video-summatization/pgl-video-summatization_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-19-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-19"
+            },
+            {
+              "title": "vit_base_image_classification",
+              "filename": "vit-base-image-classification",
+              "url": "vit-base-image-classification",
+              "path": "model-overview/vision/vit-base-image-classification/vit-base-image-classification_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-20",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-2"
+        },
+        {
+          "title": "语音模型",
+          "filename": "audio",
+          "url": "audio",
+          "path": "model-overview/audio",
+          "dir": true,
+          "children": [
+            {
+              "title": "frcrn",
+              "filename": "frcrn",
+              "url": "frcrn",
+              "path": "model-overview/audio/frcrn/frcrn_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-3-0",
+              "md": true
+            },
+            {
+              "title": "paraformer",
+              "filename": "paraformer",
+              "url": "paraformer",
+              "path": "model-overview/audio/paraformer/paraformer_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-3-1",
+              "md": true
+            },
+            {
+              "title": "sambert",
+              "filename": "sambert",
+              "url": "sambert",
+              "path": "model-overview/audio/sambert/sambert_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-3-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-3"
+        },
+        {
+          "title": "自然语言处理模型",
+          "filename": "nlp",
+          "url": "nlp",
+          "path": "model-overview/nlp",
+          "dir": true,
+          "children": [
+            {
+              "title": "csanmt",
+              "filename": "csanmt",
+              "url": "csanmt",
+              "path": "model-overview/nlp/csanmt/csanmt_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-0",
+              "md": true
+            },
+            {
+              "title": "gpt3",
+              "filename": "gpt3",
+              "url": "gpt3",
+              "path": "model-overview/nlp/gpt3/gpt3_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-1",
+              "md": true
+            },
+            {
+              "title": "named-entity-recognition",
+              "filename": "named-entity-recognition",
+              "url": "named-entity-recognition",
+              "path": "model-overview/nlp/named-entity-recognition/named-entity-recognition_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-2",
+              "md": true
+            },
+            {
+              "title": "palm",
+              "filename": "palm",
+              "url": "palm",
+              "path": "model-overview/nlp/palm/palm_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-3",
+              "md": true
+            },
+            {
+              "title": "passageranking",
+              "filename": "passageranking",
+              "url": "passageranking",
+              "path": "model-overview/nlp/passageranking/passageranking_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-4",
+              "md": true
+            },
+            {
+              "title": "plug",
+              "filename": "plug",
+              "url": "plug",
+              "path": "model-overview/nlp/plug/plug_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-5",
+              "md": true
+            },
+            {
+              "title": "sentiment-analysis",
+              "filename": "sentiment-analysis",
+              "url": "sentiment-analysis",
+              "path": "model-overview/nlp/sentiment-analysis/sentiment-analysis_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-6",
+              "md": true
+            },
+            {
+              "title": "space-t",
+              "filename": "space-t",
+              "url": "space-t",
+              "path": "model-overview/nlp/space-t",
+              "dir": true,
+              "children": [
+                {
+                  "title": "space-T_en",
+                  "filename": "space-T-en",
+                  "url": "space-T-en",
+                  "path": "model-overview/nlp/space-t/space-T-en/space-T-en_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-4-7-0",
+                  "md": true
+                },
+                {
+                  "title": "space_t_cn",
+                  "filename": "space-t-cn",
+                  "url": "space-t-cn",
+                  "path": "model-overview/nlp/space-t/space-t-cn/space-t-cn_CN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-4-7-1",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-4-7"
+            },
+            {
+              "title": "structbert",
+              "filename": "structbert",
+              "url": "structbert",
+              "path": "model-overview/nlp/structbert/structbert_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-8",
+              "md": true
+            },
+            {
+              "title": "text-error-correction",
+              "filename": "text-error-correction",
+              "url": "text-error-correction",
+              "path": "model-overview/nlp/text-error-correction/text-error-correction_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-9",
+              "md": true
+            },
+            {
+              "title": "textsimilarity",
+              "filename": "textsimilarity",
+              "url": "textsimilarity",
+              "path": "model-overview/nlp/textsimilarity/textsimilarity_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-10",
+              "md": true
+            },
+            {
+              "title": "wordsegmentation",
+              "filename": "wordsegmentation",
+              "url": "wordsegmentation",
+              "path": "model-overview/nlp/wordsegmentation/wordsegmentation_CN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-11",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-4"
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-19"
+    },
+    {
+      "title": "竞赛指南",
+      "filename": "competition",
+      "url": "competition",
+      "path": "competition",
+      "dir": true,
+      "children": [
+        {
+          "title": "竞赛报名",
+          "filename": "signup",
+          "url": "signup",
+          "path": "competition/signup/signup_CN.md",
+          "intlDisabled": false,
+          "key": "0-20-0",
+          "md": true
+        },
+        {
+          "title": "参赛者协议",
+          "filename": "agreement",
+          "url": "agreement",
+          "path": "competition/agreement/agreement_CN.md",
+          "intlDisabled": false,
+          "key": "0-20-1",
+          "md": true
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-20"
+    },
+    {
+      "title": "常见问题",
+      "filename": "faq",
+      "url": "faq",
+      "path": "faq",
+      "dir": true,
+      "children": [
+        {
+          "title": "平台常见问题",
+          "filename": "common",
+          "url": "common",
+          "path": "faq/common/common_CN.md",
+          "intlDisabled": false,
+          "key": "0-22-0",
+          "md": true
+        },
+        {
+          "title": "Notebook常见问题",
+          "filename": "notebooks",
+          "url": "notebooks",
+          "path": "faq/notebooks/notebooks_CN.md",
+          "intlDisabled": false,
+          "key": "0-22-1",
+          "md": true
+        },
+        {
+          "title": "数据集常见问题",
+          "filename": "datasets",
+          "url": "datasets",
+          "path": "faq/datasets/datasets_CN.md",
+          "intlDisabled": false,
+          "key": "0-22-2",
+          "md": true
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-22"
+    },
+    {
+      "title": "ModelScope社区",
+      "filename": "community",
+      "url": "community",
+      "path": "community",
+      "dir": true,
+      "children": [
+        {
+          "title": "关于我们",
+          "filename": "about-us",
+          "url": "about-us",
+          "path": "community/about-us/about-us_CN.md",
+          "intlDisabled": false,
+          "key": "0-23-0",
+          "md": true
+        },
+        {
+          "title": "开发者论坛",
+          "filename": "forum",
+          "url": "forum",
+          "path": "community/forum/forum_CN.md",
+          "intlDisabled": false,
+          "key": "0-23-1",
+          "md": true
+        },
+        {
+          "title": "联系我们",
+          "filename": "contact-us",
+          "url": "contact-us",
+          "path": "community/contact-us/contact-us_CN.md",
+          "intlDisabled": false,
+          "key": "0-23-2",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-23"
+    },
+    {
+      "title": "用户协议",
+      "filename": "agreements",
+      "url": "agreements",
+      "path": "agreements",
+      "dir": true,
+      "children": [
+        {
+          "title": "人工智能伦理倡议书",
+          "filename": "ai-ethics",
+          "url": "ai-ethics",
+          "path": "agreements/ai-ethics/ai-ethics_CN.md",
+          "intlDisabled": false,
+          "key": "0-24-0",
+          "md": true
+        },
+        {
+          "title": "内容合规审查",
+          "filename": "content-compliance",
+          "url": "content-compliance",
+          "path": "agreements/content-compliance/content-compliance_CN.md",
+          "intlDisabled": false,
+          "key": "0-24-1",
+          "md": true
+        },
+        {
+          "title": "开源行为准则",
+          "filename": "code-of-conduct",
+          "url": "code-of-conduct",
+          "path": "agreements/code-of-conduct/code-of-conduct_CN.md",
+          "intlDisabled": false,
+          "key": "0-24-2",
+          "md": true
+        },
+        {
+          "title": "开源许可证列表",
+          "filename": "licenses",
+          "url": "licenses",
+          "path": "agreements/licenses/licenses_CN.md",
+          "intlDisabled": false,
+          "key": "0-24-3",
+          "md": true
+        },
+        {
+          "title": "用户协议",
+          "filename": "terms",
+          "url": "terms",
+          "path": "agreements/terms/terms_CN.md",
+          "intlDisabled": false,
+          "key": "0-24-4",
+          "md": true
+        },
+        {
+          "title": "跨账号角色说明文档",
+          "filename": "cloud-integration",
+          "url": "cloud-integration",
+          "path": "agreements/cloud-integration/cloud-integration_CN.md",
+          "intlDisabled": false,
+          "key": "0-24-5",
+          "md": true
+        },
+        {
+          "title": "隐私政策",
+          "filename": "privacy",
+          "url": "privacy",
+          "path": "agreements/privacy/privacy_CN.md",
+          "intlDisabled": false,
+          "key": "0-24-6",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-24"
+    }
+  ],
+  "intlDisabled": false,
+  "key": "0"
+}

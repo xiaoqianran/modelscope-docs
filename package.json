@@ -1,0 +1,13 @@
+{
+  "name": "modelscope-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-docs.mjs",
+    "build": "node scripts/build-site.mjs",
+    "build:pages": "PAGES_BASE=/modelscope-docs node scripts/build-site.mjs"
+  },
+  "devDependencies": {
+    "marked": "^15.0.0"
+  }
+}

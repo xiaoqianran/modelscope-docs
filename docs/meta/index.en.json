@@ -1,0 +1,3471 @@
+{
+  "title": "",
+  "filename": "",
+  "url": "",
+  "path": "",
+  "dir": true,
+  "children": [
+    {
+      "title": "Overview",
+      "filename": "overview",
+      "url": "overview",
+      "path": "overview/overview_EN.md",
+      "intlDisabled": false,
+      "key": "0-0",
+      "md": true
+    },
+    {
+      "title": "Introduction",
+      "filename": "intro",
+      "url": "intro",
+      "path": "intro",
+      "dir": true,
+      "children": [
+        {
+          "title": "Quick Start",
+          "filename": "quickstart",
+          "url": "quickstart",
+          "path": "intro/quickstart/quickstart_EN.md",
+          "intlDisabled": false,
+          "key": "0-1-0",
+          "md": true
+        },
+        {
+          "title": "Environment Setup",
+          "filename": "environment-setup",
+          "url": "environment-setup",
+          "path": "intro/environment-setup/environment-setup_EN.md",
+          "intlDisabled": false,
+          "key": "0-1-1",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-1"
+    },
+    {
+      "title": "Models",
+      "filename": "models",
+      "url": "models",
+      "path": "models",
+      "dir": true,
+      "children": [
+        {
+          "title": "Model Hub Introduction",
+          "filename": "intro",
+          "url": "intro",
+          "path": "models/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-2-0",
+          "md": true
+        },
+        {
+          "title": "Model Download",
+          "filename": "download",
+          "url": "download",
+          "path": "models/download/download_EN.md",
+          "intlDisabled": false,
+          "key": "0-2-1",
+          "md": true
+        },
+        {
+          "title": "Model Upload",
+          "filename": "upload",
+          "url": "upload",
+          "path": "models/upload/upload_EN.md",
+          "intlDisabled": false,
+          "key": "0-2-2",
+          "md": true
+        },
+        {
+          "title": "Model Card",
+          "filename": "model-card",
+          "url": "model-card",
+          "path": "models/model-card/model-card_EN.md",
+          "intlDisabled": false,
+          "key": "0-2-3",
+          "md": true
+        },
+        {
+          "title": "Model Versions",
+          "filename": "version",
+          "url": "version",
+          "path": "models/version/version_EN.md",
+          "intlDisabled": false,
+          "key": "0-2-4",
+          "md": true
+        },
+        {
+          "title": "Model Discovery and Experience",
+          "filename": "discovery",
+          "url": "discovery",
+          "path": "models/discovery/discovery_EN.md",
+          "intlDisabled": false,
+          "key": "0-2-5",
+          "md": true
+        },
+        {
+          "title": "Advanced Usage",
+          "filename": "advanced-usage",
+          "url": "advanced-usage",
+          "path": "models/advanced-usage",
+          "dir": true,
+          "children": [
+            {
+              "title": "Loading ModelScope Models with Ollama",
+              "filename": "ollama-integration",
+              "url": "ollama-integration",
+              "path": "models/advanced-usage/ollama-integration/ollama-integration_EN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-0",
+              "md": true
+            },
+            {
+              "title": "llama-cpp-integration",
+              "filename": "llama-cpp-integration",
+              "url": "llama-cpp-integration",
+              "path": "models/advanced-usage/llama-cpp-integration/llama-cpp-integration_EN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-1",
+              "md": true
+            },
+            {
+              "title": "Run Llamafile Format Models Directly",
+              "filename": "llamafile",
+              "url": "llamafile",
+              "path": "models/advanced-usage/llamafile/llamafile_EN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-2",
+              "md": true
+            },
+            {
+              "title": "Alibaba Cloud Intranet Acceleration",
+              "filename": "cloud-accelerator",
+              "url": "cloud-accelerator",
+              "path": "models/advanced-usage/cloud-accelerator/cloud-accelerator_EN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-3",
+              "md": true
+            },
+            {
+              "title": "cen-accelerator",
+              "filename": "cen-accelerator",
+              "url": "cen-accelerator",
+              "path": "models/advanced-usage/cen-accelerator",
+              "dir": true,
+              "intlDisabled": false,
+              "key": "0-2-6-4"
+            },
+            {
+              "title": "Submit Pull Requests",
+              "filename": "pull-requests",
+              "url": "pull-requests",
+              "path": "models/advanced-usage/pull-requests/pull-requests_EN.md",
+              "intlDisabled": false,
+              "key": "0-2-6-5",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-2-6"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-2"
+    },
+    {
+      "title": "Datasets",
+      "filename": "datasets",
+      "url": "datasets",
+      "path": "datasets",
+      "dir": true,
+      "children": [
+        {
+          "title": "Dataset Introduction",
+          "filename": "intro",
+          "url": "intro",
+          "path": "datasets/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-0",
+          "md": true
+        },
+        {
+          "title": "Creating Datasets",
+          "filename": "create",
+          "url": "create",
+          "path": "datasets/create/create_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-1",
+          "md": true
+        },
+        {
+          "title": "Dataset Upload",
+          "filename": "upload",
+          "url": "upload",
+          "path": "datasets/upload/upload_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-2",
+          "md": true
+        },
+        {
+          "title": "Dataset Download",
+          "filename": "download",
+          "url": "download",
+          "path": "datasets/download/download_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-3",
+          "md": true
+        },
+        {
+          "title": "Dataset Card",
+          "filename": "dataset-card",
+          "url": "dataset-card",
+          "path": "datasets/dataset-card/dataset-card_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-4",
+          "md": true
+        },
+        {
+          "title": "Dataset Maintenance",
+          "filename": "maintenance",
+          "url": "maintenance",
+          "path": "datasets/maintenance/maintenance_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-5",
+          "md": true
+        },
+        {
+          "title": "Dataset File Guidelines",
+          "filename": "guidance",
+          "url": "guidance",
+          "path": "datasets/guidance/guidance_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-6",
+          "md": true
+        },
+        {
+          "title": "Dataset Examples",
+          "filename": "examples",
+          "url": "examples",
+          "path": "datasets/examples",
+          "dir": true,
+          "children": [
+            {
+              "title": "Text Dataset",
+              "filename": "text-dataset",
+              "url": "text-dataset",
+              "path": "datasets/examples/text-dataset/text-dataset_EN.md",
+              "intlDisabled": false,
+              "key": "0-3-7-0",
+              "md": true
+            },
+            {
+              "title": "Image Dataset",
+              "filename": "image-dataset",
+              "url": "image-dataset",
+              "path": "datasets/examples/image-dataset/image-dataset_EN.md",
+              "intlDisabled": false,
+              "key": "0-3-7-1",
+              "md": true
+            },
+            {
+              "title": "Audio Dataset",
+              "filename": "audio-dataset",
+              "url": "audio-dataset",
+              "path": "datasets/examples/audio-dataset/audio-dataset_EN.md",
+              "intlDisabled": false,
+              "key": "0-3-7-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-3-7"
+        },
+        {
+          "title": "Custom Dataset Integration Process",
+          "filename": "custom-datasets",
+          "url": "custom-datasets",
+          "path": "datasets/custom-datasets/custom-datasets_EN.md",
+          "intlDisabled": false,
+          "key": "0-3-8",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-3"
+    },
+    {
+      "title": "Studios",
+      "filename": "studios",
+      "url": "studios",
+      "path": "studios",
+      "dir": true,
+      "children": [
+        {
+          "title": "Introduction to Studios",
+          "filename": "intro",
+          "url": "intro",
+          "path": "studios/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-4-0",
+          "md": true
+        },
+        {
+          "title": "Studio Card",
+          "filename": "studio-card",
+          "url": "studio-card",
+          "path": "studios/studio-card/studio-card_EN.md",
+          "intlDisabled": false,
+          "key": "0-4-1",
+          "md": true
+        },
+        {
+          "title": "Creating and Building Studios",
+          "filename": "create",
+          "url": "create",
+          "path": "studios/create/create_EN.md",
+          "intlDisabled": false,
+          "key": "0-4-2",
+          "md": true
+        },
+        {
+          "title": "Quick Creation and Deployment",
+          "filename": "quick-create",
+          "url": "quick-create",
+          "path": "studios/quick-create/quick-create_EN.md",
+          "intlDisabled": false,
+          "key": "0-4-3",
+          "md": true
+        },
+        {
+          "title": "Docker Studio Introduction",
+          "filename": "docker",
+          "url": "docker",
+          "path": "studios/docker/docker_EN.md",
+          "intlDisabled": false,
+          "key": "0-4-4",
+          "md": true
+        },
+        {
+          "title": "Studios Examples",
+          "filename": "examples",
+          "url": "examples",
+          "path": "studios/examples",
+          "dir": true,
+          "children": [
+            {
+              "title": "Gradio SDK Examples",
+              "filename": "gradio",
+              "url": "gradio",
+              "path": "studios/examples/gradio/gradio_EN.md",
+              "intlDisabled": false,
+              "key": "0-4-5-0",
+              "md": true
+            },
+            {
+              "title": "Streamlit SDK Examples",
+              "filename": "streamlit",
+              "url": "streamlit",
+              "path": "studios/examples/streamlit/streamlit_EN.md",
+              "intlDisabled": false,
+              "key": "0-4-5-1",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-4-5"
+        },
+        {
+          "title": "Studio Resource Specifications",
+          "filename": "resource-selections",
+          "url": "resource-selections",
+          "path": "studios/resource-selections/resource-selections_EN.md",
+          "intlDisabled": false,
+          "key": "0-4-6",
+          "md": true
+        },
+        {
+          "title": "Introduction to xGPU Studios",
+          "filename": "xGPU",
+          "url": "xGPU",
+          "path": "studios/xGPU/xGPU_EN.md",
+          "intlDisabled": false,
+          "key": "0-4-7",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-4"
+    },
+    {
+      "title": "Notebook",
+      "filename": "notebook",
+      "url": "notebook",
+      "path": "notebook",
+      "dir": true,
+      "children": [
+        {
+          "title": "Notebook Introduction",
+          "filename": "intro",
+          "url": "intro",
+          "path": "notebook/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-5-0",
+          "md": true
+        },
+        {
+          "title": "New Editor",
+          "filename": "new-editor",
+          "url": "new-editor",
+          "path": "notebook/new-editor/new-editor_EN.md",
+          "intlDisabled": false,
+          "key": "0-5-1",
+          "md": true
+        },
+        {
+          "title": "Using VS Code via Web IDE",
+          "filename": "web-ide",
+          "url": "web-ide",
+          "path": "notebook/web-ide/web-ide_EN.md",
+          "intlDisabled": false,
+          "key": "0-5-2",
+          "md": true
+        },
+        {
+          "title": "Notebook Sharing and Collaboration",
+          "filename": "sharing",
+          "url": "sharing",
+          "path": "notebook/sharing/sharing_EN.md",
+          "intlDisabled": false,
+          "key": "0-5-3",
+          "md": true
+        },
+        {
+          "title": "Notebook Instance Creation and Management",
+          "filename": "instance-management",
+          "url": "instance-management",
+          "path": "notebook/instance-management/instance-management_EN.md",
+          "intlDisabled": false,
+          "key": "0-5-4",
+          "md": true
+        },
+        {
+          "title": "Notebook Environment Configuration and Management",
+          "filename": "environment-setup",
+          "url": "environment-setup",
+          "path": "notebook/environment-setup/environment-setup_EN.md",
+          "intlDisabled": false,
+          "key": "0-5-5",
+          "md": true
+        },
+        {
+          "title": "Notebook Data Storage",
+          "filename": "data-storage",
+          "url": "data-storage",
+          "path": "notebook/data-storage/data-storage_EN.md",
+          "intlDisabled": false,
+          "key": "0-5-6",
+          "md": true
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-5"
+    },
+    {
+      "title": "Collections",
+      "filename": "collections",
+      "url": "collections",
+      "path": "collections",
+      "dir": true,
+      "children": [
+        {
+          "title": "Introduction to Collections",
+          "filename": "intro",
+          "url": "intro",
+          "path": "collections/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-6-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-6"
+    },
+    {
+      "title": "Civision",
+      "filename": "aigc",
+      "url": "aigc",
+      "path": "aigc",
+      "dir": true,
+      "children": [
+        {
+          "title": "Civision Introduction",
+          "filename": "intro",
+          "url": "intro",
+          "path": "aigc/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-7-0",
+          "md": true
+        },
+        {
+          "title": "Quick Image Generation",
+          "filename": "image-gen-basic",
+          "url": "image-gen-basic",
+          "path": "aigc/image-gen-basic/image-gen-basic_EN.md",
+          "intlDisabled": false,
+          "key": "0-7-1",
+          "md": true
+        },
+        {
+          "title": "Professional Image Generation",
+          "filename": "image-gen-pro",
+          "url": "image-gen-pro",
+          "path": "aigc/image-gen-pro/image-gen-pro_EN.md",
+          "intlDisabled": false,
+          "key": "0-7-2",
+          "md": true
+        },
+        {
+          "title": "Training Tutorial",
+          "filename": "train",
+          "url": "train",
+          "path": "aigc/train/train_EN.md",
+          "intlDisabled": false,
+          "key": "0-7-3",
+          "md": true
+        },
+        {
+          "title": "AIGC Zone FAQ",
+          "filename": "aigc-faq",
+          "url": "aigc-faq",
+          "path": "aigc/aigc-faq/aigc-faq_EN.md",
+          "intlDisabled": false,
+          "key": "0-7-5",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-7"
+    },
+    {
+      "title": "MCP",
+      "filename": "mcp",
+      "url": "mcp",
+      "path": "mcp",
+      "dir": true,
+      "children": [
+        {
+          "title": "MCP Plaza Introduction",
+          "filename": "intro",
+          "url": "intro",
+          "path": "mcp/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-0",
+          "md": true
+        },
+        {
+          "title": "Creating MCP Services",
+          "filename": "create",
+          "url": "create",
+          "path": "mcp/create/create_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-1",
+          "md": true
+        },
+        {
+          "title": "MCP Deployment Service Usage Limits",
+          "filename": "limits",
+          "url": "limits",
+          "path": "mcp/limits/limits_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-2",
+          "md": true
+        },
+        {
+          "title": "MCP SDK Interface",
+          "filename": "sdk",
+          "url": "sdk",
+          "path": "mcp/sdk/sdk_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-3",
+          "md": true
+        },
+        {
+          "title": "ModelScope MCP Server OAuth Configuration",
+          "filename": "ms-mcp-oauth",
+          "url": "ms-mcp-oauth",
+          "path": "mcp/ms-mcp-oauth/ms-mcp-oauth_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-4",
+          "md": true
+        },
+        {
+          "title": "Cherry Studio Integration",
+          "filename": "cherry-studio",
+          "url": "cherry-studio",
+          "path": "mcp/cherry-studio/cherry-studio_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-5",
+          "md": true
+        },
+        {
+          "title": "Kimi Playground Integration",
+          "filename": "kimi-playground",
+          "url": "kimi-playground",
+          "path": "mcp/kimi-playground/kimi-playground_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-6",
+          "md": true
+        },
+        {
+          "title": "Tongyi Lingma Integration",
+          "filename": "lingma",
+          "url": "lingma",
+          "path": "mcp/lingma/lingma_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-7",
+          "md": true
+        },
+        {
+          "title": "Intel AI Assistant Builder Integration",
+          "filename": "intel-ai-integration",
+          "url": "intel-ai-integration",
+          "path": "mcp/intel-ai-integration/intel-ai-integration_EN.md",
+          "intlDisabled": false,
+          "key": "0-8-8",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-8"
+    },
+    {
+      "title": "Skills Center",
+      "filename": "skills",
+      "url": "skills",
+      "path": "skills",
+      "dir": true,
+      "children": [
+        {
+          "title": "Introduction to Skills Center",
+          "filename": "intro",
+          "url": "intro",
+          "path": "skills/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-9-0",
+          "md": true
+        },
+        {
+          "title": "Download and Install Skills",
+          "filename": "install",
+          "url": "install",
+          "path": "skills/install/install_EN.md",
+          "intlDisabled": false,
+          "key": "0-9-1",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-9"
+    },
+    {
+      "title": "agents",
+      "filename": "agent",
+      "url": "agents",
+      "path": "agent",
+      "dir": true,
+      "children": [
+        {
+          "title": "agent-identity",
+          "filename": "agent-identity",
+          "url": "agent-identity",
+          "path": "agent/agent-identity",
+          "dir": true,
+          "intlDisabled": false,
+          "key": "0-10-0"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-10"
+    },
+    {
+      "title": "Nexa",
+      "filename": "nexa",
+      "url": "nexa",
+      "path": "nexa",
+      "dir": true,
+      "children": [
+        {
+          "title": "Introduction to Nexa",
+          "filename": "intro",
+          "url": "intro",
+          "path": "nexa/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-11-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-11"
+    },
+    {
+      "title": "Accounts",
+      "filename": "accounts",
+      "url": "accounts",
+      "path": "accounts",
+      "dir": true,
+      "children": [
+        {
+          "title": "Account Registration and Login",
+          "filename": "registration",
+          "url": "registration",
+          "path": "accounts/registration/registration_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-0",
+          "md": true
+        },
+        {
+          "title": "Password Modification and Password Recovery",
+          "filename": "password",
+          "url": "password",
+          "path": "accounts/password/password_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-1",
+          "md": true
+        },
+        {
+          "title": "How to Create an Organization",
+          "filename": "create-a-org",
+          "url": "create-a-org",
+          "path": "accounts/create-a-org/create-a-org_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-2",
+          "md": true
+        },
+        {
+          "title": "Organization Permission Description",
+          "filename": "org-permission",
+          "url": "org-permission",
+          "path": "accounts/org-permission/org-permission_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-3",
+          "md": true
+        },
+        {
+          "title": "Model and Dataset Owner Permission Transfer",
+          "filename": "ownership-transfer",
+          "url": "ownership-transfer",
+          "path": "accounts/ownership-transfer/ownership-transfer_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-4",
+          "md": true
+        },
+        {
+          "title": "Access Token",
+          "filename": "token",
+          "url": "token",
+          "path": "accounts/token/token_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-5",
+          "md": true
+        },
+        {
+          "title": "Log in via ModelScope (OAuth)",
+          "filename": "oauth",
+          "url": "oauth",
+          "path": "accounts/oauth/oauth_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-6",
+          "md": true
+        },
+        {
+          "title": "Alibaba Cloud Account Binding and Authorization Tutorial",
+          "filename": "aliyun-binding-and-authorization",
+          "url": "aliyun-binding-and-authorization",
+          "path": "accounts/aliyun-binding-and-authorization/aliyun-binding-and-authorization_EN.md",
+          "intlDisabled": false,
+          "key": "0-12-7",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-12"
+    },
+    {
+      "title": "Library",
+      "filename": "sdk",
+      "url": "sdk",
+      "path": "sdk",
+      "dir": true,
+      "children": [
+        {
+          "title": "Library Introduction",
+          "filename": "intro",
+          "url": "intro",
+          "path": "sdk/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-13-0",
+          "md": true
+        },
+        {
+          "title": "CLI Tool Reference",
+          "filename": "cli",
+          "url": "cli",
+          "path": "sdk/cli/cli_EN.md",
+          "intlDisabled": false,
+          "key": "0-13-1",
+          "md": true
+        },
+        {
+          "title": "Model Loading and Preprocessing",
+          "filename": "model-load-and-preprocess",
+          "url": "model-load-and-preprocess",
+          "path": "sdk/model-load-and-preprocess/model-load-and-preprocess_EN.md",
+          "intlDisabled": false,
+          "key": "0-13-2",
+          "md": true
+        },
+        {
+          "title": "Model Inference Pipeline",
+          "filename": "pipelines",
+          "url": "pipelines",
+          "path": "sdk/pipelines/pipelines_EN.md",
+          "intlDisabled": false,
+          "key": "0-13-3",
+          "md": true
+        },
+        {
+          "title": "Dataset Usage Guide",
+          "filename": "dataset",
+          "url": "dataset",
+          "path": "sdk/dataset/dataset_EN.md",
+          "intlDisabled": false,
+          "key": "0-13-4",
+          "md": true
+        },
+        {
+          "title": "Model Training",
+          "filename": "model-training",
+          "url": "model-training",
+          "path": "sdk/model-training/model-training_EN.md",
+          "intlDisabled": false,
+          "key": "0-13-5",
+          "md": true
+        },
+        {
+          "title": "Model Export",
+          "filename": "model-export",
+          "url": "model-export",
+          "path": "sdk/model-export/model-export_EN.md",
+          "intlDisabled": false,
+          "key": "0-13-6",
+          "md": true
+        },
+        {
+          "title": "Best Practices",
+          "filename": "tasks",
+          "url": "tasks",
+          "path": "sdk/tasks",
+          "dir": true,
+          "children": [
+            {
+              "title": "Introduction to Tasks",
+              "filename": "intro",
+              "url": "intro",
+              "path": "sdk/tasks/intro/intro_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-0",
+              "md": true
+            },
+            {
+              "title": "Introduction to NLG Large Models",
+              "filename": "nlg-models",
+              "url": "nlg-models",
+              "path": "sdk/tasks/nlg-models/nlg-models_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-1",
+              "md": true
+            },
+            {
+              "title": "Text Classification Task",
+              "filename": "text-classification",
+              "url": "text-classification",
+              "path": "sdk/tasks/text-classification/text-classification_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-2",
+              "md": true
+            },
+            {
+              "title": "Token Classification Task",
+              "filename": "token-classification",
+              "url": "token-classification",
+              "path": "sdk/tasks/token-classification/token-classification_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-3",
+              "md": true
+            },
+            {
+              "title": "Text Generation Task",
+              "filename": "text-generation",
+              "url": "text-generation",
+              "path": "sdk/tasks/text-generation/text-generation_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-4",
+              "md": true
+            },
+            {
+              "title": "Image Segmentation Task",
+              "filename": "image-segmentation",
+              "url": "image-segmentation",
+              "path": "sdk/tasks/image-segmentation/image-segmentation_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-7-5",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-13-7"
+        },
+        {
+          "title": "Tutorials",
+          "filename": "tutorials",
+          "url": "tutorials",
+          "path": "sdk/tutorials",
+          "dir": true,
+          "children": [
+            {
+              "title": "Library Framework Mechanism",
+              "filename": "framework-design",
+              "url": "framework-design",
+              "path": "sdk/tutorials/framework-design/framework-design_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-0",
+              "md": true
+            },
+            {
+              "title": "Configuration Guide",
+              "filename": "configuration",
+              "url": "configuration",
+              "path": "sdk/tutorials/configuration/configuration_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-1",
+              "md": true
+            },
+            {
+              "title": "Callback Mechanism",
+              "filename": "callbacks",
+              "url": "callbacks",
+              "path": "sdk/tutorials/callbacks/callbacks_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-2",
+              "md": true
+            },
+            {
+              "title": "Data Preprocessing",
+              "filename": "data-preprocessor",
+              "url": "data-preprocessor",
+              "path": "sdk/tutorials/data-preprocessor/data-preprocessor_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-3",
+              "md": true
+            },
+            {
+              "title": "Model Evaluation",
+              "filename": "model-evaluation",
+              "url": "model-evaluation",
+              "path": "sdk/tutorials/model-evaluation/model-evaluation_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-4",
+              "md": true
+            },
+            {
+              "title": "Detailed Training Parameters",
+              "filename": "training-parameters",
+              "url": "training-parameters",
+              "path": "sdk/tutorials/training-parameters/training-parameters_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-5",
+              "md": true
+            },
+            {
+              "title": "Default Pipeline Configuration",
+              "filename": "pipeline-default-config",
+              "url": "pipeline-default-config",
+              "path": "sdk/tutorials/pipeline-default-config/pipeline-default-config_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-6",
+              "md": true
+            },
+            {
+              "title": "Using Flask to Build Model Services",
+              "filename": "use-flask-for-model-service",
+              "url": "use-flask-for-model-service",
+              "path": "sdk/tutorials/use-flask-for-model-service/use-flask-for-model-service_EN.md",
+              "intlDisabled": false,
+              "key": "0-13-8-7",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-13-8"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-13"
+    },
+    {
+      "title": "Large Model Training and Inference",
+      "filename": "llm-training-and-inference",
+      "url": "llm-training-and-inference",
+      "path": "llm-training-and-inference",
+      "dir": true,
+      "children": [
+        {
+          "title": "intro",
+          "filename": "intro",
+          "url": "intro",
+          "path": "llm-training-and-inference/intro",
+          "dir": true,
+          "children": [
+            {
+              "title": "Quick Start",
+              "filename": "quickstart",
+              "url": "quickstart",
+              "path": "llm-training-and-inference/intro/quickstart/quickstart_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-0-0",
+              "md": true
+            },
+            {
+              "title": "SWIFT Installation",
+              "filename": "swift-installation",
+              "url": "swift-installation",
+              "path": "llm-training-and-inference/intro/swift-installation/swift-installation_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-0-1",
+              "md": true
+            },
+            {
+              "title": "Web-UI",
+              "filename": "web-ui",
+              "url": "web-ui",
+              "path": "llm-training-and-inference/intro/web-ui/web-ui_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-0-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-0"
+        },
+        {
+          "title": "user-guide",
+          "filename": "user-guide",
+          "url": "user-guide",
+          "path": "llm-training-and-inference/user-guide",
+          "dir": true,
+          "children": [
+            {
+              "title": "Command Line Parameters",
+              "filename": "command-line-parameters",
+              "url": "command-line-parameters",
+              "path": "llm-training-and-inference/user-guide/command-line-parameters/command-line-parameters_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-0",
+              "md": true
+            },
+            {
+              "title": "Pre-training and Fine-tuning",
+              "filename": "pretraining-and-finetuning",
+              "url": "pretraining-and-finetuning",
+              "path": "llm-training-and-inference/user-guide/pretraining-and-finetuning/pretraining-and-finetuning_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-1",
+              "md": true
+            },
+            {
+              "title": "Human Alignment",
+              "filename": "rlhf",
+              "url": "rlhf",
+              "path": "llm-training-and-inference/user-guide/rlhf/rlhf_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-2",
+              "md": true
+            },
+            {
+              "title": "megatron-swift",
+              "filename": "megatron-swift",
+              "url": "megatron-swift",
+              "path": "llm-training-and-inference/user-guide/megatron-swift/megatron-swift_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-3",
+              "md": true
+            },
+            {
+              "title": "inference-and-deployment",
+              "filename": "inference-and-deployment",
+              "url": "inference-and-deployment",
+              "path": "llm-training-and-inference/user-guide/inference-and-deployment/inference-and-deployment_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-4",
+              "md": true
+            },
+            {
+              "title": "sample",
+              "filename": "sample",
+              "url": "sample",
+              "path": "llm-training-and-inference/user-guide/sample/sample_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-5",
+              "md": true
+            },
+            {
+              "title": "evaluation",
+              "filename": "evaluation",
+              "url": "evaluation",
+              "path": "llm-training-and-inference/user-guide/evaluation/evaluation_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-6",
+              "md": true
+            },
+            {
+              "title": "export-and-push",
+              "filename": "export-and-push",
+              "url": "export-and-push",
+              "path": "llm-training-and-inference/user-guide/export-and-push/export-and-push_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-7",
+              "md": true
+            },
+            {
+              "title": "reinforced-fine-tuning",
+              "filename": "reinforced-fine-tuning",
+              "url": "reinforced-fine-tuning",
+              "path": "llm-training-and-inference/user-guide/reinforced-fine-tuning/reinforced-fine-tuning_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-8",
+              "md": true
+            },
+            {
+              "title": "grpo-guide",
+              "filename": "grpo-guide",
+              "url": "grpo-guide",
+              "path": "llm-training-and-inference/user-guide/grpo-guide",
+              "dir": true,
+              "children": [
+                {
+                  "title": "quick-started",
+                  "filename": "quick-started",
+                  "url": "quick-started",
+                  "path": "llm-training-and-inference/user-guide/grpo-guide/quick-started",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "grpo",
+                      "filename": "grpo",
+                      "url": "grpo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/quick-started/grpo/grpo_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-0-0",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-14-1-9-0"
+                },
+                {
+                  "title": "developer-guide",
+                  "filename": "developer-guide",
+                  "url": "developer-guide",
+                  "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "multi-turn",
+                      "filename": "multi-turn",
+                      "url": "multi-turn",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/multi-turn/multi-turn_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-0",
+                      "md": true
+                    },
+                    {
+                      "title": "multi-task",
+                      "filename": "multi-task",
+                      "url": "multi-task",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/multi-task/multi-task_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-1",
+                      "md": true
+                    },
+                    {
+                      "title": "reward-function",
+                      "filename": "reward-function",
+                      "url": "reward-function",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/reward-function/reward-function_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-2",
+                      "md": true
+                    },
+                    {
+                      "title": "reward-model",
+                      "filename": "reward-model",
+                      "url": "reward-model",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/reward-model/reward-model_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-3",
+                      "md": true
+                    },
+                    {
+                      "title": "loss-type",
+                      "filename": "loss-type",
+                      "url": "loss-type",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/loss-type/loss-type_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-4",
+                      "md": true
+                    },
+                    {
+                      "title": "gym-env",
+                      "filename": "gym-env",
+                      "url": "gym-env",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/developer-guide/gym-env/gym-env_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-1-5",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-14-1-9-1"
+                },
+                {
+                  "title": "advanced-research",
+                  "filename": "advanced-research",
+                  "url": "advanced-research",
+                  "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "entropy_mask",
+                      "filename": "entropy-mask",
+                      "url": "entropy-mask",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/entropy-mask/entropy-mask_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-0",
+                      "md": true
+                    },
+                    {
+                      "title": "cispo",
+                      "filename": "cispo",
+                      "url": "cispo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/cispo/cispo_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-1",
+                      "md": true
+                    },
+                    {
+                      "title": "dapo",
+                      "filename": "dapo",
+                      "url": "dapo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/dapo/dapo_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-2",
+                      "md": true
+                    },
+                    {
+                      "title": "deepeyes",
+                      "filename": "deepeyes",
+                      "url": "deepeyes",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/deepeyes/deepeyes_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-3",
+                      "md": true
+                    },
+                    {
+                      "title": "gspo",
+                      "filename": "gspo",
+                      "url": "gspo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/gspo/gspo_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-4",
+                      "md": true
+                    },
+                    {
+                      "title": "chord",
+                      "filename": "chord",
+                      "url": "chord",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/chord/chord_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-5",
+                      "md": true
+                    },
+                    {
+                      "title": "rloo",
+                      "filename": "rloo",
+                      "url": "rloo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/rloo/rloo_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-6",
+                      "md": true
+                    },
+                    {
+                      "title": "reinforce-plus-plus",
+                      "filename": "reinforce-plus-plus",
+                      "url": "reinforce-plus-plus",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/reinforce-plus-plus/reinforce-plus-plus_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-7",
+                      "md": true
+                    },
+                    {
+                      "title": "sapo",
+                      "filename": "sapo",
+                      "url": "sapo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/sapo/sapo_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-8",
+                      "md": true
+                    },
+                    {
+                      "title": "training-inference-mismatch",
+                      "filename": "training-inference-mismatch",
+                      "url": "training-inference-mismatch",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/training-inference-mismatch/training-inference-mismatch_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-9",
+                      "md": true
+                    },
+                    {
+                      "title": "treepo",
+                      "filename": "treepo",
+                      "url": "treepo",
+                      "path": "llm-training-and-inference/user-guide/grpo-guide/advanced-research/treepo/treepo_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-14-1-9-2-10",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-14-1-9-2"
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-14-1-9"
+            },
+            {
+              "title": "GKD",
+              "filename": "GKD",
+              "url": "GKD",
+              "path": "llm-training-and-inference/user-guide/GKD/GKD_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-10",
+              "md": true
+            },
+            {
+              "title": "supported-models-and-datasets",
+              "filename": "supported-models-and-datasets",
+              "url": "supported-models-and-datasets",
+              "path": "llm-training-and-inference/user-guide/supported-models-and-datasets/supported-models-and-datasets_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-11",
+              "md": true
+            },
+            {
+              "title": "tuners",
+              "filename": "tuners",
+              "url": "tuners",
+              "path": "llm-training-and-inference/user-guide/tuners/tuners_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-12",
+              "md": true
+            },
+            {
+              "title": "agent-support",
+              "filename": "agent-support",
+              "url": "agent-support",
+              "path": "llm-training-and-inference/user-guide/agent-support/agent-support_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-13",
+              "md": true
+            },
+            {
+              "title": "Ray",
+              "filename": "Ray",
+              "url": "Ray",
+              "path": "llm-training-and-inference/user-guide/Ray/Ray_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-14",
+              "md": true
+            },
+            {
+              "title": "faq",
+              "filename": "faq",
+              "url": "faq",
+              "path": "llm-training-and-inference/user-guide/faq/faq_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-1-15",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-1"
+        },
+        {
+          "title": "megatron-training",
+          "filename": "megatron-training",
+          "url": "megatron-training",
+          "path": "llm-training-and-inference/megatron-training",
+          "dir": true,
+          "children": [
+            {
+              "title": "Quick Start",
+              "filename": "quick-start",
+              "url": "quick-start",
+              "path": "llm-training-and-inference/megatron-training/quick-start/quick-start_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-0",
+              "md": true
+            },
+            {
+              "title": "Command Line Parameters",
+              "filename": "command-line-parameters",
+              "url": "command-line-parameters",
+              "path": "llm-training-and-inference/megatron-training/command-line-parameters/command-line-parameters_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-1",
+              "md": true
+            },
+            {
+              "title": "LoRA Training",
+              "filename": "lora-training",
+              "url": "lora-training",
+              "path": "llm-training-and-inference/megatron-training/lora-training/lora-training_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-2",
+              "md": true
+            },
+            {
+              "title": "Multimodal Models",
+              "filename": "multi-modal-model",
+              "url": "multi-modal-model",
+              "path": "llm-training-and-inference/megatron-training/multi-modal-model/multi-modal-model_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-3",
+              "md": true
+            },
+            {
+              "title": "Mcore-Bridge",
+              "filename": "mcore-bridge",
+              "url": "mcore-bridge",
+              "path": "llm-training-and-inference/megatron-training/mcore-bridge/mcore-bridge_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-4",
+              "md": true
+            },
+            {
+              "title": "GRPO",
+              "filename": "grpo",
+              "url": "grpo",
+              "path": "llm-training-and-inference/megatron-training/grpo/grpo_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-2-5",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-2"
+        },
+        {
+          "title": "customization",
+          "filename": "customization",
+          "url": "customization",
+          "path": "llm-training-and-inference/customization",
+          "dir": true,
+          "children": [
+            {
+              "title": "Custom Models",
+              "filename": "custom-model",
+              "url": "custom-model",
+              "path": "llm-training-and-inference/customization/custom-model/custom-model_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-3-0",
+              "md": true
+            },
+            {
+              "title": "Custom Datasets",
+              "filename": "custom-dataset",
+              "url": "custom-dataset",
+              "path": "llm-training-and-inference/customization/custom-dataset/custom-dataset_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-3-1",
+              "md": true
+            },
+            {
+              "title": "Plugin System",
+              "filename": "plugins",
+              "url": "plugins",
+              "path": "llm-training-and-inference/customization/plugins/plugins_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-3-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-3"
+        },
+        {
+          "title": "best-practices",
+          "filename": "best-practices",
+          "url": "best-practices",
+          "path": "llm-training-and-inference/best-practices",
+          "dir": true,
+          "children": [
+            {
+              "title": "Complete GRPO Workflow",
+              "filename": "grpo",
+              "url": "grpo",
+              "path": "llm-training-and-inference/best-practices/grpo/grpo_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-0",
+              "md": true
+            },
+            {
+              "title": "Multimodal GRPO Training",
+              "filename": "multimodal-grpo",
+              "url": "multimodal-grpo",
+              "path": "llm-training-and-inference/best-practices/multimodal-grpo/multimodal-grpo_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-1",
+              "md": true
+            },
+            {
+              "title": "GRPO Code Training",
+              "filename": "GRPO-dai-ma-xun-lian",
+              "url": "GRPO-dai-ma-xun-lian",
+              "path": "llm-training-and-inference/best-practices/GRPO-dai-ma-xun-lian/GRPO-dai-ma-xun-lian_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-2",
+              "md": true
+            },
+            {
+              "title": "Qwen3 Best Practices",
+              "filename": "qwen3",
+              "url": "qwen3",
+              "path": "llm-training-and-inference/best-practices/qwen3/qwen3_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-3",
+              "md": true
+            },
+            {
+              "title": "Qwen3-VL Best Practices",
+              "filename": "Qwen3-VL-zui-jia-shi-jian",
+              "url": "Qwen3-VL-zui-jia-shi-jian",
+              "path": "llm-training-and-inference/best-practices/Qwen3-VL-zui-jia-shi-jian/Qwen3-VL-zui-jia-shi-jian_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-4",
+              "md": true
+            },
+            {
+              "title": "Embedding Training",
+              "filename": "embedding",
+              "url": "embedding",
+              "path": "llm-training-and-inference/best-practices/embedding/embedding_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-5",
+              "md": true
+            },
+            {
+              "title": "Reranker Training",
+              "filename": "reranker",
+              "url": "reranker",
+              "path": "llm-training-and-inference/best-practices/reranker/reranker_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-6",
+              "md": true
+            },
+            {
+              "title": "Quick VL Model Training",
+              "filename": "vl-training",
+              "url": "vl-training",
+              "path": "llm-training-and-inference/best-practices/vl-training/vl-training_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-7",
+              "md": true
+            },
+            {
+              "title": "NPU Support",
+              "filename": "npu",
+              "url": "npu",
+              "path": "llm-training-and-inference/best-practices/npu/npu_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-8",
+              "md": true
+            },
+            {
+              "title": "More Best Practices",
+              "filename": "more-best-practices",
+              "url": "more-best-practices",
+              "path": "llm-training-and-inference/best-practices/more-best-practices/more-best-practices_EN.md",
+              "intlDisabled": false,
+              "key": "0-14-4-9",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-14-4"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-14"
+    },
+    {
+      "title": "Model Evaluation",
+      "filename": "model-evaluation",
+      "url": "model-evaluation",
+      "path": "model-evaluation",
+      "dir": true,
+      "children": [
+        {
+          "title": "Get Started",
+          "filename": "get-started",
+          "url": "get-started",
+          "path": "model-evaluation/get-started",
+          "dir": true,
+          "children": [
+            {
+              "title": "Introduction",
+              "filename": "introduction",
+              "url": "introduction",
+              "path": "model-evaluation/get-started/introduction/introduction_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-0",
+              "md": true
+            },
+            {
+              "title": "Installation",
+              "filename": "installation",
+              "url": "installation",
+              "path": "model-evaluation/get-started/installation/installation_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-1",
+              "md": true
+            },
+            {
+              "title": "Quick Start",
+              "filename": "basic-usage",
+              "url": "basic-usage",
+              "path": "model-evaluation/get-started/basic-usage/basic-usage_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-2",
+              "md": true
+            },
+            {
+              "title": "Visualization",
+              "filename": "visualization",
+              "url": "visualization",
+              "path": "model-evaluation/get-started/visualization/visualization_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-3",
+              "md": true
+            },
+            {
+              "title": "Parameter Description",
+              "filename": "parameters",
+              "url": "parameters",
+              "path": "model-evaluation/get-started/parameters/parameters_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-4",
+              "md": true
+            },
+            {
+              "title": "Supported Dataset",
+              "filename": "supported-dataset",
+              "url": "supported-dataset",
+              "path": "model-evaluation/get-started/supported-dataset",
+              "dir": true,
+              "children": [
+                {
+                  "title": "llm",
+                  "filename": "llm",
+                  "url": "llm",
+                  "path": "model-evaluation/get-started/supported-dataset/llm/llm_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-0",
+                  "md": true
+                },
+                {
+                  "title": "vlm",
+                  "filename": "vlm",
+                  "url": "vlm",
+                  "path": "model-evaluation/get-started/supported-dataset/vlm/vlm_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-1",
+                  "md": true
+                },
+                {
+                  "title": "AGENT Evaluation Datasets",
+                  "filename": "agent",
+                  "url": "agent",
+                  "path": "model-evaluation/get-started/supported-dataset/agent/agent_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-2",
+                  "md": true
+                },
+                {
+                  "title": "aigc",
+                  "filename": "aigc",
+                  "url": "aigc",
+                  "path": "model-evaluation/get-started/supported-dataset/aigc/aigc_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-3",
+                  "md": true
+                },
+                {
+                  "title": "other",
+                  "filename": "other",
+                  "url": "other",
+                  "path": "model-evaluation/get-started/supported-dataset/other",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "OpenCompass",
+                      "filename": "opencompass",
+                      "url": "opencompass",
+                      "path": "model-evaluation/get-started/supported-dataset/other/opencompass/opencompass_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-0",
+                      "md": true
+                    },
+                    {
+                      "title": "vlmevalkit",
+                      "filename": "vlmevalkit",
+                      "url": "vlmevalkit",
+                      "path": "model-evaluation/get-started/supported-dataset/other/vlmevalkit/vlmevalkit_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-1",
+                      "md": true
+                    },
+                    {
+                      "title": "MTEB Evaluation Datasets",
+                      "filename": "mteb",
+                      "url": "mteb",
+                      "path": "model-evaluation/get-started/supported-dataset/other/mteb/mteb_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-2",
+                      "md": true
+                    },
+                    {
+                      "title": "CLIP-Benchmark",
+                      "filename": "clip",
+                      "url": "clip",
+                      "path": "model-evaluation/get-started/supported-dataset/other/clip/clip_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-0-5-4-3",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-15-0-5-4"
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-0-5"
+            },
+            {
+              "title": "❓ Frequently Asked Questions",
+              "filename": "faq",
+              "url": "faq",
+              "path": "model-evaluation/get-started/faq/faq_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-0-6",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-0"
+        },
+        {
+          "title": "User Guides",
+          "filename": "user-guides",
+          "url": "user-guides",
+          "path": "model-evaluation/user-guides",
+          "dir": true,
+          "children": [
+            {
+              "title": "Other Backends",
+              "filename": "backend",
+              "url": "backend",
+              "path": "model-evaluation/user-guides/backend",
+              "dir": true,
+              "children": [
+                {
+                  "title": "opencompass-backend",
+                  "filename": "opencompass-backend",
+                  "url": "opencompass-backend",
+                  "path": "model-evaluation/user-guides/backend/opencompass-backend/opencompass-backend_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-0-0",
+                  "md": true
+                },
+                {
+                  "title": "vlmevalkit-backend",
+                  "filename": "vlmevalkit-backend",
+                  "url": "vlmevalkit-backend",
+                  "path": "model-evaluation/user-guides/backend/vlmevalkit-backend/vlmevalkit-backend_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-0-1",
+                  "md": true
+                },
+                {
+                  "title": "rageval-backend",
+                  "filename": "rageval-backend",
+                  "url": "rageval-backend",
+                  "path": "model-evaluation/user-guides/backend/rageval-backend",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "mteb",
+                      "filename": "mteb",
+                      "url": "mteb",
+                      "path": "model-evaluation/user-guides/backend/rageval-backend/mteb/mteb_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-1-0-2-0",
+                      "md": true
+                    },
+                    {
+                      "title": "CLIP Benchmark",
+                      "filename": "clip-benchmark",
+                      "url": "clip-benchmark",
+                      "path": "model-evaluation/user-guides/backend/rageval-backend/clip-benchmark/clip-benchmark_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-1-0-2-1",
+                      "md": true
+                    },
+                    {
+                      "title": "ragas",
+                      "filename": "ragas",
+                      "url": "ragas",
+                      "path": "model-evaluation/user-guides/backend/rageval-backend/ragas/ragas_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-15-1-0-2-2",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-15-1-0-2"
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-1-0"
+            },
+            {
+              "title": "Stress Test",
+              "filename": "stress-test",
+              "url": "stress-test",
+              "path": "model-evaluation/user-guides/stress-test",
+              "dir": true,
+              "children": [
+                {
+                  "title": "quick-start",
+                  "filename": "quick-start",
+                  "url": "quick-start",
+                  "path": "model-evaluation/user-guides/stress-test/quick-start/quick-start_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-0",
+                  "md": true
+                },
+                {
+                  "title": "Parameter Description",
+                  "filename": "parameters",
+                  "url": "parameters",
+                  "path": "model-evaluation/user-guides/stress-test/parameters/parameters_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-1",
+                  "md": true
+                },
+                {
+                  "title": "examples",
+                  "filename": "examples",
+                  "url": "examples",
+                  "path": "model-evaluation/user-guides/stress-test/examples/examples_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-2",
+                  "md": true
+                },
+                {
+                  "title": "Speed Benchmark",
+                  "filename": "speed-benchmark",
+                  "url": "speed-benchmark",
+                  "path": "model-evaluation/user-guides/stress-test/speed-benchmark/speed-benchmark_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-3",
+                  "md": true
+                },
+                {
+                  "title": "custom",
+                  "filename": "custom",
+                  "url": "custom",
+                  "path": "model-evaluation/user-guides/stress-test/custom/custom_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-4",
+                  "md": true
+                },
+                {
+                  "title": "vs-vllm-bench",
+                  "filename": "vs-vllm-bench",
+                  "url": "vs-vllm-bench",
+                  "path": "model-evaluation/user-guides/stress-test/vs-vllm-bench/vs-vllm-bench_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-1-5",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-1-1"
+            },
+            {
+              "title": "AIGC",
+              "filename": "aigc",
+              "url": "aigc",
+              "path": "model-evaluation/user-guides/aigc",
+              "dir": true,
+              "children": [
+                {
+                  "title": "t2i",
+                  "filename": "t2i",
+                  "url": "t2i",
+                  "path": "model-evaluation/user-guides/aigc/t2i/t2i_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-2-0",
+                  "md": true
+                },
+                {
+                  "title": "image-edit",
+                  "filename": "image-edit",
+                  "url": "image-edit",
+                  "path": "model-evaluation/user-guides/aigc/image-edit/image-edit_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-1-2-1",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-1-2"
+            },
+            {
+              "title": "arena",
+              "filename": "arena",
+              "url": "arena",
+              "path": "model-evaluation/user-guides/arena/arena_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-1-3",
+              "md": true
+            },
+            {
+              "title": "sandbox",
+              "filename": "sandbox",
+              "url": "sandbox",
+              "path": "model-evaluation/user-guides/sandbox/sandbox_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-1-4",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-1"
+        },
+        {
+          "title": "Advanced Guides",
+          "filename": "advanced-guides",
+          "url": "advanced-guides",
+          "path": "model-evaluation/advanced-guides",
+          "dir": true,
+          "children": [
+            {
+              "title": "Collection",
+              "filename": "collection",
+              "url": "collection",
+              "path": "model-evaluation/advanced-guides/collection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "schema",
+                  "filename": "schema",
+                  "url": "schema",
+                  "path": "model-evaluation/advanced-guides/collection/schema/schema_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-0-0",
+                  "md": true
+                },
+                {
+                  "title": "Sampling Data",
+                  "filename": "sample",
+                  "url": "sample",
+                  "path": "model-evaluation/advanced-guides/collection/sample/sample_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-0-1",
+                  "md": true
+                },
+                {
+                  "title": "Unified Evaluation",
+                  "filename": "evaluate",
+                  "url": "evaluate",
+                  "path": "model-evaluation/advanced-guides/collection/evaluate/evaluate_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-0-2",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-2-0"
+            },
+            {
+              "title": "Custom Dataset",
+              "filename": "custom-dataset",
+              "url": "custom-dataset",
+              "path": "model-evaluation/advanced-guides/custom-dataset",
+              "dir": true,
+              "children": [
+                {
+                  "title": "llm",
+                  "filename": "llm",
+                  "url": "llm",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/llm/llm_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-0",
+                  "md": true
+                },
+                {
+                  "title": "vlm",
+                  "filename": "vlm",
+                  "url": "vlm",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/vlm/vlm_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-1",
+                  "md": true
+                },
+                {
+                  "title": "embedding",
+                  "filename": "embedding",
+                  "url": "embedding",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/embedding/embedding_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-2",
+                  "md": true
+                },
+                {
+                  "title": "clip",
+                  "filename": "clip",
+                  "url": "clip",
+                  "path": "model-evaluation/advanced-guides/custom-dataset/clip/clip_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-15-2-1-3",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-15-2-1"
+            },
+            {
+              "title": "Custom Model Evaluation",
+              "filename": "custom-model",
+              "url": "custom-model",
+              "path": "model-evaluation/advanced-guides/custom-model/custom-model_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-2-2",
+              "md": true
+            },
+            {
+              "title": "add-benchmark",
+              "filename": "add-benchmark",
+              "url": "add-benchmark",
+              "path": "model-evaluation/advanced-guides/add-benchmark/add-benchmark_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-2-3",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-2"
+        },
+        {
+          "title": "Third-party Tools",
+          "filename": "third-party",
+          "url": "third-party",
+          "path": "model-evaluation/third-party",
+          "dir": true,
+          "children": [
+            {
+              "title": "swe-bench",
+              "filename": "swe-bench",
+              "url": "swe-bench",
+              "path": "model-evaluation/third-party/swe-bench/swe-bench_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-0",
+              "md": true
+            },
+            {
+              "title": "tau-bench",
+              "filename": "tau-bench",
+              "url": "tau-bench",
+              "path": "model-evaluation/third-party/tau-bench/tau-bench_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-1",
+              "md": true
+            },
+            {
+              "title": "τ²-bench",
+              "filename": "tau2-bench",
+              "url": "tau2-bench",
+              "path": "model-evaluation/third-party/tau2-bench/tau2-bench_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-2",
+              "md": true
+            },
+            {
+              "title": "bfcl-v3",
+              "filename": "bfcl-v3",
+              "url": "bfcl-v3",
+              "path": "model-evaluation/third-party/bfcl-v3/bfcl-v3_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-3",
+              "md": true
+            },
+            {
+              "title": "BFCL-v4",
+              "filename": "bfcl-v4",
+              "url": "bfcl-v4",
+              "path": "model-evaluation/third-party/bfcl-v4/bfcl-v4_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-4",
+              "md": true
+            },
+            {
+              "title": "needle-haystack",
+              "filename": "needle-haystack",
+              "url": "needle-haystack",
+              "path": "model-evaluation/third-party/needle-haystack/needle-haystack_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-5",
+              "md": true
+            },
+            {
+              "title": "toolbench",
+              "filename": "toolbench",
+              "url": "toolbench",
+              "path": "model-evaluation/third-party/toolbench/toolbench_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-6",
+              "md": true
+            },
+            {
+              "title": "LongBench-Write",
+              "filename": "longwriter",
+              "url": "longwriter",
+              "path": "model-evaluation/third-party/longwriter/longwriter_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-3-7",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-3"
+        },
+        {
+          "title": "Best Practice",
+          "filename": "best-practice",
+          "url": "best-practice",
+          "path": "model-evaluation/best-practice",
+          "dir": true,
+          "children": [
+            {
+              "title": "Qwen3-Next Model Evaluation Best Practices",
+              "filename": "qwen3-next",
+              "url": "qwen3-next",
+              "path": "model-evaluation/best-practice/qwen3-next/qwen3-next_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-0",
+              "md": true
+            },
+            {
+              "title": "qwen3-omni",
+              "filename": "qwen3-omni",
+              "url": "qwen3-omni",
+              "path": "model-evaluation/best-practice/qwen3-omni/qwen3-omni_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-1",
+              "md": true
+            },
+            {
+              "title": "qwen3-vl",
+              "filename": "qwen3-vl",
+              "url": "qwen3-vl",
+              "path": "model-evaluation/best-practice/qwen3-vl/qwen3-vl_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-2",
+              "md": true
+            },
+            {
+              "title": "gpt-oss",
+              "filename": "gpt-oss",
+              "url": "gpt-oss",
+              "path": "model-evaluation/best-practice/gpt-oss/gpt-oss_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-3",
+              "md": true
+            },
+            {
+              "title": "Best Practices for Qwen3-Coder+Instruct Model Evaluation",
+              "filename": "qwen3-coder",
+              "url": "qwen3-coder",
+              "path": "model-evaluation/best-practice/qwen3-coder/qwen3-coder_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-4",
+              "md": true
+            },
+            {
+              "title": "t2i-eval",
+              "filename": "t2i-eval",
+              "url": "t2i-eval",
+              "path": "model-evaluation/best-practice/t2i-eval/t2i-eval_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-5",
+              "md": true
+            },
+            {
+              "title": "Best Practices for Qwen3 Model Evaluation",
+              "filename": "qwen3",
+              "url": "qwen3",
+              "path": "model-evaluation/best-practice/qwen3/qwen3_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-6",
+              "md": true
+            },
+            {
+              "title": "Best Practices for QwQ Model Evaluation",
+              "filename": "eval-qwq",
+              "url": "eval-qwq",
+              "path": "model-evaluation/best-practice/eval-qwq/eval-qwq_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-7",
+              "md": true
+            },
+            {
+              "title": "iquiz",
+              "filename": "iquiz",
+              "url": "iquiz",
+              "path": "model-evaluation/best-practice/iquiz/iquiz_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-8",
+              "md": true
+            },
+            {
+              "title": "think-eval",
+              "filename": "think-eval",
+              "url": "think-eval",
+              "path": "model-evaluation/best-practice/think-eval/think-eval_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-9",
+              "md": true
+            },
+            {
+              "title": "deepseek-r1-distill",
+              "filename": "deepseek-r1-distill",
+              "url": "deepseek-r1-distill",
+              "path": "model-evaluation/best-practice/deepseek-r1-distill/deepseek-r1-distill_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-10",
+              "md": true
+            },
+            {
+              "title": "llm-full-stack",
+              "filename": "llm-full-stack",
+              "url": "llm-full-stack",
+              "path": "model-evaluation/best-practice/llm-full-stack/llm-full-stack_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-11",
+              "md": true
+            },
+            {
+              "title": "swift-integration",
+              "filename": "swift-integration",
+              "url": "swift-integration",
+              "path": "model-evaluation/best-practice/swift-integration/swift-integration_EN.md",
+              "intlDisabled": false,
+              "key": "0-15-4-12",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-15-4"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-15"
+    },
+    {
+      "title": "Model Service",
+      "filename": "model-service",
+      "url": "model-service",
+      "path": "model-service",
+      "dir": true,
+      "children": [
+        {
+          "title": "API Inference",
+          "filename": "API-Inference",
+          "url": "API-Inference",
+          "path": "model-service/API-Inference",
+          "dir": true,
+          "children": [
+            {
+              "title": "API Inference Introduction",
+              "filename": "intro",
+              "url": "intro",
+              "path": "model-service/API-Inference/intro/intro_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-0-0",
+              "md": true
+            },
+            {
+              "title": "API Inference Usage Limits",
+              "filename": "limits",
+              "url": "limits",
+              "path": "model-service/API-Inference/limits/limits_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-0-1",
+              "md": true
+            },
+            {
+              "title": "api-provider",
+              "filename": "api-provider",
+              "url": "api-provider",
+              "path": "model-service/API-Inference/api-provider/api-provider_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-0-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-16-0"
+        },
+        {
+          "title": "Model Deployment",
+          "filename": "deployment",
+          "url": "deployment",
+          "path": "model-service/deployment",
+          "dir": true,
+          "children": [
+            {
+              "title": "Model Deployment Introduction",
+              "filename": "intro",
+              "url": "intro",
+              "path": "model-service/deployment/intro/intro_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-0",
+              "md": true
+            },
+            {
+              "title": "Deploy OpenAI-API Compatible Model Service",
+              "filename": "swingdeploy-openai-api-compatible",
+              "url": "swingdeploy-openai-api-compatible",
+              "path": "model-service/deployment/swingdeploy-openai-api-compatible/swingdeploy-openai-api-compatible_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-1",
+              "md": true
+            },
+            {
+              "title": "One-Click Deployment Based on Native Pipeline",
+              "filename": "swingdeploy-pipeline",
+              "url": "swingdeploy-pipeline",
+              "path": "model-service/deployment/swingdeploy-pipeline/swingdeploy-pipeline_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-2",
+              "md": true
+            },
+            {
+              "title": "Local Deployment",
+              "filename": "local-deploy",
+              "url": "local-deploy",
+              "path": "model-service/deployment/local-deploy/local-deploy_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-1-3",
+              "md": true
+            }
+          ],
+          "intlDisabled": true,
+          "key": "0-16-1"
+        },
+        {
+          "title": "Model Training",
+          "filename": "train",
+          "url": "train",
+          "path": "model-service/train",
+          "dir": true,
+          "children": [
+            {
+              "title": "FlexTrain User Guide",
+              "filename": "flextrain",
+              "url": "flextrain",
+              "path": "model-service/train/flextrain/flextrain_EN.md",
+              "intlDisabled": false,
+              "key": "0-16-2-0",
+              "md": true
+            }
+          ],
+          "intlDisabled": true,
+          "key": "0-16-2"
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-16"
+    },
+    {
+      "title": "Magicube",
+      "filename": "magicube",
+      "url": "magicube",
+      "path": "magicube",
+      "dir": true,
+      "children": [
+        {
+          "title": "Magicube Rewards Program",
+          "filename": "intro",
+          "url": "intro",
+          "path": "magicube/intro/intro_EN.md",
+          "intlDisabled": false,
+          "key": "0-17-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-17"
+    },
+    {
+      "title": "Contributor Guide",
+      "filename": "contribute",
+      "url": "contribute",
+      "path": "contribute",
+      "dir": true,
+      "children": [
+        {
+          "title": "Model Integration Process",
+          "filename": "model-integration",
+          "url": "model-integration",
+          "path": "contribute/model-integration/model-integration_EN.md",
+          "intlDisabled": false,
+          "key": "0-18-0",
+          "md": true
+        },
+        {
+          "title": "Code-based Integration",
+          "filename": "code-based-integration",
+          "url": "code-based-integration",
+          "path": "contribute/code-based-integration",
+          "dir": true,
+          "children": [
+            {
+              "title": "Preparation",
+              "filename": "prep",
+              "url": "prep",
+              "path": "contribute/code-based-integration/prep/prep_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-0",
+              "md": true
+            },
+            {
+              "title": "Create a Branch and Submit a PR",
+              "filename": "branching",
+              "url": "branching",
+              "path": "contribute/code-based-integration/branching/branching_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-1",
+              "md": true
+            },
+            {
+              "title": "Developing Model Components and Inference Pipeline",
+              "filename": "process",
+              "url": "process",
+              "path": "contribute/code-based-integration/process/process_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-2",
+              "md": true
+            },
+            {
+              "title": "local-model-files",
+              "filename": "local-model-files",
+              "url": "local-model-files",
+              "path": "contribute/code-based-integration/local-model-files/local-model-files_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-3",
+              "md": true
+            },
+            {
+              "title": "Writing Test Cases",
+              "filename": "tests",
+              "url": "tests",
+              "path": "contribute/code-based-integration/tests/tests_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-4",
+              "md": true
+            },
+            {
+              "title": "Push Model to ModelHub",
+              "filename": "push",
+              "url": "push",
+              "path": "contribute/code-based-integration/push/push_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-5",
+              "md": true
+            },
+            {
+              "title": "Develop Training Pipeline",
+              "filename": "training",
+              "url": "training",
+              "path": "contribute/code-based-integration/training/training_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-6",
+              "md": true
+            },
+            {
+              "title": "Development Export Workflow",
+              "filename": "model-exploration",
+              "url": "model-exploration",
+              "path": "contribute/code-based-integration/model-exploration/model-exploration_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-7",
+              "md": true
+            },
+            {
+              "title": "Add Docstrings and Submit a PR",
+              "filename": "submit-a-pr",
+              "url": "submit-a-pr",
+              "path": "contribute/code-based-integration/submit-a-pr/submit-a-pr_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-1-8",
+              "md": true
+            },
+            {
+              "title": "Tutorials",
+              "filename": "tutorials",
+              "url": "tutorials",
+              "path": "contribute/code-based-integration/tutorials",
+              "dir": true,
+              "children": [
+                {
+                  "title": "Code Documentation Standards",
+                  "filename": "docstr",
+                  "url": "docstr",
+                  "path": "contribute/code-based-integration/tutorials/docstr/docstr_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-1-9-0",
+                  "md": true
+                },
+                {
+                  "title": "Large Model Development",
+                  "filename": "large-model-development",
+                  "url": "large-model-development",
+                  "path": "contribute/code-based-integration/tutorials/large-model-development/large-model-development_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-1-9-1",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-18-1-9"
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-18-1"
+        },
+        {
+          "title": "Model File",
+          "filename": "model-file",
+          "url": "model-file",
+          "path": "contribute/model-file",
+          "dir": true,
+          "children": [
+            {
+              "title": "Model Creation and File Upload",
+              "filename": "create-model-and-upload",
+              "url": "create-model-and-upload",
+              "path": "contribute/model-file/create-model-and-upload/create-model-and-upload_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-2-0",
+              "md": true
+            },
+            {
+              "title": "help",
+              "filename": "help",
+              "url": "help",
+              "path": "contribute/model-file/help",
+              "dir": true,
+              "children": [
+                {
+                  "title": "Model File Format",
+                  "filename": "model-file-format",
+                  "url": "model-file-format",
+                  "path": "contribute/model-file/help/model-file-format/model-file-format_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-0",
+                  "md": true
+                },
+                {
+                  "title": "Writing a Perfect Model Card",
+                  "filename": "wrtie-perfect-model-card",
+                  "url": "wrtie-perfect-model-card",
+                  "path": "contribute/model-file/help/wrtie-perfect-model-card/wrtie-perfect-model-card_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-1",
+                  "md": true
+                },
+                {
+                  "title": "model-demo",
+                  "filename": "model-demo",
+                  "url": "model-demo",
+                  "path": "contribute/model-file/help/model-demo",
+                  "dir": true,
+                  "children": [
+                    {
+                      "title": "Model Demo Integration Process",
+                      "filename": "model-demo-configuration",
+                      "url": "model-demo-configuration",
+                      "path": "contribute/model-file/help/model-demo/model-demo-configuration/model-demo-configuration_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-18-2-1-2-0",
+                      "md": true
+                    },
+                    {
+                      "title": "Widget Configuration Documentation",
+                      "filename": "widget-config",
+                      "url": "widget-config",
+                      "path": "contribute/model-file/help/model-demo/widget-config/widget-config_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-18-2-1-2-1",
+                      "md": true
+                    },
+                    {
+                      "title": "Frontend Component Documentation",
+                      "filename": "demo-fontend-component",
+                      "url": "demo-fontend-component",
+                      "path": "contribute/model-file/help/model-demo/demo-fontend-component/demo-fontend-component_EN.md",
+                      "intlDisabled": false,
+                      "key": "0-18-2-1-2-2",
+                      "md": true
+                    }
+                  ],
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-2"
+                },
+                {
+                  "title": "Model Management Settings",
+                  "filename": "model-management",
+                  "url": "model-management",
+                  "path": "contribute/model-file/help/model-management/model-management_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-18-2-1-3",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-18-2-1"
+            },
+            {
+              "title": "Become a Community Certified Model",
+              "filename": "become-community-certified-model",
+              "url": "become-community-certified-model",
+              "path": "contribute/model-file/become-community-certified-model/become-community-certified-model_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-2-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-18-2"
+        },
+        {
+          "title": "Register External Component",
+          "filename": "external-component",
+          "url": "external-component",
+          "path": "contribute/external-component",
+          "dir": true,
+          "children": [
+            {
+              "title": "Register Custom Components via ModelHub",
+              "filename": "register-custom-component-with-modelhub",
+              "url": "register-custom-component-with-modelhub",
+              "path": "contribute/external-component/register-custom-component-with-modelhub/register-custom-component-with-modelhub_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-3-0",
+              "md": true
+            },
+            {
+              "title": "Register Standalone Repository Based on GitHub and Other Platforms",
+              "filename": "register-standalone-repo-with-github",
+              "url": "register-standalone-repo-with-github",
+              "path": "contribute/external-component/register-standalone-repo-with-github/register-standalone-repo-with-github_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-3-1",
+              "md": true
+            },
+            {
+              "title": "Example of Registering a Standalone Repository with ModelHub",
+              "filename": "register-standalone-repo-with-modelhub",
+              "url": "register-standalone-repo-with-modelhub",
+              "path": "contribute/external-component/register-standalone-repo-with-modelhub/register-standalone-repo-with-modelhub_EN.md",
+              "intlDisabled": false,
+              "key": "0-18-3-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-18-3"
+        },
+        {
+          "title": "Pre-release and Status Appeals",
+          "filename": "pre-release",
+          "url": "pre-release",
+          "path": "contribute/pre-release/pre-release_EN.md",
+          "intlDisabled": false,
+          "key": "0-18-4",
+          "md": true
+        },
+        {
+          "title": "Integration in Progress and Status Appeals",
+          "filename": "integrating-status",
+          "url": "integrating-status",
+          "path": "contribute/integrating-status/integrating-status_EN.md",
+          "intlDisabled": false,
+          "key": "0-18-5",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-18"
+    },
+    {
+      "title": "Model Overview",
+      "filename": "model-overview",
+      "url": "model-overview",
+      "path": "model-overview",
+      "dir": true,
+      "children": [
+        {
+          "title": "index",
+          "filename": "index",
+          "url": "index",
+          "path": "model-overview/index/index_EN.md",
+          "intlDisabled": false,
+          "key": "0-19-0",
+          "md": true
+        },
+        {
+          "title": "Multimodal Models",
+          "filename": "multimodal",
+          "url": "multimodal",
+          "path": "model-overview/multimodal",
+          "dir": true,
+          "children": [
+            {
+              "title": "OFA Tutorial",
+              "filename": "OFA-Tutorial",
+              "url": "OFA-Tutorial",
+              "path": "model-overview/multimodal/OFA-Tutorial/OFA-Tutorial/OFA-Tutorial_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-1-0",
+              "md": true
+            },
+            {
+              "title": "mplug",
+              "filename": "mplug",
+              "url": "mplug",
+              "path": "model-overview/multimodal/mplug/mplug_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-1-1",
+              "md": true
+            },
+            {
+              "title": "clip-tutorial",
+              "filename": "clip-tutorial",
+              "url": "clip-tutorial",
+              "path": "model-overview/multimodal/clip-tutorial",
+              "dir": true,
+              "children": [
+                {
+                  "title": "CLIP_CN_Tutorial",
+                  "filename": "CLIP-CN-Tutorial",
+                  "url": "CLIP-CN-Tutorial",
+                  "path": "model-overview/multimodal/clip-tutorial/CLIP-CN-Tutorial/CLIP-CN-Tutorial_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-1-2-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-1-2"
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-1"
+        },
+        {
+          "title": "Computer Vision Models",
+          "filename": "vision",
+          "url": "vision",
+          "path": "model-overview/vision",
+          "dir": true,
+          "children": [
+            {
+              "title": "AAMS-style-transfer",
+              "filename": "AAMS-style-transfer",
+              "url": "AAMS-style-transfer",
+              "path": "model-overview/vision/AAMS-style-transfer",
+              "dir": true,
+              "children": [
+                {
+                  "title": "AAMS",
+                  "filename": "AAMS",
+                  "url": "AAMS",
+                  "path": "model-overview/vision/AAMS-style-transfer/AAMS/AAMS_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-0-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-0"
+            },
+            {
+              "title": "ABPN-skin-retouching",
+              "filename": "ABPN-skin-retouching",
+              "url": "ABPN-skin-retouching",
+              "path": "model-overview/vision/ABPN-skin-retouching/ABPN-skin-retouching_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-1",
+              "md": true
+            },
+            {
+              "title": "BSHM-human-matting",
+              "filename": "BSHM-human-matting",
+              "url": "BSHM-human-matting",
+              "path": "model-overview/vision/BSHM-human-matting",
+              "dir": true,
+              "children": [
+                {
+                  "title": "BSHM",
+                  "filename": "BSHM",
+                  "url": "BSHM",
+                  "path": "model-overview/vision/BSHM-human-matting/BSHM/BSHM_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-2-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-2"
+            },
+            {
+              "title": "BaSSL-movie-scene-segmentation",
+              "filename": "BaSSL-movie-scene-segmentation",
+              "url": "BaSSL-movie-scene-segmentation",
+              "path": "model-overview/vision/BaSSL-movie-scene-segmentation/BaSSL-movie-scene-segmentation_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-3",
+              "md": true
+            },
+            {
+              "title": "CascadeMaskRCNNSwin-instance-segmentation",
+              "filename": "CascadeMaskRCNNSwin-instance-segmentation",
+              "url": "CascadeMaskRCNNSwin-instance-segmentation",
+              "path": "model-overview/vision/CascadeMaskRCNNSwin-instance-segmentation",
+              "dir": true,
+              "children": [
+                {
+                  "title": "CascadeMaskRCNNSwin",
+                  "filename": "CascadeMaskRCNNSwin",
+                  "url": "CascadeMaskRCNNSwin",
+                  "path": "model-overview/vision/CascadeMaskRCNNSwin-instance-segmentation/CascadeMaskRCNNSwin/CascadeMaskRCNNSwin_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-4-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-4"
+            },
+            {
+              "title": "DCTNet-cartoon",
+              "filename": "DCTNet-cartoon",
+              "url": "DCTNet-cartoon",
+              "path": "model-overview/vision/DCTNet-cartoon/DCTNet-cartoon_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-5",
+              "md": true
+            },
+            {
+              "title": "GPEN-image-portrait-enhancement",
+              "filename": "GPEN-image-portrait-enhancement",
+              "url": "GPEN-image-portrait-enhancement",
+              "path": "model-overview/vision/GPEN-image-portrait-enhancement",
+              "dir": true,
+              "children": [
+                {
+                  "title": "GPEN",
+                  "filename": "GPEN",
+                  "url": "GPEN",
+                  "path": "model-overview/vision/GPEN-image-portrait-enhancement/GPEN/GPEN_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-6-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-6"
+            },
+            {
+              "title": "Hand-2d-keypoints-detection",
+              "filename": "Hand-2d-keypoints-detection",
+              "url": "Hand-2d-keypoints-detection",
+              "path": "model-overview/vision/Hand-2d-keypoints-detection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "DarkPose-2d-keypoints",
+                  "filename": "DarkPose-2d-keypoints",
+                  "url": "DarkPose-2d-keypoints",
+                  "path": "model-overview/vision/Hand-2d-keypoints-detection/DarkPose-2d-keypoints/DarkPose-2d-keypoints_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-7-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-7"
+            },
+            {
+              "title": "LaMa-image-inpainting",
+              "filename": "LaMa-image-inpainting",
+              "url": "LaMa-image-inpainting",
+              "path": "model-overview/vision/LaMa-image-inpainting/LaMa-image-inpainting_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-8",
+              "md": true
+            },
+            {
+              "title": "MTTR-referring-video-object-segmentation",
+              "filename": "MTTR-referring-video-object-segmentation",
+              "url": "MTTR-referring-video-object-segmentation",
+              "path": "model-overview/vision/MTTR-referring-video-object-segmentation/MTTR-referring-video-object-segmentation_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-9",
+              "md": true
+            },
+            {
+              "title": "NAFNet-image-denoising",
+              "filename": "NAFNet-image-denoising",
+              "url": "NAFNet-image-denoising",
+              "path": "model-overview/vision/NAFNet-image-denoising/NAFNet-image-denoising_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-10",
+              "md": true
+            },
+            {
+              "title": "SCRFD-card-detection",
+              "filename": "SCRFD-card-detection",
+              "url": "SCRFD-card-detection",
+              "path": "model-overview/vision/SCRFD-card-detection/SCRFD-card-detection_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-11",
+              "md": true
+            },
+            {
+              "title": "SCRFD-face-detection",
+              "filename": "SCRFD-face-detection",
+              "url": "SCRFD-face-detection",
+              "path": "model-overview/vision/SCRFD-face-detection/SCRFD-face-detection_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-12",
+              "md": true
+            },
+            {
+              "title": "Segformer-Bx-image-semantic-segmentation",
+              "filename": "Segformer-Bx-image-semantic-segmentation",
+              "url": "Segformer-Bx-image-semantic-segmentation",
+              "path": "model-overview/vision/Segformer-Bx-image-semantic-segmentation/Segformer-Bx-image-semantic-segmentation_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-13",
+              "md": true
+            },
+            {
+              "title": "body-2d-keypoints",
+              "filename": "body-2d-keypoints",
+              "url": "body-2d-keypoints",
+              "path": "model-overview/vision/body-2d-keypoints/body-2d-keypoints_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-14",
+              "md": true
+            },
+            {
+              "title": "face-2d-keypoints",
+              "filename": "face-2d-keypoints",
+              "url": "face-2d-keypoints",
+              "path": "model-overview/vision/face-2d-keypoints/face-2d-keypoints_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-15",
+              "md": true
+            },
+            {
+              "title": "human-detection",
+              "filename": "human-detection",
+              "url": "human-detection",
+              "path": "model-overview/vision/human-detection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "cv-resnet18-human-detection",
+                  "filename": "cv-resnet18-human-detection",
+                  "url": "cv-resnet18-human-detection",
+                  "path": "model-overview/vision/human-detection/cv-resnet18-human-detection/cv-resnet18-human-detection_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-16-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-16"
+            },
+            {
+              "title": "ocr-detection",
+              "filename": "ocr-detection",
+              "url": "ocr-detection",
+              "path": "model-overview/vision/ocr-detection",
+              "dir": true,
+              "children": [
+                {
+                  "title": "cv-resnet18-ocr-detection",
+                  "filename": "cv-resnet18-ocr-detection",
+                  "url": "cv-resnet18-ocr-detection",
+                  "path": "model-overview/vision/ocr-detection/cv-resnet18-ocr-detection/cv-resnet18-ocr-detection_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-17-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-17"
+            },
+            {
+              "title": "ocr-recognition",
+              "filename": "ocr-recognition",
+              "url": "ocr-recognition",
+              "path": "model-overview/vision/ocr-recognition",
+              "dir": true,
+              "children": [
+                {
+                  "title": "convnextTiny-ocr-recognition",
+                  "filename": "convnextTiny-ocr-recognition",
+                  "url": "convnextTiny-ocr-recognition",
+                  "path": "model-overview/vision/ocr-recognition/convnextTiny-ocr-recognition/convnextTiny-ocr-recognition_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-18-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-18"
+            },
+            {
+              "title": "video-summarization",
+              "filename": "video-summarization",
+              "url": "video-summarization",
+              "path": "model-overview/vision/video-summarization",
+              "dir": true,
+              "children": [
+                {
+                  "title": "pgl-video-summatization",
+                  "filename": "pgl-video-summatization",
+                  "url": "pgl-video-summatization",
+                  "path": "model-overview/vision/video-summarization/pgl-video-summatization/pgl-video-summatization_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-2-19-0",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-2-19"
+            },
+            {
+              "title": "vit_base_image_classification",
+              "filename": "vit-base-image-classification",
+              "url": "vit-base-image-classification",
+              "path": "model-overview/vision/vit-base-image-classification/vit-base-image-classification_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-2-20",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-2"
+        },
+        {
+          "title": "Audio",
+          "filename": "audio",
+          "url": "audio",
+          "path": "model-overview/audio",
+          "dir": true,
+          "children": [
+            {
+              "title": "frcrn",
+              "filename": "frcrn",
+              "url": "frcrn",
+              "path": "model-overview/audio/frcrn/frcrn_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-3-0",
+              "md": true
+            },
+            {
+              "title": "Paraformer",
+              "filename": "paraformer",
+              "url": "paraformer",
+              "path": "model-overview/audio/paraformer/paraformer_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-3-1",
+              "md": true
+            },
+            {
+              "title": "sambert",
+              "filename": "sambert",
+              "url": "sambert",
+              "path": "model-overview/audio/sambert/sambert_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-3-2",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-3"
+        },
+        {
+          "title": "NLP Models",
+          "filename": "nlp",
+          "url": "nlp",
+          "path": "model-overview/nlp",
+          "dir": true,
+          "children": [
+            {
+              "title": "csanmt",
+              "filename": "csanmt",
+              "url": "csanmt",
+              "path": "model-overview/nlp/csanmt/csanmt_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-0",
+              "md": true
+            },
+            {
+              "title": "GPT-3",
+              "filename": "gpt3",
+              "url": "gpt3",
+              "path": "model-overview/nlp/gpt3/gpt3_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-1",
+              "md": true
+            },
+            {
+              "title": "named-entity-recognition",
+              "filename": "named-entity-recognition",
+              "url": "named-entity-recognition",
+              "path": "model-overview/nlp/named-entity-recognition/named-entity-recognition_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-2",
+              "md": true
+            },
+            {
+              "title": "palm",
+              "filename": "palm",
+              "url": "palm",
+              "path": "model-overview/nlp/palm/palm_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-3",
+              "md": true
+            },
+            {
+              "title": "passageranking",
+              "filename": "passageranking",
+              "url": "passageranking",
+              "path": "model-overview/nlp/passageranking/passageranking_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-4",
+              "md": true
+            },
+            {
+              "title": "plug",
+              "filename": "plug",
+              "url": "plug",
+              "path": "model-overview/nlp/plug/plug_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-5",
+              "md": true
+            },
+            {
+              "title": "sentiment-analysis",
+              "filename": "sentiment-analysis",
+              "url": "sentiment-analysis",
+              "path": "model-overview/nlp/sentiment-analysis/sentiment-analysis_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-6",
+              "md": true
+            },
+            {
+              "title": "space-t",
+              "filename": "space-t",
+              "url": "space-t",
+              "path": "model-overview/nlp/space-t",
+              "dir": true,
+              "children": [
+                {
+                  "title": "space-T-en",
+                  "filename": "space-T-en",
+                  "url": "space-T-en",
+                  "path": "model-overview/nlp/space-t/space-T-en/space-T-en_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-4-7-0",
+                  "md": true
+                },
+                {
+                  "title": "space-t-cn",
+                  "filename": "space-t-cn",
+                  "url": "space-t-cn",
+                  "path": "model-overview/nlp/space-t/space-t-cn/space-t-cn_EN.md",
+                  "intlDisabled": false,
+                  "key": "0-19-4-7-1",
+                  "md": true
+                }
+              ],
+              "intlDisabled": false,
+              "key": "0-19-4-7"
+            },
+            {
+              "title": "structbert",
+              "filename": "structbert",
+              "url": "structbert",
+              "path": "model-overview/nlp/structbert/structbert_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-8",
+              "md": true
+            },
+            {
+              "title": "text-error-correction",
+              "filename": "text-error-correction",
+              "url": "text-error-correction",
+              "path": "model-overview/nlp/text-error-correction/text-error-correction_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-9",
+              "md": true
+            },
+            {
+              "title": "textsimilarity",
+              "filename": "textsimilarity",
+              "url": "textsimilarity",
+              "path": "model-overview/nlp/textsimilarity/textsimilarity_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-10",
+              "md": true
+            },
+            {
+              "title": "wordsegmentation",
+              "filename": "wordsegmentation",
+              "url": "wordsegmentation",
+              "path": "model-overview/nlp/wordsegmentation/wordsegmentation_EN.md",
+              "intlDisabled": false,
+              "key": "0-19-4-11",
+              "md": true
+            }
+          ],
+          "intlDisabled": false,
+          "key": "0-19-4"
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-19"
+    },
+    {
+      "title": "Competition",
+      "filename": "competition",
+      "url": "competition",
+      "path": "competition",
+      "dir": true,
+      "children": [
+        {
+          "title": "Competition Registration",
+          "filename": "signup",
+          "url": "signup",
+          "path": "competition/signup/signup_EN.md",
+          "intlDisabled": false,
+          "key": "0-20-0",
+          "md": true
+        },
+        {
+          "title": "Participant Agreement",
+          "filename": "agreement",
+          "url": "agreement",
+          "path": "competition/agreement/agreement_EN.md",
+          "intlDisabled": false,
+          "key": "0-20-1",
+          "md": true
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-20"
+    },
+    {
+      "title": "FAQ",
+      "filename": "faq",
+      "url": "faq",
+      "path": "faq",
+      "dir": true,
+      "children": [
+        {
+          "title": "Common Platform Questions",
+          "filename": "common",
+          "url": "common",
+          "path": "faq/common/common_EN.md",
+          "intlDisabled": false,
+          "key": "0-22-0",
+          "md": true
+        },
+        {
+          "title": "Notebook Common Questions",
+          "filename": "notebooks",
+          "url": "notebooks",
+          "path": "faq/notebooks/notebooks_EN.md",
+          "intlDisabled": false,
+          "key": "0-22-1",
+          "md": true
+        },
+        {
+          "title": "Common Dataset Questions",
+          "filename": "datasets",
+          "url": "datasets",
+          "path": "faq/datasets/datasets_EN.md",
+          "intlDisabled": false,
+          "key": "0-22-2",
+          "md": true
+        }
+      ],
+      "intlDisabled": true,
+      "key": "0-22"
+    },
+    {
+      "title": "Community",
+      "filename": "community",
+      "url": "community",
+      "path": "community",
+      "dir": true,
+      "children": [
+        {
+          "title": "About Us",
+          "filename": "about-us",
+          "url": "about-us",
+          "path": "community/about-us/about-us_EN.md",
+          "intlDisabled": false,
+          "key": "0-23-0",
+          "md": true
+        },
+        {
+          "title": "Developer Forum",
+          "filename": "forum",
+          "url": "forum",
+          "path": "community/forum/forum_EN.md",
+          "intlDisabled": false,
+          "key": "0-23-1",
+          "md": true
+        },
+        {
+          "title": "Contact Us",
+          "filename": "contact-us",
+          "url": "contact-us",
+          "path": "community/contact-us/contact-us_EN.md",
+          "intlDisabled": false,
+          "key": "0-23-2",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-23"
+    },
+    {
+      "title": "User Agreement",
+      "filename": "agreements",
+      "url": "agreements",
+      "path": "agreements",
+      "dir": true,
+      "children": [
+        {
+          "title": "AI Ethics Initiative",
+          "filename": "ai-ethics",
+          "url": "ai-ethics",
+          "path": "agreements/ai-ethics/ai-ethics_EN.md",
+          "intlDisabled": false,
+          "key": "0-24-0",
+          "md": true
+        },
+        {
+          "title": "Content Compliance Review",
+          "filename": "content-compliance",
+          "url": "content-compliance",
+          "path": "agreements/content-compliance/content-compliance_EN.md",
+          "intlDisabled": false,
+          "key": "0-24-1",
+          "md": true
+        },
+        {
+          "title": "Code of Conduct",
+          "filename": "code-of-conduct",
+          "url": "code-of-conduct",
+          "path": "agreements/code-of-conduct/code-of-conduct_EN.md",
+          "intlDisabled": false,
+          "key": "0-24-2",
+          "md": true
+        },
+        {
+          "title": "Open Source License List",
+          "filename": "licenses",
+          "url": "licenses",
+          "path": "agreements/licenses/licenses_EN.md",
+          "intlDisabled": false,
+          "key": "0-24-3",
+          "md": true
+        },
+        {
+          "title": "User Agreement",
+          "filename": "terms",
+          "url": "terms",
+          "path": "agreements/terms/terms_EN.md",
+          "intlDisabled": false,
+          "key": "0-24-4",
+          "md": true
+        },
+        {
+          "title": "Cross-Account Role Documentation",
+          "filename": "cloud-integration",
+          "url": "cloud-integration",
+          "path": "agreements/cloud-integration/cloud-integration_EN.md",
+          "intlDisabled": false,
+          "key": "0-24-5",
+          "md": true
+        },
+        {
+          "title": "Privacy Policy",
+          "filename": "privacy",
+          "url": "privacy",
+          "path": "agreements/privacy/privacy_EN.md",
+          "intlDisabled": false,
+          "key": "0-24-6",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-24"
+    }
+  ],
+  "intlDisabled": false,
+  "key": "0"
+}

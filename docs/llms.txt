@@ -1,0 +1,8 @@
+# ModelScope Docs
+
+Official bilingual documentation mirror.
+
+- EN: 191 pages (version 20260807104831)
+- ZH: 294 pages (version 20260807104749)
+
+Source: https://www.modelscope.cn/docs
