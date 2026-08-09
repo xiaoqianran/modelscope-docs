@@ -24,3 +24,13 @@ npm run fetch
 PAGES_BASE=/modelscope-docs npm run build
 node scripts/serve-pages.mjs
 ```
+
+## LLM / agent access ([llmstxt.org](https://llmstxt.org/))
+
+| File | Purpose |
+|------|---------|
+| [`/llms.txt`](./llms.txt) | Curated page index (mirror URLs) |
+| [`/llms-full.txt`](./llms-full.txt) | Full markdown corpus for ingestion |
+| `/meta/llms-index.json` | Machine-readable page list |
+
+Generated at build time from scraped pages.

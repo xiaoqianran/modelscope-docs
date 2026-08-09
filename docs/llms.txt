@@ -1,8 +1,456 @@
 # ModelScope Docs
 
-Official bilingual documentation mirror.
+> Unofficial bilingual mirror of ModelScope documentation (EN + 中文).
 
-- EN: 191 pages (version 20260807104831)
-- ZH: 294 pages (version 20260807104749)
+Important notes:
 
-Source: https://www.modelscope.cn/docs
+- This is an unofficial documentation mirror for LLM / agent ingestion ([llmstxt.org](https://llmstxt.org/)).
+- Prefer the [official docs](https://www.modelscope.cn/docs) as the source of truth.
+- Mirror site: https://xiaoqianran.github.io/modelscope-docs/
+- Full corpus: https://xiaoqianran.github.io/modelscope-docs/llms-full.txt
+- Index JSON: https://xiaoqianran.github.io/modelscope-docs/meta/list.json (if present)
+- Source repo: https://github.com/xiaoqianran/modelscope-docs
+- Pages in this index: 294
+
+## Overview
+
+- [Overview](https://xiaoqianran.github.io/modelscope-docs/overview/overview.html)
+
+## Introduction
+
+- [Quick Start](https://xiaoqianran.github.io/modelscope-docs/intro/quickstart/quickstart.html)
+- [Environment Setup](https://xiaoqianran.github.io/modelscope-docs/intro/environment-setup/environment-setup.html)
+
+## Models
+
+- [Model Hub Introduction](https://xiaoqianran.github.io/modelscope-docs/models/intro/intro.html)
+- [Model Download](https://xiaoqianran.github.io/modelscope-docs/models/download/download.html)
+- [Model Upload](https://xiaoqianran.github.io/modelscope-docs/models/upload/upload.html)
+- [Model Card](https://xiaoqianran.github.io/modelscope-docs/models/model-card/model-card.html)
+- [Model Versions](https://xiaoqianran.github.io/modelscope-docs/models/version/version.html)
+- [Model Discovery and Experience](https://xiaoqianran.github.io/modelscope-docs/models/discovery/discovery.html)
+
+### Advanced Usage
+
+- [Loading ModelScope Models with Ollama](https://xiaoqianran.github.io/modelscope-docs/models/advanced-usage/ollama-integration/ollama-integration.html)
+- [llama-cpp-integration](https://xiaoqianran.github.io/modelscope-docs/models/advanced-usage/llama-cpp-integration/llama-cpp-integration.html)
+- [Run Llamafile Format Models Directly](https://xiaoqianran.github.io/modelscope-docs/models/advanced-usage/llamafile/llamafile.html)
+- [Alibaba Cloud Intranet Acceleration](https://xiaoqianran.github.io/modelscope-docs/models/advanced-usage/cloud-accelerator/cloud-accelerator.html)
+- [Submit Pull Requests](https://xiaoqianran.github.io/modelscope-docs/models/advanced-usage/pull-requests/pull-requests.html)
+
+## Datasets
+
+- [Dataset Introduction](https://xiaoqianran.github.io/modelscope-docs/datasets/intro/intro.html)
+- [Creating Datasets](https://xiaoqianran.github.io/modelscope-docs/datasets/create/create.html)
+- [Dataset Upload](https://xiaoqianran.github.io/modelscope-docs/datasets/upload/upload.html)
+- [Dataset Download](https://xiaoqianran.github.io/modelscope-docs/datasets/download/download.html)
+- [Dataset Card](https://xiaoqianran.github.io/modelscope-docs/datasets/dataset-card/dataset-card.html)
+- [Dataset Maintenance](https://xiaoqianran.github.io/modelscope-docs/datasets/maintenance/maintenance.html)
+- [Dataset File Guidelines](https://xiaoqianran.github.io/modelscope-docs/datasets/guidance/guidance.html)
+- [Custom Dataset Integration Process](https://xiaoqianran.github.io/modelscope-docs/datasets/custom-datasets/custom-datasets.html)
+
+### Dataset Examples
+
+- [Text Dataset](https://xiaoqianran.github.io/modelscope-docs/datasets/examples/text-dataset/text-dataset.html)
+- [Image Dataset](https://xiaoqianran.github.io/modelscope-docs/datasets/examples/image-dataset/image-dataset.html)
+- [Audio Dataset](https://xiaoqianran.github.io/modelscope-docs/datasets/examples/audio-dataset/audio-dataset.html)
+
+## Studios
+
+- [Introduction to Studios](https://xiaoqianran.github.io/modelscope-docs/studios/intro/intro.html)
+- [Studio Card](https://xiaoqianran.github.io/modelscope-docs/studios/studio-card/studio-card.html)
+- [Creating and Building Studios](https://xiaoqianran.github.io/modelscope-docs/studios/create/create.html)
+- [Quick Creation and Deployment](https://xiaoqianran.github.io/modelscope-docs/studios/quick-create/quick-create.html)
+- [Docker Studio Introduction](https://xiaoqianran.github.io/modelscope-docs/studios/docker/docker.html)
+- [Studio Resource Specifications](https://xiaoqianran.github.io/modelscope-docs/studios/resource-selections/resource-selections.html)
+- [Introduction to xGPU Studios](https://xiaoqianran.github.io/modelscope-docs/studios/xGPU/xGPU.html)
+
+### Studios Examples
+
+- [Gradio SDK Examples](https://xiaoqianran.github.io/modelscope-docs/studios/examples/gradio/gradio.html)
+- [Streamlit SDK Examples](https://xiaoqianran.github.io/modelscope-docs/studios/examples/streamlit/streamlit.html)
+
+## Notebook
+
+- [Notebook Introduction](https://xiaoqianran.github.io/modelscope-docs/notebook/intro/intro.html)
+- [New Editor](https://xiaoqianran.github.io/modelscope-docs/notebook/new-editor/new-editor.html)
+- [Using VS Code via Web IDE](https://xiaoqianran.github.io/modelscope-docs/notebook/web-ide/web-ide.html)
+- [Notebook Sharing and Collaboration](https://xiaoqianran.github.io/modelscope-docs/notebook/sharing/sharing.html)
+- [Notebook Instance Creation and Management](https://xiaoqianran.github.io/modelscope-docs/notebook/instance-management/instance-management.html)
+- [Notebook Environment Configuration and Management](https://xiaoqianran.github.io/modelscope-docs/notebook/environment-setup/environment-setup.html)
+- [Notebook Data Storage](https://xiaoqianran.github.io/modelscope-docs/notebook/data-storage/data-storage.html)
+
+## Collections
+
+- [Introduction to Collections](https://xiaoqianran.github.io/modelscope-docs/collections/intro/intro.html)
+
+## Civision
+
+- [Civision Introduction](https://xiaoqianran.github.io/modelscope-docs/aigc/intro/intro.html)
+- [Quick Image Generation](https://xiaoqianran.github.io/modelscope-docs/aigc/image-gen-basic/image-gen-basic.html)
+- [Professional Image Generation](https://xiaoqianran.github.io/modelscope-docs/aigc/image-gen-pro/image-gen-pro.html)
+- [Training Tutorial](https://xiaoqianran.github.io/modelscope-docs/aigc/train/train.html)
+- [AIGC Zone FAQ](https://xiaoqianran.github.io/modelscope-docs/aigc/aigc-faq/aigc-faq.html)
+
+## MCP
+
+- [MCP Plaza Introduction](https://xiaoqianran.github.io/modelscope-docs/mcp/intro/intro.html)
+- [Creating MCP Services](https://xiaoqianran.github.io/modelscope-docs/mcp/create/create.html)
+- [MCP Deployment Service Usage Limits](https://xiaoqianran.github.io/modelscope-docs/mcp/limits/limits.html)
+- [MCP SDK Interface](https://xiaoqianran.github.io/modelscope-docs/mcp/sdk/sdk.html)
+- [ModelScope MCP Server OAuth Configuration](https://xiaoqianran.github.io/modelscope-docs/mcp/ms-mcp-oauth/ms-mcp-oauth.html)
+- [Cherry Studio Integration](https://xiaoqianran.github.io/modelscope-docs/mcp/cherry-studio/cherry-studio.html)
+- [Kimi Playground Integration](https://xiaoqianran.github.io/modelscope-docs/mcp/kimi-playground/kimi-playground.html)
+- [Tongyi Lingma Integration](https://xiaoqianran.github.io/modelscope-docs/mcp/lingma/lingma.html)
+- [Intel AI Assistant Builder Integration](https://xiaoqianran.github.io/modelscope-docs/mcp/intel-ai-integration/intel-ai-integration.html)
+
+## Skills Center
+
+- [Introduction to Skills Center](https://xiaoqianran.github.io/modelscope-docs/skills/intro/intro.html)
+- [Download and Install Skills](https://xiaoqianran.github.io/modelscope-docs/skills/install/install.html)
+
+## Nexa
+
+- [Introduction to Nexa](https://xiaoqianran.github.io/modelscope-docs/nexa/intro/intro.html)
+
+## Accounts
+
+- [Account Registration and Login](https://xiaoqianran.github.io/modelscope-docs/accounts/registration/registration.html)
+- [Password Modification and Password Recovery](https://xiaoqianran.github.io/modelscope-docs/accounts/password/password.html)
+- [How to Create an Organization](https://xiaoqianran.github.io/modelscope-docs/accounts/create-a-org/create-a-org.html)
+- [Organization Permission Description](https://xiaoqianran.github.io/modelscope-docs/accounts/org-permission/org-permission.html)
+- [Model and Dataset Owner Permission Transfer](https://xiaoqianran.github.io/modelscope-docs/accounts/ownership-transfer/ownership-transfer.html)
+- [Access Token](https://xiaoqianran.github.io/modelscope-docs/accounts/token/token.html)
+- [Log in via ModelScope (OAuth)](https://xiaoqianran.github.io/modelscope-docs/accounts/oauth/oauth.html)
+- [Alibaba Cloud Account Binding and Authorization Tutorial](https://xiaoqianran.github.io/modelscope-docs/accounts/aliyun-binding-and-authorization/aliyun-binding-and-authorization.html)
+
+## Library
+
+- [Library Introduction](https://xiaoqianran.github.io/modelscope-docs/sdk/intro/intro.html)
+- [CLI Tool Reference](https://xiaoqianran.github.io/modelscope-docs/sdk/cli/cli.html)
+- [Model Loading and Preprocessing](https://xiaoqianran.github.io/modelscope-docs/sdk/model-load-and-preprocess/model-load-and-preprocess.html)
+- [Model Inference Pipeline](https://xiaoqianran.github.io/modelscope-docs/sdk/pipelines/pipelines.html)
+- [Dataset Usage Guide](https://xiaoqianran.github.io/modelscope-docs/sdk/dataset/dataset.html)
+- [Model Training](https://xiaoqianran.github.io/modelscope-docs/sdk/model-training/model-training.html)
+- [Model Export](https://xiaoqianran.github.io/modelscope-docs/sdk/model-export/model-export.html)
+
+### Best Practices
+
+- [Introduction to Tasks](https://xiaoqianran.github.io/modelscope-docs/sdk/tasks/intro/intro.html)
+- [Introduction to NLG Large Models](https://xiaoqianran.github.io/modelscope-docs/sdk/tasks/nlg-models/nlg-models.html)
+- [Text Classification Task](https://xiaoqianran.github.io/modelscope-docs/sdk/tasks/text-classification/text-classification.html)
+- [Token Classification Task](https://xiaoqianran.github.io/modelscope-docs/sdk/tasks/token-classification/token-classification.html)
+- [Text Generation Task](https://xiaoqianran.github.io/modelscope-docs/sdk/tasks/text-generation/text-generation.html)
+- [Image Segmentation Task](https://xiaoqianran.github.io/modelscope-docs/sdk/tasks/image-segmentation/image-segmentation.html)
+
+### Tutorials
+
+- [Library Framework Mechanism](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/framework-design/framework-design.html)
+- [Configuration Guide](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/configuration/configuration.html)
+- [Callback Mechanism](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/callbacks/callbacks.html)
+- [Data Preprocessing](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/data-preprocessor/data-preprocessor.html)
+- [Model Evaluation](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/model-evaluation/model-evaluation.html)
+- [Detailed Training Parameters](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/training-parameters/training-parameters.html)
+- [Default Pipeline Configuration](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/pipeline-default-config/pipeline-default-config.html)
+- [Using Flask to Build Model Services](https://xiaoqianran.github.io/modelscope-docs/sdk/tutorials/use-flask-for-model-service/use-flask-for-model-service.html)
+
+## Large Model Training and Inference
+
+### intro
+
+- [Quick Start](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/intro/quickstart/quickstart.html)
+- [SWIFT Installation](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/intro/swift-installation/swift-installation.html)
+- [Web-UI](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/intro/web-ui/web-ui.html)
+
+### user-guide
+
+- [Command Line Parameters](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/command-line-parameters/command-line-parameters.html)
+- [Pre-training and Fine-tuning](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/pretraining-and-finetuning/pretraining-and-finetuning.html)
+- [Human Alignment](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/rlhf/rlhf.html)
+- [megatron-swift](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/megatron-swift/megatron-swift.html)
+- [inference-and-deployment](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/inference-and-deployment/inference-and-deployment.html)
+- [sample](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/sample/sample.html)
+- [evaluation](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/evaluation/evaluation.html)
+- [export-and-push](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/export-and-push/export-and-push.html)
+- [reinforced-fine-tuning](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/reinforced-fine-tuning/reinforced-fine-tuning.html)
+- [grpo](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/quick-started/grpo/grpo.html)
+- [multi-turn](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/developer-guide/multi-turn/multi-turn.html)
+- [multi-task](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/developer-guide/multi-task/multi-task.html)
+- [reward-function](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/developer-guide/reward-function/reward-function.html)
+- [reward-model](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/developer-guide/reward-model/reward-model.html)
+- [loss-type](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/developer-guide/loss-type/loss-type.html)
+- [gym-env](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/developer-guide/gym-env/gym-env.html)
+- [entropy_mask](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/entropy-mask/entropy-mask.html)
+- [cispo](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/cispo/cispo.html)
+- [dapo](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/dapo/dapo.html)
+- [deepeyes](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/deepeyes/deepeyes.html)
+- [gspo](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/gspo/gspo.html)
+- [chord](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/chord/chord.html)
+- [rloo](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/rloo/rloo.html)
+- [reinforce-plus-plus](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/reinforce-plus-plus/reinforce-plus-plus.html)
+- [sapo](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/sapo/sapo.html)
+- [training-inference-mismatch](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/training-inference-mismatch/training-inference-mismatch.html)
+- [treepo](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/grpo-guide/advanced-research/treepo/treepo.html)
+- [GKD](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/GKD/GKD.html)
+- [supported-models-and-datasets](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/supported-models-and-datasets/supported-models-and-datasets.html)
+- [tuners](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/tuners/tuners.html)
+- [agent-support](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/agent-support/agent-support.html)
+- [Ray](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/Ray/Ray.html)
+- [faq](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/user-guide/faq/faq.html)
+
+### megatron-training
+
+- [Quick Start](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/megatron-training/quick-start/quick-start.html)
+- [Command Line Parameters](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/megatron-training/command-line-parameters/command-line-parameters.html)
+- [LoRA Training](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/megatron-training/lora-training/lora-training.html)
+- [Multimodal Models](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/megatron-training/multi-modal-model/multi-modal-model.html)
+- [Mcore-Bridge](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/megatron-training/mcore-bridge/mcore-bridge.html)
+- [GRPO](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/megatron-training/grpo/grpo.html)
+
+### customization
+
+- [Custom Models](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/customization/custom-model/custom-model.html)
+- [Custom Datasets](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/customization/custom-dataset/custom-dataset.html)
+- [Plugin System](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/customization/plugins/plugins.html)
+
+### best-practices
+
+- [Complete GRPO Workflow](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/grpo/grpo.html)
+- [Multimodal GRPO Training](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/multimodal-grpo/multimodal-grpo.html)
+- [GRPO Code Training](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/GRPO-dai-ma-xun-lian/GRPO-dai-ma-xun-lian.html)
+- [Qwen3 Best Practices](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/qwen3/qwen3.html)
+- [Qwen3-VL Best Practices](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/Qwen3-VL-zui-jia-shi-jian/Qwen3-VL-zui-jia-shi-jian.html)
+- [Embedding Training](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/embedding/embedding.html)
+- [Reranker Training](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/reranker/reranker.html)
+- [Quick VL Model Training](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/vl-training/vl-training.html)
+- [NPU Support](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/npu/npu.html)
+- [More Best Practices](https://xiaoqianran.github.io/modelscope-docs/llm-training-and-inference/best-practices/more-best-practices/more-best-practices.html)
+
+## Model Evaluation
+
+### Get Started
+
+- [Introduction](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/introduction/introduction.html)
+- [Installation](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/installation/installation.html)
+- [Quick Start](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/basic-usage/basic-usage.html)
+- [Visualization](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/visualization/visualization.html)
+- [Parameter Description](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/parameters/parameters.html)
+- [llm](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/llm/llm.html)
+- [vlm](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/vlm/vlm.html)
+- [AGENT Evaluation Datasets](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/agent/agent.html)
+- [aigc](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/aigc/aigc.html)
+- [OpenCompass](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/other/opencompass/opencompass.html)
+- [vlmevalkit](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/other/vlmevalkit/vlmevalkit.html)
+- [MTEB Evaluation Datasets](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/other/mteb/mteb.html)
+- [CLIP-Benchmark](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/supported-dataset/other/clip/clip.html)
+- [❓ Frequently Asked Questions](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/get-started/faq/faq.html)
+
+### User Guides
+
+- [opencompass-backend](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/backend/opencompass-backend/opencompass-backend.html)
+- [vlmevalkit-backend](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/backend/vlmevalkit-backend/vlmevalkit-backend.html)
+- [mteb](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/backend/rageval-backend/mteb/mteb.html)
+- [CLIP Benchmark](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/backend/rageval-backend/clip-benchmark/clip-benchmark.html)
+- [ragas](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/backend/rageval-backend/ragas/ragas.html)
+- [quick-start](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/stress-test/quick-start/quick-start.html)
+- [Parameter Description](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/stress-test/parameters/parameters.html)
+- [examples](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/stress-test/examples/examples.html)
+- [Speed Benchmark](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/stress-test/speed-benchmark/speed-benchmark.html)
+- [custom](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/stress-test/custom/custom.html)
+- [vs-vllm-bench](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/stress-test/vs-vllm-bench/vs-vllm-bench.html)
+- [t2i](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/aigc/t2i/t2i.html)
+- [image-edit](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/aigc/image-edit/image-edit.html)
+- [arena](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/arena/arena.html)
+- [sandbox](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/user-guides/sandbox/sandbox.html)
+
+### Advanced Guides
+
+- [schema](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/collection/schema/schema.html)
+- [Sampling Data](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/collection/sample/sample.html)
+- [Unified Evaluation](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/collection/evaluate/evaluate.html)
+- [llm](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/custom-dataset/llm/llm.html)
+- [vlm](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/custom-dataset/vlm/vlm.html)
+- [embedding](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/custom-dataset/embedding/embedding.html)
+- [clip](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/custom-dataset/clip/clip.html)
+- [Custom Model Evaluation](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/custom-model/custom-model.html)
+- [add-benchmark](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/advanced-guides/add-benchmark/add-benchmark.html)
+
+### Third-party Tools
+
+- [swe-bench](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/swe-bench/swe-bench.html)
+- [tau-bench](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/tau-bench/tau-bench.html)
+- [τ²-bench](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/tau2-bench/tau2-bench.html)
+- [bfcl-v3](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/bfcl-v3/bfcl-v3.html)
+- [BFCL-v4](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/bfcl-v4/bfcl-v4.html)
+- [needle-haystack](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/needle-haystack/needle-haystack.html)
+- [toolbench](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/toolbench/toolbench.html)
+- [LongBench-Write](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/third-party/longwriter/longwriter.html)
+
+### Best Practice
+
+- [Qwen3-Next Model Evaluation Best Practices](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/qwen3-next/qwen3-next.html)
+- [qwen3-omni](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/qwen3-omni/qwen3-omni.html)
+- [qwen3-vl](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/qwen3-vl/qwen3-vl.html)
+- [gpt-oss](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/gpt-oss/gpt-oss.html)
+- [Best Practices for Qwen3-Coder+Instruct Model Evaluation](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/qwen3-coder/qwen3-coder.html)
+- [t2i-eval](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/t2i-eval/t2i-eval.html)
+- [Best Practices for Qwen3 Model Evaluation](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/qwen3/qwen3.html)
+- [Best Practices for QwQ Model Evaluation](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/eval-qwq/eval-qwq.html)
+- [iquiz](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/iquiz/iquiz.html)
+- [think-eval](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/think-eval/think-eval.html)
+- [deepseek-r1-distill](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/deepseek-r1-distill/deepseek-r1-distill.html)
+- [llm-full-stack](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/llm-full-stack/llm-full-stack.html)
+- [swift-integration](https://xiaoqianran.github.io/modelscope-docs/model-evaluation/best-practice/swift-integration/swift-integration.html)
+
+## Model Service
+
+### API Inference
+
+- [API Inference Introduction](https://xiaoqianran.github.io/modelscope-docs/model-service/API-Inference/intro/intro.html)
+- [API Inference Usage Limits](https://xiaoqianran.github.io/modelscope-docs/model-service/API-Inference/limits/limits.html)
+- [api-provider](https://xiaoqianran.github.io/modelscope-docs/model-service/API-Inference/api-provider/api-provider.html)
+
+### Model Deployment
+
+- [Model Deployment Introduction](https://xiaoqianran.github.io/modelscope-docs/model-service/deployment/intro/intro.html)
+- [Deploy OpenAI-API Compatible Model Service](https://xiaoqianran.github.io/modelscope-docs/model-service/deployment/swingdeploy-openai-api-compatible/swingdeploy-openai-api-compatible.html)
+- [One-Click Deployment Based on Native Pipeline](https://xiaoqianran.github.io/modelscope-docs/model-service/deployment/swingdeploy-pipeline/swingdeploy-pipeline.html)
+- [Local Deployment](https://xiaoqianran.github.io/modelscope-docs/model-service/deployment/local-deploy/local-deploy.html)
+
+### Model Training
+
+- [FlexTrain User Guide](https://xiaoqianran.github.io/modelscope-docs/model-service/train/flextrain/flextrain.html)
+
+## Magicube
+
+- [Magicube Rewards Program](https://xiaoqianran.github.io/modelscope-docs/magicube/intro/intro.html)
+
+## Contributor Guide
+
+- [Model Integration Process](https://xiaoqianran.github.io/modelscope-docs/contribute/model-integration/model-integration.html)
+- [Pre-release and Status Appeals](https://xiaoqianran.github.io/modelscope-docs/contribute/pre-release/pre-release.html)
+- [Integration in Progress and Status Appeals](https://xiaoqianran.github.io/modelscope-docs/contribute/integrating-status/integrating-status.html)
+
+### Code-based Integration
+
+- [Preparation](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/prep/prep.html)
+- [Create a Branch and Submit a PR](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/branching/branching.html)
+- [Developing Model Components and Inference Pipeline](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/process/process.html)
+- [local-model-files](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/local-model-files/local-model-files.html)
+- [Writing Test Cases](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/tests/tests.html)
+- [Push Model to ModelHub](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/push/push.html)
+- [Develop Training Pipeline](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/training/training.html)
+- [Development Export Workflow](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/model-exploration/model-exploration.html)
+- [Add Docstrings and Submit a PR](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/submit-a-pr/submit-a-pr.html)
+- [Code Documentation Standards](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/tutorials/docstr/docstr.html)
+- [Large Model Development](https://xiaoqianran.github.io/modelscope-docs/contribute/code-based-integration/tutorials/large-model-development/large-model-development.html)
+
+### Model File
+
+- [Model Creation and File Upload](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/create-model-and-upload/create-model-and-upload.html)
+- [Model File Format](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/help/model-file-format/model-file-format.html)
+- [Writing a Perfect Model Card](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/help/wrtie-perfect-model-card/wrtie-perfect-model-card.html)
+- [Model Demo Integration Process](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/help/model-demo/model-demo-configuration/model-demo-configuration.html)
+- [Widget Configuration Documentation](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/help/model-demo/widget-config/widget-config.html)
+- [Frontend Component Documentation](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/help/model-demo/demo-fontend-component/demo-fontend-component.html)
+- [Model Management Settings](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/help/model-management/model-management.html)
+- [Become a Community Certified Model](https://xiaoqianran.github.io/modelscope-docs/contribute/model-file/become-community-certified-model/become-community-certified-model.html)
+
+### Register External Component
+
+- [Register Custom Components via ModelHub](https://xiaoqianran.github.io/modelscope-docs/contribute/external-component/register-custom-component-with-modelhub/register-custom-component-with-modelhub.html)
+- [Register Standalone Repository Based on GitHub and Other Platforms](https://xiaoqianran.github.io/modelscope-docs/contribute/external-component/register-standalone-repo-with-github/register-standalone-repo-with-github.html)
+- [Example of Registering a Standalone Repository with ModelHub](https://xiaoqianran.github.io/modelscope-docs/contribute/external-component/register-standalone-repo-with-modelhub/register-standalone-repo-with-modelhub.html)
+
+## Model Overview
+
+- [index](https://xiaoqianran.github.io/modelscope-docs/model-overview/index/index.html)
+
+### Multimodal Models
+
+- [OFA Tutorial](https://xiaoqianran.github.io/modelscope-docs/model-overview/multimodal/OFA-Tutorial/OFA-Tutorial/OFA-Tutorial.html)
+- [mplug](https://xiaoqianran.github.io/modelscope-docs/model-overview/multimodal/mplug/mplug.html)
+- [CLIP_CN_Tutorial](https://xiaoqianran.github.io/modelscope-docs/model-overview/multimodal/clip-tutorial/CLIP-CN-Tutorial/CLIP-CN-Tutorial.html)
+
+### Computer Vision Models
+
+- [AAMS](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/AAMS-style-transfer/AAMS/AAMS.html)
+- [ABPN-skin-retouching](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/ABPN-skin-retouching/ABPN-skin-retouching.html)
+- [BSHM](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/BSHM-human-matting/BSHM/BSHM.html)
+- [BaSSL-movie-scene-segmentation](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/BaSSL-movie-scene-segmentation/BaSSL-movie-scene-segmentation.html)
+- [CascadeMaskRCNNSwin](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/CascadeMaskRCNNSwin-instance-segmentation/CascadeMaskRCNNSwin/CascadeMaskRCNNSwin.html)
+- [DCTNet-cartoon](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/DCTNet-cartoon/DCTNet-cartoon.html)
+- [GPEN](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/GPEN-image-portrait-enhancement/GPEN/GPEN.html)
+- [DarkPose-2d-keypoints](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/Hand-2d-keypoints-detection/DarkPose-2d-keypoints/DarkPose-2d-keypoints.html)
+- [LaMa-image-inpainting](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/LaMa-image-inpainting/LaMa-image-inpainting.html)
+- [MTTR-referring-video-object-segmentation](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/MTTR-referring-video-object-segmentation/MTTR-referring-video-object-segmentation.html)
+- [NAFNet-image-denoising](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/NAFNet-image-denoising/NAFNet-image-denoising.html)
+- [SCRFD-card-detection](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/SCRFD-card-detection/SCRFD-card-detection.html)
+- [SCRFD-face-detection](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/SCRFD-face-detection/SCRFD-face-detection.html)
+- [Segformer-Bx-image-semantic-segmentation](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/Segformer-Bx-image-semantic-segmentation/Segformer-Bx-image-semantic-segmentation.html)
+- [body-2d-keypoints](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/body-2d-keypoints/body-2d-keypoints.html)
+- [face-2d-keypoints](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/face-2d-keypoints/face-2d-keypoints.html)
+- [cv-resnet18-human-detection](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/human-detection/cv-resnet18-human-detection/cv-resnet18-human-detection.html)
+- [cv-resnet18-ocr-detection](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/ocr-detection/cv-resnet18-ocr-detection/cv-resnet18-ocr-detection.html)
+- [convnextTiny-ocr-recognition](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/ocr-recognition/convnextTiny-ocr-recognition/convnextTiny-ocr-recognition.html)
+- [pgl-video-summatization](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/video-summarization/pgl-video-summatization/pgl-video-summatization.html)
+- [vit_base_image_classification](https://xiaoqianran.github.io/modelscope-docs/model-overview/vision/vit-base-image-classification/vit-base-image-classification.html)
+
+### Audio
+
+- [frcrn](https://xiaoqianran.github.io/modelscope-docs/model-overview/audio/frcrn/frcrn.html)
+- [Paraformer](https://xiaoqianran.github.io/modelscope-docs/model-overview/audio/paraformer/paraformer.html)
+- [sambert](https://xiaoqianran.github.io/modelscope-docs/model-overview/audio/sambert/sambert.html)
+
+### NLP Models
+
+- [csanmt](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/csanmt/csanmt.html)
+- [GPT-3](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/gpt3/gpt3.html)
+- [named-entity-recognition](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/named-entity-recognition/named-entity-recognition.html)
+- [palm](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/palm/palm.html)
+- [passageranking](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/passageranking/passageranking.html)
+- [plug](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/plug/plug.html)
+- [sentiment-analysis](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/sentiment-analysis/sentiment-analysis.html)
+- [space-T-en](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/space-t/space-T-en/space-T-en.html)
+- [space-t-cn](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/space-t/space-t-cn/space-t-cn.html)
+- [structbert](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/structbert/structbert.html)
+- [text-error-correction](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/text-error-correction/text-error-correction.html)
+- [textsimilarity](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/textsimilarity/textsimilarity.html)
+- [wordsegmentation](https://xiaoqianran.github.io/modelscope-docs/model-overview/nlp/wordsegmentation/wordsegmentation.html)
+
+## Competition
+
+- [Competition Registration](https://xiaoqianran.github.io/modelscope-docs/competition/signup/signup.html)
+- [Participant Agreement](https://xiaoqianran.github.io/modelscope-docs/competition/agreement/agreement.html)
+
+## FAQ
+
+- [Common Platform Questions](https://xiaoqianran.github.io/modelscope-docs/faq/common/common.html)
+- [Notebook Common Questions](https://xiaoqianran.github.io/modelscope-docs/faq/notebooks/notebooks.html)
+- [Common Dataset Questions](https://xiaoqianran.github.io/modelscope-docs/faq/datasets/datasets.html)
+
+## Community
+
+- [About Us](https://xiaoqianran.github.io/modelscope-docs/community/about-us/about-us.html)
+- [Developer Forum](https://xiaoqianran.github.io/modelscope-docs/community/forum/forum.html)
+- [Contact Us](https://xiaoqianran.github.io/modelscope-docs/community/contact-us/contact-us.html)
+
+## User Agreement
+
+- [AI Ethics Initiative](https://xiaoqianran.github.io/modelscope-docs/agreements/ai-ethics/ai-ethics.html)
+- [Content Compliance Review](https://xiaoqianran.github.io/modelscope-docs/agreements/content-compliance/content-compliance.html)
+- [Code of Conduct](https://xiaoqianran.github.io/modelscope-docs/agreements/code-of-conduct/code-of-conduct.html)
+- [Open Source License List](https://xiaoqianran.github.io/modelscope-docs/agreements/licenses/licenses.html)
+- [User Agreement](https://xiaoqianran.github.io/modelscope-docs/agreements/terms/terms.html)
+- [Cross-Account Role Documentation](https://xiaoqianran.github.io/modelscope-docs/agreements/cloud-integration/cloud-integration.html)
+- [Privacy Policy](https://xiaoqianran.github.io/modelscope-docs/agreements/privacy/privacy.html)
+
+## Other pages
+
+- [ModelScope Agent身份服务介绍](https://xiaoqianran.github.io/modelscope-docs/agent/agent-identity/agent-identity.html)
+- [跨地域内网加速下载（CEN）](https://xiaoqianran.github.io/modelscope-docs/models/advanced-usage/cen-accelerator/cen-accelerator.html)
+
+## Optional
+
+- [Full documentation corpus (llms-full.txt)](https://xiaoqianran.github.io/modelscope-docs/llms-full.txt)
+- [This index (llms.txt)](https://xiaoqianran.github.io/modelscope-docs/llms.txt)
