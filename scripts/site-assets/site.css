@@ -767,3 +767,45 @@ html[data-locale="zh"] body {
   .main { padding: 0.85rem 0.85rem 2rem; }
   .brand-v { display: none; }
 }
+
+
+/* ===== ModelScope UI polish ===== */
+.nav-loading { opacity: 0.55; font-size: 0.8rem; padding: 0.4rem 0.65rem; }
+.leaf-list-flat { margin: 0.15rem 0 0.45rem; padding: 0; list-style: none; }
+.leaf-list-flat .leaf { border-radius: 8px; }
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin: 0.85rem 0;
+  background: var(--surface);
+}
+.prose table { display: block; overflow-x: auto; max-width: 100%; }
+.prose th, .prose td { word-break: break-word; }
+.content-wrap { min-width: 0; }
+.prose { min-width: 0; overflow-wrap: anywhere; }
+.prose pre, .prose .code-block { max-width: 100%; overflow-x: auto; }
+.lang-switch { display: inline-flex; gap: 0.25rem; align-items: center; }
+.lang-btn {
+  font-size: 0.78rem;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  text-decoration: none;
+  background: transparent;
+}
+.lang-btn:hover { color: var(--fg); background: var(--surface); }
+.lang-btn.active {
+  color: var(--primary);
+  background: var(--primary-soft);
+  border-color: transparent;
+  font-weight: 600;
+}
+/* hide redundant group chrome noise on very nested deep lists */
+.track-body > .leaf-list-flat + .group { margin-top: 0.35rem; }
+@media (max-width: 1023px) {
+  .top-link { display: none; }
+  .brand-v { display: none; }
+}

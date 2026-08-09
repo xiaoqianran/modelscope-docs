@@ -11,7 +11,7 @@
   const search = document.getElementById("search");
   const nav = document.getElementById("nav");
   const backdrop = document.getElementById("backdrop");
-  const STORE_KEY = "ms-docs-nav-v1";
+  const STORE_KEY = "ms-docs-nav-v2";
 
   function loadState() {
     try {
@@ -91,19 +91,48 @@
       if (!body) return;
       const CHEV =
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>';
-      const active = document.querySelector(".leaf.active")?.getAttribute("data-rel") || "";
+      const active =
+        document.querySelector(".leaf.active")?.getAttribute("data-rel") ||
+        document.getElementById("nav")?.getAttribute("data-active-rel") ||
+        "";
       let html = "";
       let num = 0;
-      for (const g of track.groups || []) {
-        html += `<div class="group" data-group="${escapeHtml(g.name)}" data-open="1">`;
-        html += `<button type="button" class="group-btn" aria-expanded="true"><span class="chev">${CHEV}</span><span class="group-name">${escapeHtml(g.name)}</span><span class="group-count">${(g.items || []).length}</span></button>`;
-        html += `<div class="group-panel"><div class="group-panel-inner"><ul class="leaf-list">`;
-        for (const it of g.items || []) {
-          num++;
-          const act = it.rel === active ? " active" : "";
-          html += `<li><a class="leaf${act}" href="${it.href}" data-rel="${escapeHtml(it.rel)}" data-search="${escapeHtml(it.title)}"><span class="num">${num}</span><span class="leaf-title">${escapeHtml(it.title)}</span></a></li>`;
+      const groups = track.groups || [];
+      const CHEAP_NAMES = /^(articles|文档|guides|pages|home|首页|all|全部文档)$/i;
+
+      function leafHtml(it) {
+        num++;
+        const act = it.rel === active ? " active" : "";
+        return `<li><a class="leaf${act}" href="${it.href}" data-rel="${escapeHtml(it.rel)}" data-search="${escapeHtml(it.title)}"><span class="num">${num}</span><span class="leaf-title">${escapeHtml(it.title)}</span></a></li>`;
+      }
+
+      // Prefer flat list when every group is a trivial single-leaf OR only one cheap-named group
+      const allTrivial = groups.every(
+        (g) => (g.items || []).length === 1 && (g.name === g.items[0].title || CHEAP_NAMES.test(g.name || "")),
+      );
+      const singleCheap = groups.length === 1 && CHEAP_NAMES.test(String(groups[0].name || ""));
+
+      if (singleCheap || allTrivial) {
+        html += `<ul class="leaf-list leaf-list-flat">`;
+        for (const g of groups) {
+          for (const it of g.items || []) html += leafHtml(it);
         }
-        html += `</ul></div></div></div>`;
+        html += `</ul>`;
+      } else {
+        // direct articles group first as flat if present + named nested groups
+        for (const g of groups) {
+          if (CHEAP_NAMES.test(String(g.name || "")) && groups.length > 1) {
+            html += `<ul class="leaf-list leaf-list-flat">`;
+            for (const it of g.items || []) html += leafHtml(it);
+            html += `</ul>`;
+            continue;
+          }
+          html += `<div class="group" data-group="${escapeHtml(g.name)}" data-open="1">`;
+          html += `<button type="button" class="group-btn" aria-expanded="true"><span class="chev">${CHEV}</span><span class="group-name">${escapeHtml(g.name)}</span><span class="group-count">${(g.items || []).length}</span></button>`;
+          html += `<div class="group-panel"><div class="group-panel-inner"><ul class="leaf-list">`;
+          for (const it of g.items || []) html += leafHtml(it);
+          html += `</ul></div></div></div>`;
+        }
       }
       body.innerHTML = html;
       trackEl.dataset.hydrated = "1";

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// ModelScope docs static site — official EN + ZH
+// ModelScope docs static site — official EN + ZH (UI fixes)
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -73,6 +73,22 @@ function loadMetaTree(locale) {
   return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
+function loadCdnPrefixes() {
+  const listPath = path.join(ROOT, "docs", "list.json");
+  const out = { en: "", zh: "" };
+  if (!fs.existsSync(listPath)) return out;
+  try {
+    const list = JSON.parse(fs.readFileSync(listPath, "utf8"));
+    for (const loc of list.locales || []) {
+      if (loc.locale === "en") out.en = (loc.prefix || "").replace(/\/$/, "");
+      if (loc.locale === "zh") out.zh = (loc.prefix || "").replace(/\/$/, "");
+    }
+  } catch {
+    /* ignore */
+  }
+  return out;
+}
+
 function loadPages(rootDir) {
   const files = walk(rootDir);
   const pages = [];
@@ -87,126 +103,151 @@ function loadPages(rootDir) {
   return pages;
 }
 
-/** Build nav tracks from official tree meta */
-function buildNavFromTree(tree, locale, pageByRel) {
-  if (!tree) {
-    // fallback flat
-    const tracks = [{ id: "all", name: "Docs", badge: "·", groups: [{ name: "All", items: [] }], count: 0 }];
-    for (const [rel, page] of pageByRel) {
-      if (rel === "index.md") continue;
-      tracks[0].groups[0].items.push({
-        title: page.title,
-        href: asset(relToHtml(rel), locale),
-        rel,
-      });
-    }
-    tracks[0].count = tracks[0].groups[0].items.length;
-    return tracks;
-  }
+function leafItem(node, locale, pageByRel) {
+  const rel = pathToRel(node.path);
+  const page = pageByRel.get(rel);
+  return {
+    title: node.title || page?.title || humanize(rel),
+    href: asset(relToHtml(rel), locale),
+    rel,
+  };
+}
 
+function collectLeaves(node, locale, pageByRel, items = []) {
+  if (!node) return items;
+  if (!node.dir && node.path) {
+    items.push(leafItem(node, locale, pageByRel));
+    return items;
+  }
+  for (const c of node.children || []) collectLeaves(c, locale, pageByRel, items);
+  return items;
+}
+
+/**
+ * Build smooth nav:
+ * - top sections = tracks
+ * - direct leaf children folded into one "Articles" group
+ * - nested dirs become real groups
+ * - never create a group per single leaf with the same title
+ */
+function buildNavFromTree(tree, locale, pageByRel) {
+  const homeName = locale === "zh" ? "首页" : "Home";
+  const articlesName = locale === "zh" ? "文档" : "Articles";
   const tracks = [
     {
       id: "home",
-      name: locale === "zh" ? "首页" : "Home",
+      name: homeName,
       badge: "·",
       groups: [
         {
-          name: "Home",
-          items: [{ title: locale === "zh" ? "首页" : "Home", href: asset("index.html", locale), rel: "index.md" }],
+          name: homeName,
+          items: [{ title: homeName, href: asset("index.html", locale), rel: "index.md" }],
         },
       ],
       count: 1,
     },
   ];
 
-  function collectLeaves(node, items) {
-    if (!node) return;
-    if (!node.dir && node.path) {
-      const rel = pathToRel(node.path);
-      const page = pageByRel.get(rel);
-      items.push({
-        title: node.title || page?.title || humanize(rel),
-        href: asset(relToHtml(rel), locale),
-        rel,
-      });
-      return;
+  if (!tree) {
+    const items = [];
+    for (const [rel, page] of pageByRel) {
+      if (rel === "index.md") continue;
+      items.push({ title: page.title, href: asset(relToHtml(rel), locale), rel });
     }
-    for (const c of node.children || []) collectLeaves(c, items);
+    tracks.push({
+      id: "all",
+      name: locale === "zh" ? "全部文档" : "All docs",
+      badge: "▸",
+      groups: [{ name: articlesName, items }],
+      count: items.length,
+    });
+    return tracks;
   }
 
   for (const top of tree.children || []) {
-    const id = (top.filename || top.url || top.title || "sec")
-      .toString()
-      .toLowerCase()
-      .replace(/[^a-z0-9\u4e00-\u9fff]+/gi, "-")
-      .replace(/^-|-$/g, "")
-      .slice(0, 40) || "sec";
+    const id =
+      (top.filename || top.url || top.title || "sec")
+        .toString()
+        .toLowerCase()
+        .replace(/[^a-z0-9\u4e00-\u9fff]+/gi, "-")
+        .replace(/^-|-$/g, "")
+        .slice(0, 40) || "sec";
 
-    // if top is a leaf
+    // single leaf track (e.g. Overview)
     if (!top.dir && top.path) {
-      const rel = pathToRel(top.path);
+      const item = leafItem(top, locale, pageByRel);
       tracks.push({
         id,
         name: top.title || id,
         badge: "▸",
-        groups: [
-          {
-            name: top.title || "Page",
-            items: [
-              {
-                title: top.title || humanize(rel),
-                href: asset(relToHtml(rel), locale),
-                rel,
-              },
-            ],
-          },
-        ],
+        groups: [{ name: articlesName, items: [item] }],
         count: 1,
       });
       continue;
     }
 
-    // children as groups
-    const groups = [];
     const kids = top.children || [];
-    if (kids.length === 0) continue;
+    if (!kids.length) continue;
 
-    // if children are mostly leaves → one group
-    const hasNestedDirs = kids.some((k) => k.dir && (k.children || []).length);
-    if (!hasNestedDirs) {
-      const items = [];
-      collectLeaves(top, items);
-      if (items.length) {
-        groups.push({ name: top.title || "Guides", items });
-      }
-    } else {
-      for (const k of kids) {
-        const items = [];
-        collectLeaves(k, items);
-        if (items.length) {
-          groups.push({ name: k.title || k.filename || "Section", items });
+    const directLeaves = [];
+    const nestedGroups = [];
+
+    for (const k of kids) {
+      if (!k.dir && k.path) {
+        directLeaves.push(leafItem(k, locale, pageByRel));
+      } else if (k.dir) {
+        const items = collectLeaves(k, locale, pageByRel, []);
+        if (items.length === 1 && (items[0].title === k.title || !k.title)) {
+          // single-page section → treat as direct leaf
+          directLeaves.push(items[0]);
+        } else if (items.length) {
+          nestedGroups.push({ name: k.title || k.filename || articlesName, items });
         }
+      } else {
+        const items = collectLeaves(k, locale, pageByRel, []);
+        directLeaves.push(...items);
       }
     }
-    const count = groups.reduce((n, g) => n + g.items.length, 0);
+
+    const groups = [];
+    if (directLeaves.length) {
+      groups.push({ name: articlesName, items: directLeaves });
+    }
+    for (const g of nestedGroups) groups.push(g);
+
+    // collapse: if only one group, keep it; if many singleton groups slipped through, flatten
+    const flat = [];
+    const multi = [];
+    for (const g of groups) {
+      if (g.items.length === 1 && g.name === g.items[0].title) flat.push(g.items[0]);
+      else multi.push(g);
+    }
+    let finalGroups = multi;
+    if (flat.length) {
+      const existing = finalGroups.find((g) => g.name === articlesName);
+      if (existing) existing.items.push(...flat);
+      else finalGroups.unshift({ name: articlesName, items: flat });
+    }
+    if (!finalGroups.length && directLeaves.length) {
+      finalGroups = [{ name: articlesName, items: directLeaves }];
+    }
+
+    const count = finalGroups.reduce((n, g) => n + g.items.length, 0);
     if (!count) continue;
-    tracks.push({ id, name: top.title || id, badge: "▸", groups, count });
+    tracks.push({ id, name: top.title || id, badge: "▸", groups: finalGroups, count });
   }
   return tracks;
 }
 
 function renderNavHtml(tracks, activeRel) {
-  // Slim shell + hydrate from nav.json (same pattern as HF)
   const parts = [];
-  const activeTop = (() => {
-    if (!activeRel || activeRel === "index.md") return "home";
-    // match track containing active
-    for (const t of tracks) {
-      if (t.groups.some((g) => g.items.some((it) => it.rel === activeRel))) return t.id;
+  let activeTop = "home";
+  for (const t of tracks) {
+    if (t.groups.some((g) => g.items.some((it) => it.rel === activeRel))) {
+      activeTop = t.id;
+      break;
     }
-    return tracks[0]?.id || "home";
-  })();
-
+  }
   for (const track of tracks) {
     const trackActive = track.id === activeTop;
     const open = trackActive || track.id === "home" ? "1" : "0";
@@ -217,10 +258,28 @@ function renderNavHtml(tracks, activeRel) {
       `<button type="button" class="track-btn" data-track-toggle="${htmlEscape(track.id)}" aria-expanded="${open === "1"}" data-needs-items="1"><span class="chev">${CHEV_SVG}</span><span class="track-label">${htmlEscape(track.name)}</span><span class="track-count">${track.count}</span></button>`,
     );
     parts.push(
-      `<div class="track-panel"><div class="track-panel-inner"><div class="track-body"><div class="muted" style="padding:0.45rem 0.5rem;font-size:0.78rem">Loading…</div></div></div></div></div>`,
+      `<div class="track-panel"><div class="track-panel-inner"><div class="track-body"><div class="muted nav-loading">…</div></div></div></div></div>`,
     );
   }
   return parts.join("\n");
+}
+
+function renderChipsHtml(tracks, activeRel) {
+  let activeTop = "home";
+  for (const t of tracks) {
+    if (t.groups.some((g) => g.items.some((it) => it.rel === activeRel))) {
+      activeTop = t.id;
+      break;
+    }
+  }
+  // skip home chip; keep top ~10 useful tracks
+  const chips = tracks.filter((t) => t.id !== "home").slice(0, 12);
+  return chips
+    .map((t) => {
+      const act = t.id === activeTop ? " active" : "";
+      return `<button type="button" class="chip${act}" data-jump-track="${htmlEscape(t.id)}">${htmlEscape(t.name)}</button>`;
+    })
+    .join("");
 }
 
 function enhanceCode(html) {
@@ -251,22 +310,37 @@ function tocFromHtml(html) {
     .join("")}</ul></nav>`;
 }
 
-function postProcessHtml(html, fromRel, locale) {
-  return html.replace(/href="([^"]+)"/g, (full, href) => {
+function resolveMediaUrl(src, fromRel, cdnPrefix) {
+  if (!src) return src;
+  if (/^https?:\/\//i.test(src) || src.startsWith("data:") || src.startsWith("#")) return src;
+  // strip title / size fragments like "...png#width"
+  let s = src.split(/\s+/)[0].split("#")[0];
+  s = s.replace(/^\.\//, "");
+  const dir = path.posix.dirname(fromRel.replace(/\\/g, "/"));
+  const pageDir = dir === "." ? "" : dir;
+  if (cdnPrefix) {
+    // resources/foo.png or _resources/foo.png next to the page
+    const joined = path.posix.normalize(path.posix.join(pageDir, s)).replace(/^\/+/, "");
+    return `${cdnPrefix}/dist/${joined}`;
+  }
+  // fallback local absolute under BASE (may 404)
+  return asset(path.posix.normalize(path.posix.join(pageDir, s)).replace(/^\/+/, ""));
+}
+
+function postProcessHtml(html, fromRel, locale, cdnPrefix) {
+  // links
+  html = html.replace(/href="([^"]+)"/g, (full, href) => {
     if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("data:")) return full;
     if (/^https?:\/\//i.test(href)) {
-      // map modelscope docs absolute URLs to local
       const m = href.match(/^https?:\/\/(?:www\.)?modelscope\.cn\/docs\/(.+)$/i);
       if (m) {
         let p = decodeURIComponent(m[1]).replace(/\/$/, "");
         if (!p || p === "home") return `href="${asset("index.html", locale)}"`;
-        // title mapping may be needed; best-effort
         if (!p.endsWith(".html")) p = p + ".html";
         return `href="${asset(p, locale)}"`;
       }
       return full;
     }
-    // relative .md
     if (href.endsWith(".md") || href.includes(".md#")) {
       let target = href;
       let hash = "";
@@ -287,9 +361,84 @@ function postProcessHtml(html, fromRel, locale) {
     }
     return full;
   });
+
+  // images
+  html = html.replace(/src="([^"]+)"/g, (full, src) => {
+    if (!src || src.startsWith("data:") || /^https?:\/\//i.test(src)) {
+      // drop broken alipay intranet proxies
+      if (/intranetproxy\.alipay\.com/i.test(src)) {
+        return `src="" data-broken="1" alt="(image unavailable)"`;
+      }
+      return full;
+    }
+    const resolved = resolveMediaUrl(src, fromRel, cdnPrefix);
+    return `src="${htmlEscape(resolved)}" loading="lazy" referrerpolicy="no-referrer"`;
+  });
+
+  return html;
 }
 
-function layout({ locale, title, bodyHtml, navHtml, tocHtml, rel, ui }) {
+function makeHomeMd(locale, navTracks) {
+  const isZh = locale === "zh";
+  const sections = navTracks
+    .filter((t) => t.id !== "home")
+    .map((t) => {
+      const first = t.groups?.[0]?.items?.[0];
+      const href = first ? first.href : asset("index.html", locale);
+      // use relative path for md → will be processed; better write plain list with titles only
+      return `- **${t.name}** (${t.count})`;
+    })
+    .join("\n");
+
+  if (isZh) {
+    return `# 魔搭 ModelScope 文档镜像
+
+非官方镜像，内容来自 [ModelScope 官方文档](https://www.modelscope.cn/docs) CDN（中英双语）。
+
+## 如何使用
+
+- 左侧按主题展开目录，支持多栏同时打开
+- 顶部可切换 **EN / 中文**
+- 搜索框可快速过滤文章标题
+
+## 文档分区
+
+${sections}
+
+## 说明
+
+- 英文部分官方 CDN 偶有空页，镜像会自动回退中文内容并标注
+- 图片资源指向官方文档 CDN
+- 每日自动同步更新
+
+> 本站为社区镜像，请以 [官方文档](https://www.modelscope.cn/docs) 为准。
+`;
+  }
+  return `# ModelScope Docs Mirror
+
+Unofficial mirror of [ModelScope documentation](https://www.modelscope.cn/docs) (official EN + 中文 from CDN).
+
+## How to use
+
+- Expand sections in the left nav (multi-open, like a learning path)
+- Switch **EN / 中文** in the top bar
+- Use search to filter article titles
+
+## Sections
+
+${sections}
+
+## Notes
+
+- Some English CDN pages are empty upstream — this mirror falls back to Chinese with a note
+- Images are loaded from the official ModelScope docs CDN
+- Refreshed daily via GitHub Actions
+
+> Community mirror — prefer the [official docs](https://www.modelscope.cn/docs) as the source of truth.
+`;
+}
+
+function layout({ locale, title, bodyHtml, navHtml, chipsHtml, tocHtml, rel, ui }) {
   const enHref = asset(relToHtml(rel), "en");
   const zhHref = asset(relToHtml(rel), "zh");
   const activeEn = locale === "en" ? " active" : "";
@@ -304,6 +453,7 @@ function layout({ locale, title, bodyHtml, navHtml, tocHtml, rel, ui }) {
   <title>${htmlEscape(title)} · ${htmlEscape(ui.brand)}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://resouces.modelscope.cn" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css" />
   <link rel="stylesheet" href="${asset("assets/site.css")}" />
@@ -319,7 +469,7 @@ function layout({ locale, title, bodyHtml, navHtml, tocHtml, rel, ui }) {
         <span class="brand-text">${htmlEscape(ui.brand)}</span>
         <span class="brand-v">${htmlEscape(ui.brandSub)}</span>
       </a>
-      <nav class="chips" id="trackChips" aria-label="Tracks"></nav>
+      <nav class="chips" id="trackChips" aria-label="Tracks">${chipsHtml}</nav>
       <div class="lang-switch" role="navigation" aria-label="Language">
         <a class="lang-btn${activeEn}" href="${enHref}" data-lang-set="en" hreflang="en">${htmlEscape(ui.langEn)}</a>
         <a class="lang-btn${activeZh}" href="${zhHref}" data-lang-set="zh" hreflang="zh-CN">${htmlEscape(ui.langZh)}</a>
@@ -377,24 +527,27 @@ function copyAssets() {
   }
 }
 
-function buildLocale(locale, pages, navTracks) {
+function buildLocale(locale, pages, navTracks, cdnPrefix) {
   const ui = UI[locale] || UI.en;
   const outRoot = locale === "zh" ? path.join(DIST, "zh") : DIST;
   ensureDir(outRoot);
-  const navHtmlBase = null;
   let n = 0;
   for (const page of pages) {
+    const md = page.rel === "index.md" ? makeHomeMd(locale, navTracks) : page.md;
+    const title = page.rel === "index.md" ? (locale === "zh" ? "首页" : "Home") : page.title;
     const nav = renderNavHtml(navTracks, page.rel);
+    const chips = renderChipsHtml(navTracks, page.rel);
     marked.setOptions({ gfm: true, breaks: false });
-    let body = marked.parse(page.md);
+    let body = marked.parse(md);
     body = enhanceCode(body);
-    body = postProcessHtml(body, page.rel, locale);
-    const toc = tocFromHtml(body);
+    body = postProcessHtml(body, page.rel, locale, cdnPrefix);
+    const toc = page.rel === "index.md" ? "" : tocFromHtml(body);
     const html = layout({
       locale,
-      title: page.title,
+      title,
       bodyHtml: body,
       navHtml: nav,
+      chipsHtml: chips,
       tocHtml: toc,
       rel: page.rel,
       ui,
@@ -412,25 +565,23 @@ function main() {
   ensureDir(DIST);
   copyAssets();
 
+  const prefixes = loadCdnPrefixes();
   const enRaw = loadPages(EN_PAGES);
   const zhRaw = loadPages(ZH_PAGES);
   if (!enRaw.length && !zhRaw.length) {
     console.error("No pages");
     process.exit(1);
   }
-  // Union of all rels (prefer ZH tree completeness)
   const allRels = new Set([...enRaw.map((p) => p.rel), ...zhRaw.map((p) => p.rel)]);
   const enMapRaw = new Map(enRaw.map((p) => [p.rel, p]));
   const zhMapRaw = new Map(zhRaw.map((p) => [p.rel, p]));
 
-  // EN: official EN when present; else ZH content + banner (many EN CDN files are empty)
   const enPages = [];
   for (const rel of allRels) {
     const en = enMapRaw.get(rel);
     const zh = zhMapRaw.get(rel);
-    if (en && en.md.trim().length > 20) {
-      enPages.push(en);
-    } else if (zh) {
+    if (en && en.md.trim().length > 20) enPages.push(en);
+    else if (zh) {
       enPages.push({
         ...zh,
         rel,
@@ -441,7 +592,6 @@ function main() {
       });
     }
   }
-  // ZH: official CN when present; else EN
   const zhPages = [];
   for (const rel of allRels) {
     const en = enMapRaw.get(rel);
@@ -450,20 +600,35 @@ function main() {
     else if (en) zhPages.push(en);
   }
 
+  // ensure index exists
+  if (!enPages.some((p) => p.rel === "index.md")) {
+    enPages.unshift({ rel: "index.md", md: "# Home\n", title: "Home", abs: "" });
+  }
+  if (!zhPages.some((p) => p.rel === "index.md")) {
+    zhPages.unshift({ rel: "index.md", md: "# 首页\n", title: "首页", abs: "" });
+  }
+
   const enMap = new Map(enPages.map((p) => [p.rel, p]));
   const zhMap = new Map(zhPages.map((p) => [p.rel, p]));
-  const enTree = loadMetaTree("en");
-  const zhTree = loadMetaTree("zh");
-  const enNav = buildNavFromTree(enTree, "en", enMap);
-  const zhNav = buildNavFromTree(zhTree, "zh", zhMap);
+  const enNav = buildNavFromTree(loadMetaTree("en"), "en", enMap);
+  const zhNav = buildNavFromTree(loadMetaTree("zh"), "zh", zhMap);
 
   fs.writeFileSync(path.join(DIST, "assets", "nav.json"), JSON.stringify(enNav, null, 2));
   fs.writeFileSync(path.join(DIST, "assets", "nav.zh.json"), JSON.stringify(zhNav, null, 2));
 
-  const nEn = buildLocale("en", enPages, enNav);
-  const nZh = buildLocale("zh", zhPages, zhNav);
+  const nEn = buildLocale("en", enPages, enNav, prefixes.en);
+  const nZh = buildLocale("zh", zhPages, zhNav, prefixes.zh || prefixes.en);
   console.log(`[en] ${nEn} pages — tracks ${enNav.length}`);
   console.log(`[zh] ${nZh} pages — tracks ${zhNav.length}`);
+  // print sample nav structure for models
+  const models = enNav.find((t) => t.id === "models");
+  if (models) {
+    console.log(
+      "models groups:",
+      models.groups.map((g) => `${g.name}:${g.items.length}`).join(", "),
+    );
+  }
+  console.log(`CDN en=${prefixes.en ? "yes" : "no"} zh=${prefixes.zh ? "yes" : "no"}`);
   console.log(`Built locales en+zh -> ${DIST} (BASE=${BASE || "/"})`);
 }
 
