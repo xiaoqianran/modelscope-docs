@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { marked } from "marked";
+import { normalizeMdxMarkdown } from "./mdx-normalize.mjs";
 import { createParadigm } from "./paradigm-page.mjs";
 import { writeLlmsArtifacts } from "./generate-llms.mjs";
 
@@ -453,7 +454,7 @@ function buildLocale(locale, pages, navTracks, cdnPrefix) {
       });
     } else {
       marked.setOptions({ gfm: true, breaks: false });
-      body = marked.parse(page.md);
+      body = marked.parse(normalizeMdxMarkdown(page.md));
       body = P.addHeadingIds(body);
       body = enhanceCode(body);
       body = postProcessHtml(body, page.rel, locale, cdnPrefix);
