@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-08-27T19:00:30.687Z",
+  "fetchedAt": "2026-08-28T20:07:47.220Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-7_10-47-EN",
-      "version": "20260807104831",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-28_11-47-EN",
+      "version": "20260828114825",
       "ok": 191,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-7_10-47-CN",
-      "version": "20260807104749",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-28_11-47-CN",
+      "version": "20260828114744",
       "ok": 294,
       "failed": 0
     }
@@ -26,7 +26,7 @@
         "path": "overview/overview_EN.md",
         "url": "overview",
         "key": "0-0",
-        "bytes": 1653
+        "bytes": 1658
       },
       {
         "ok": true,
@@ -1655,7 +1655,7 @@
         "path": "community/about-us/about-us_EN.md",
         "url": "about-us",
         "key": "0-23-0",
-        "bytes": 3694
+        "bytes": 3699
       },
       {
         "ok": true,
@@ -1682,7 +1682,7 @@
         "path": "agreements/ai-ethics/ai-ethics_EN.md",
         "url": "ai-ethics",
         "key": "0-24-0",
-        "bytes": 2735
+        "bytes": 2634
       },
       {
         "ok": true,
@@ -1747,7 +1747,7 @@
         "path": "overview/overview_CN.md",
         "url": "overview",
         "key": "0-0",
-        "bytes": 1456
+        "bytes": 1444
       },
       {
         "ok": true,
@@ -4303,7 +4303,7 @@
         "path": "community/about-us/about-us_CN.md",
         "url": "about-us",
         "key": "0-23-0",
-        "bytes": 2908
+        "bytes": 2896
       },
       {
         "ok": true,
@@ -4330,7 +4330,7 @@
         "path": "agreements/ai-ethics/ai-ethics_CN.md",
         "url": "ai-ethics",
         "key": "0-24-0",
-        "bytes": 2139
+        "bytes": 1986
       },
       {
         "ok": true,
