@@ -44,6 +44,9 @@ https://modelscope.cn/openapi/v1
 
 互联应用通过OAuth所申请的 Scope 默认仅包括用户权限。但对于部分授权项，如 read-repos 也可以关联授权组织权限。当开发者申请的授权项包括这类授权项时，用户在拉起的魔搭 OAuth 授权页时可以手动指定是否授权组织权限，进一步可以指定具体希望授权的组织。
 
+# 创空间快速集成魔搭OAuth
+
+创空间内置 ModelScope OAuth。开启后，平台会为创空间创建 OAuth 应用，并在运行时注入客户端信息，可前往[在创空间中使用OAuth](../../studios/oauth/oauth_CN.md)文档详细了解。
 
 ## 温馨提示
 - 魔搭互联应用当前为Beta测试阶段，结束 Beta 测试前相关接口及字段有可能发生调整。

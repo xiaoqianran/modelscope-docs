@@ -329,12 +329,21 @@
           "md": true
         },
         {
+          "title": "在创空间中使用 OAuth",
+          "filename": "oauth",
+          "url": "oauth",
+          "path": "studios/oauth/oauth_CN.md",
+          "intlDisabled": false,
+          "key": "0-4-3",
+          "md": true
+        },
+        {
           "title": "快速创建并部署",
           "filename": "quick-create",
           "url": "quick-create",
           "path": "studios/quick-create/quick-create_CN.md",
           "intlDisabled": false,
-          "key": "0-4-3",
+          "key": "0-4-4",
           "md": true
         },
         {
@@ -343,7 +352,7 @@
           "url": "docker",
           "path": "studios/docker/docker_CN.md",
           "intlDisabled": false,
-          "key": "0-4-4",
+          "key": "0-4-5",
           "md": true
         },
         {
@@ -359,7 +368,7 @@
               "url": "gradio",
               "path": "studios/examples/gradio/gradio_CN.md",
               "intlDisabled": false,
-              "key": "0-4-5-0",
+              "key": "0-4-6-0",
               "md": true
             },
             {
@@ -368,12 +377,12 @@
               "url": "streamlit",
               "path": "studios/examples/streamlit/streamlit_CN.md",
               "intlDisabled": false,
-              "key": "0-4-5-1",
+              "key": "0-4-6-1",
               "md": true
             }
           ],
           "intlDisabled": false,
-          "key": "0-4-5"
+          "key": "0-4-6"
         },
         {
           "title": "创空间资源规格",
@@ -381,7 +390,7 @@
           "url": "resource-selections",
           "path": "studios/resource-selections/resource-selections_CN.md",
           "intlDisabled": false,
-          "key": "0-4-6",
+          "key": "0-4-7",
           "md": true
         },
         {
@@ -390,7 +399,7 @@
           "url": "xGPU",
           "path": "studios/xGPU/xGPU_CN.md",
           "intlDisabled": false,
-          "key": "0-4-7",
+          "key": "0-4-8",
           "md": true
         }
       ],

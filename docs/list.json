@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-08-29T13:46:12.028Z",
+  "fetchedAt": "2026-08-30T13:44:00.689Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-28_11-47-EN",
-      "version": "20260828114825",
-      "ok": 191,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-30_13-22-EN",
+      "version": "20260830132323",
+      "ok": 192,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-28_11-47-CN",
-      "version": "20260828114744",
-      "ok": 294,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-30_13-22-CN",
+      "version": "20260830132250",
+      "ok": 295,
       "failed": 0
     }
   ],
@@ -264,11 +264,20 @@
       },
       {
         "ok": true,
+        "rel": "studios/oauth/oauth.md",
+        "title": "Using OAuth in Studios",
+        "path": "studios/oauth/oauth_EN.md",
+        "url": "oauth",
+        "key": "0-4-3",
+        "bytes": 9051
+      },
+      {
+        "ok": true,
         "rel": "studios/quick-create/quick-create.md",
         "title": "Quick Creation and Deployment",
         "path": "studios/quick-create/quick-create_EN.md",
         "url": "quick-create",
-        "key": "0-4-3",
+        "key": "0-4-4",
         "bytes": 19314
       },
       {
@@ -277,7 +286,7 @@
         "title": "Docker Studio Introduction",
         "path": "studios/docker/docker_EN.md",
         "url": "docker",
-        "key": "0-4-4",
+        "key": "0-4-5",
         "bytes": 6270
       },
       {
@@ -286,7 +295,7 @@
         "title": "Gradio SDK Examples",
         "path": "studios/examples/gradio/gradio_EN.md",
         "url": "gradio",
-        "key": "0-4-5-0",
+        "key": "0-4-6-0",
         "bytes": 4229
       },
       {
@@ -295,7 +304,7 @@
         "title": "Streamlit SDK Examples",
         "path": "studios/examples/streamlit/streamlit_EN.md",
         "url": "streamlit",
-        "key": "0-4-5-1",
+        "key": "0-4-6-1",
         "bytes": 3230
       },
       {
@@ -304,7 +313,7 @@
         "title": "Studio Resource Specifications",
         "path": "studios/resource-selections/resource-selections_EN.md",
         "url": "resource-selections",
-        "key": "0-4-6",
+        "key": "0-4-7",
         "bytes": 1917
       },
       {
@@ -313,7 +322,7 @@
         "title": "Introduction to xGPU Studios",
         "path": "studios/xGPU/xGPU_EN.md",
         "url": "xGPU",
-        "key": "0-4-7",
+        "key": "0-4-8",
         "bytes": 2608
       },
       {
@@ -602,7 +611,7 @@
         "path": "accounts/oauth/oauth_EN.md",
         "url": "oauth",
         "key": "0-12-6",
-        "bytes": 4526
+        "bytes": 4814
       },
       {
         "ok": true,
@@ -2003,11 +2012,20 @@
       },
       {
         "ok": true,
+        "rel": "studios/oauth/oauth.md",
+        "title": "在创空间中使用 OAuth",
+        "path": "studios/oauth/oauth_CN.md",
+        "url": "oauth",
+        "key": "0-4-3",
+        "bytes": 8785
+      },
+      {
+        "ok": true,
         "rel": "studios/quick-create/quick-create.md",
         "title": "快速创建并部署",
         "path": "studios/quick-create/quick-create_CN.md",
         "url": "quick-create",
-        "key": "0-4-3",
+        "key": "0-4-4",
         "bytes": 16666
       },
       {
@@ -2016,7 +2034,7 @@
         "title": "Docker创空间介绍",
         "path": "studios/docker/docker_CN.md",
         "url": "docker",
-        "key": "0-4-4",
+        "key": "0-4-5",
         "bytes": 5883
       },
       {
@@ -2025,7 +2043,7 @@
         "title": "Gradio SDK示例",
         "path": "studios/examples/gradio/gradio_CN.md",
         "url": "gradio",
-        "key": "0-4-5-0",
+        "key": "0-4-6-0",
         "bytes": 4032
       },
       {
@@ -2034,7 +2052,7 @@
         "title": "Streamlit SDK示例",
         "path": "studios/examples/streamlit/streamlit_CN.md",
         "url": "streamlit",
-        "key": "0-4-5-1",
+        "key": "0-4-6-1",
         "bytes": 3037
       },
       {
@@ -2043,7 +2061,7 @@
         "title": "创空间资源规格",
         "path": "studios/resource-selections/resource-selections_CN.md",
         "url": "resource-selections",
-        "key": "0-4-6",
+        "key": "0-4-7",
         "bytes": 1583
       },
       {
@@ -2052,7 +2070,7 @@
         "title": "xGPU创空间介绍",
         "path": "studios/xGPU/xGPU_CN.md",
         "url": "xGPU",
-        "key": "0-4-7",
+        "key": "0-4-8",
         "bytes": 2206
       },
       {
@@ -2350,7 +2368,7 @@
         "path": "accounts/oauth/oauth_CN.md",
         "url": "oauth",
         "key": "0-12-6",
-        "bytes": 3766
+        "bytes": 4023
       },
       {
         "ok": true,

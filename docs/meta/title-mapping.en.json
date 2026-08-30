@@ -34,6 +34,7 @@
   "Introduction to Studios": "studios/intro",
   "Studio Card": "studios/studio-card",
   "Creating and Building Studios": "studios/create",
+  "Using OAuth in Studios": "studios/oauth",
   "Quick Creation and Deployment": "studios/quick-create",
   "Docker Studio Introduction": "studios/docker",
   "Studios Examples": "studios/examples",

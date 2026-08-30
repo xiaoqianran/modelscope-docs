@@ -44,6 +44,9 @@ For more interface-related information, please refer to the [OpenAPI Documentati
 
 The scopes requested by connected applications through OAuth default to only include user permissions. However, for certain authorization scopes such as read-repos, organization permissions can also be associated. When developers request authorization scopes that include such items, users can manually specify whether to authorize organization permissions on the ModelScope OAuth authorization page that appears, and can further specify the specific organizations they wish to authorize.
 
+# Quick ModelScope OAuth integration for Studios
+
+Studios include built-in ModelScope OAuth. When enabled, the platform creates an OAuth application for the Studio and injects the client configuration at runtime. See [Using OAuth in Studios](../../studios/oauth/oauth_EN.md) for details.
 
 ## Friendly Reminders
 - ModelScope connected applications are currently in Beta testing phase. Related interfaces and fields may be adjusted before the Beta testing ends.

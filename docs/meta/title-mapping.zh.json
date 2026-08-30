@@ -34,6 +34,7 @@
   "创空间介绍": "studios/intro",
   "创空间卡片": "studios/studio-card",
   "创空间创建与搭建": "studios/create",
+  "在创空间中使用 OAuth": "studios/oauth",
   "快速创建并部署": "studios/quick-create",
   "Docker创空间介绍": "studios/docker",
   "创空间示例": "studios/examples",
