@@ -4,7 +4,10 @@
 
 To encourage you to explore models and services on ModelScope, engage with the community, and contribute your own creations, we offer the **Magicube** rewards program — a system of free compute Magicubes and incentives that reward active participation.
 
+
 Magicubes come in two types: **short-term Magicubes** (valid for 24 hours) and **long-term Magicubes** (valid for 90 days). You can earn Magicubes through different community activities, and redeem them for **Civision inference**, **Civision training**, and **API Inference** services.
+
+Prerequisite for using Magicube: Complete your personal profile with a verified email. [Complete your profile now](https://modelscope.ai/my/settings/account)
 
 **ModelScope reserves the right of final interpretation of these rules and may update them from time to time based on operational needs.**
 
@@ -16,7 +19,7 @@ The Magicube program rewards you through multiple tiers: **Daily Login�
 | --- | --- | --- | --- | --- |
 | Daily Login Bonus | Sign in | **200 Magicubes/day** `short-term` | Issued daily upon login; valid for the current day only (does not roll over) | Once per day |
 | Account Linking Bonus | Link Alibaba Cloud account | **50 Magicubes/day** `short-term` | Issued daily upon login after linking your Alibaba Cloud account; valid for the current day only (does not roll over) | Once per day |
-| Community Engagement – Interactions | Post a comment | **5 Magicubes** `short-term` | Comment on another user's post | Up to 2× per day |
+| Community Engagement – Interactions | Post a comment | **5 Magicubes** `short-term` | Comment on another user's post and receive like/reply from another user | Up to 2× per day |
 |  | Favorite / Like | **2 Magicubes** `short-term` | Favorite or like another user's post | Up to 20× per day |
 | Community Engagement – Profile Setup | Verify email | **50 Magicubes** `long-term` | Add and verify your [email address](https://modelscope.ai/my/settings/account) | One-time only |
 |  | Write a bio | **50 Magicubes** `long-term` | Fill in your bio under [Settings → Profile](https://modelscope.ai/my/settings/profile) and save | One-time only |

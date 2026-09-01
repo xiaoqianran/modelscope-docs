@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-08-31T16:03:12.168Z",
+  "fetchedAt": "2026-09-01T13:23:02.337Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-30_13-22-EN",
-      "version": "20260830132323",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-1_19-16-EN",
+      "version": "20260901191647",
       "ok": 192,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-8-30_13-22-CN",
-      "version": "20260830132250",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-1_19-15-CN",
+      "version": "20260901191616",
       "ok": 295,
       "failed": 0
     }
@@ -1340,7 +1340,7 @@
         "path": "magicube/intro/intro_EN.md",
         "url": "intro",
         "key": "0-17-0",
-        "bytes": 7735
+        "bytes": 7936
       },
       {
         "ok": true,
@@ -3673,7 +3673,7 @@
         "path": "magicube/intro/intro_CN.md",
         "url": "intro",
         "key": "0-17-0",
-        "bytes": 6968
+        "bytes": 7144
       },
       {
         "ok": true,
