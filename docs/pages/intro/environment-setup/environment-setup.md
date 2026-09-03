@@ -14,16 +14,16 @@ To enable users to use models on the ModelScope platform without configuring the
 
 CPU Environment Images(python3.12):
 ```
-modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.10.0-1.39.0
-modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.10.0-1.39.0
-modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.10.0-1.39.0
+modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.13.0-1.40.0
+modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.13.0-1.40.0
+modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.13.0-1.40.0
 ```
 
 GPU Environment Images(python3.12):
 ``` 
-modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py312-torch2.10.0-1.39.0
-modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py312-torch2.10.0-1.39.0
-modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.8.1-py312-torch2.10.0-1.39.0
+modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda13.0.3-py312-torch2.13.0-1.40.0
+modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda13.0.3-py312-torch2.13.0-1.40.0
+modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda13.0.3-py312-torch2.13.0-1.40.0
 ```
 
 These images can be used to run large language models, diffusion models, Megatron models, funasr pipelines. 
@@ -31,22 +31,22 @@ If you need to use small models like BERT/YOLO, ModelScope also offers some comp
 
 CPU Images(python3.12)：
 ```
-modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.3.1-1.39.0
-modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.3.1-1.39.0
-modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.3.1-1.39.0
+modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.3.1-1.40.0
+modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.3.1-1.40.0
+modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-py312-torch2.3.1-1.40.0
 ```
 GPU Images(python3.12)：
 ``` 
-modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.1.0-py312-torch2.3.1-tf2.16.1-1.39.0
-modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.1.0-py312-torch2.3.1-tf2.16.1-1.39.0
-modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.1.0-py312-torch2.3.1-tf2.16.1-1.39.0
+modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.1.0-py312-torch2.3.1-tf2.16.1-1.40.0
+modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.1.0-py312-torch2.3.1-tf2.16.1-1.40.0
+modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.1.0-py312-torch2.3.1-tf2.16.1-1.40.0
 ```
 
 If you are running on AMD GPU machines, you can use the following images:
 ```
-modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-rocm7.2.3-py312-torch2.11.0-1.39.0
-modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-rocm7.2.3-py312-torch2.11.0-1.39.0
-modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-rocm7.2.3-py312-torch2.11.0-1.39.0
+modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-rocm7.2.3-py312-torch2.12.0-1.40.0
+modelscope-registry.cn-hangzhou.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-rocm7.2.3-py312-torch2.12.0-1.40.0
+modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-rocm7.2.3-py312-torch2.12.0-1.40.0
 ```
 
 Furthermore, for large model training scenarios, we provide [ms-swift](https://github.com/modelscope/ms-swift) images with additional dependencies for [Megatron-SWIFT](https://swift.readthedocs.io/zh-cn/latest/Megatron-SWIFT/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html):
