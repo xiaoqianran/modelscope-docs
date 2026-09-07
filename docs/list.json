@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-09-06T12:04:32.036Z",
+  "fetchedAt": "2026-09-07T14:09:36.492Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-3_0-48-EN",
-      "version": "20260903004919",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-7_18-54-EN",
+      "version": "20260907185504",
       "ok": 192,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-3_0-48-CN",
-      "version": "20260903004848",
-      "ok": 295,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-7_18-54-CN",
+      "version": "20260907185430",
+      "ok": 322,
       "failed": 0
     }
   ],
@@ -4403,6 +4403,249 @@
         "url": "privacy",
         "key": "0-24-6",
         "bytes": 25285
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/dify/dify.md",
+        "title": "Dify",
+        "path": "ecosystem-integrations/api-usage/dify/dify_CN.md",
+        "url": "dify",
+        "key": "0-25-0-0",
+        "bytes": 3395
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/ragflow/ragflow.md",
+        "title": "RagFlow",
+        "path": "ecosystem-integrations/api-usage/ragflow/ragflow_CN.md",
+        "url": "ragflow",
+        "key": "0-25-0-1",
+        "bytes": 6243
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/cowagent/cowagent.md",
+        "title": "CowAgent",
+        "path": "ecosystem-integrations/api-usage/cowagent/cowagent_CN.md",
+        "url": "cowagent",
+        "key": "0-25-0-2",
+        "bytes": 3895
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/langbot/langbot.md",
+        "title": "LangBot",
+        "path": "ecosystem-integrations/api-usage/langbot/langbot_CN.md",
+        "url": "langbot",
+        "key": "0-25-0-3",
+        "bytes": 3633
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/astrbot/astrbot.md",
+        "title": "AstrBot",
+        "path": "ecosystem-integrations/api-usage/astrbot/astrbot_CN.md",
+        "url": "astrbot",
+        "key": "0-25-0-4",
+        "bytes": 3320
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/nanobot/nanobot.md",
+        "title": "nanobot",
+        "path": "ecosystem-integrations/api-usage/nanobot/nanobot_CN.md",
+        "url": "nanobot",
+        "key": "0-25-0-5",
+        "bytes": 5461
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/openhuman/openhuman.md",
+        "title": "OpenHuman",
+        "path": "ecosystem-integrations/api-usage/openhuman/openhuman_CN.md",
+        "url": "openhuman",
+        "key": "0-25-0-6",
+        "bytes": 4780
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/airi/airi.md",
+        "title": "airi",
+        "path": "ecosystem-integrations/api-usage/airi/airi_CN.md",
+        "url": "airi",
+        "key": "0-25-0-7",
+        "bytes": 3045
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/browser-use/browser-use.md",
+        "title": "Browser-use",
+        "path": "ecosystem-integrations/api-usage/browser-use/browser-use_CN.md",
+        "url": "browser-use",
+        "key": "0-25-0-8",
+        "bytes": 2881
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/eko/eko.md",
+        "title": "Eko",
+        "path": "ecosystem-integrations/api-usage/eko/eko_CN.md",
+        "url": "eko",
+        "key": "0-25-0-9",
+        "bytes": 2377
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/moneyprinterturbo/moneyprinterturbo.md",
+        "title": "MoneyPrinterTurbo",
+        "path": "ecosystem-integrations/api-usage/moneyprinterturbo/moneyprinterturbo_CN.md",
+        "url": "moneyprinterturbo",
+        "key": "0-25-0-10",
+        "bytes": 5399
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/next-ai-draw-io/next-ai-draw-io.md",
+        "title": "Next AI Draw.io",
+        "path": "ecosystem-integrations/api-usage/next-ai-draw-io/next-ai-draw-io_CN.md",
+        "url": "next-ai-draw-io",
+        "key": "0-25-0-11",
+        "bytes": 4050
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/langchain/langchain.md",
+        "title": "LangChain",
+        "path": "ecosystem-integrations/api-usage/langchain/langchain_CN.md",
+        "url": "langchain",
+        "key": "0-25-0-12",
+        "bytes": 5735
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/litellm/litellm.md",
+        "title": "LiteLLM",
+        "path": "ecosystem-integrations/api-usage/litellm/litellm_CN.md",
+        "url": "litellm",
+        "key": "0-25-0-13",
+        "bytes": 7161
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/parlant/parlant.md",
+        "title": "Parlant",
+        "path": "ecosystem-integrations/api-usage/parlant/parlant_CN.md",
+        "url": "parlant",
+        "key": "0-25-0-14",
+        "bytes": 4350
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/hermes-agent/hermes-agent.md",
+        "title": "Hermes Agent",
+        "path": "ecosystem-integrations/api-usage/hermes-agent/hermes-agent_CN.md",
+        "url": "hermes-agent",
+        "key": "0-25-0-15",
+        "bytes": 7668
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/vibe-trading/vibe-trading.md",
+        "title": "Vibe-Trading",
+        "path": "ecosystem-integrations/api-usage/vibe-trading/vibe-trading_CN.md",
+        "url": "vibe-trading",
+        "key": "0-25-0-16",
+        "bytes": 6723
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/lobehub/lobehub.md",
+        "title": "LobeChat",
+        "path": "ecosystem-integrations/api-usage/lobehub/lobehub_CN.md",
+        "url": "lobehub",
+        "key": "0-25-0-17",
+        "bytes": 6554
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/ms-swift/ms-swift.md",
+        "title": "ms-swift",
+        "path": "ecosystem-integrations/model-download/ms-swift/ms-swift_CN.md",
+        "url": "ms-swift",
+        "key": "0-25-1-0",
+        "bytes": 12268
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/sglang/sglang.md",
+        "title": "SGLang",
+        "path": "ecosystem-integrations/model-download/sglang/sglang_CN.md",
+        "url": "sglang",
+        "key": "0-25-1-1",
+        "bytes": 4079
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/vllm/vllm.md",
+        "title": "vLLM",
+        "path": "ecosystem-integrations/model-download/vllm/vllm_CN.md",
+        "url": "vllm",
+        "key": "0-25-1-2",
+        "bytes": 7012
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/lmdeploy/lmdeploy.md",
+        "title": "LMDeploy",
+        "path": "ecosystem-integrations/model-download/lmdeploy/lmdeploy_CN.md",
+        "url": "lmdeploy",
+        "key": "0-25-1-3",
+        "bytes": 5499
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/llama-cpp/llama-cpp.md",
+        "title": "llama.cpp",
+        "path": "ecosystem-integrations/model-download/llama-cpp/llama-cpp_CN.md",
+        "url": "llama-cpp",
+        "key": "0-25-1-4",
+        "bytes": 9167
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/llama-factory/llama-factory.md",
+        "title": "LLaMA-Factory",
+        "path": "ecosystem-integrations/model-download/llama-factory/llama-factory_CN.md",
+        "url": "llama-factory",
+        "key": "0-25-1-5",
+        "bytes": 8306
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/openrlhf/openrlhf.md",
+        "title": "OpenRLHF",
+        "path": "ecosystem-integrations/model-download/openrlhf/openrlhf_CN.md",
+        "url": "openrlhf",
+        "key": "0-25-1-6",
+        "bytes": 9704
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/verl/verl.md",
+        "title": "verl",
+        "path": "ecosystem-integrations/model-download/verl/verl_CN.md",
+        "url": "verl",
+        "key": "0-25-1-7",
+        "bytes": 8886
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/docs-tutorials/minimind-twinkle/minimind-twinkle.md",
+        "title": "minimind + Twinkle",
+        "path": "ecosystem-integrations/docs-tutorials/minimind-twinkle/minimind-twinkle_CN.md",
+        "url": "minimind-twinkle",
+        "key": "0-25-2-0",
+        "bytes": 6868
       }
     ]
   },

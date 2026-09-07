@@ -2,9 +2,9 @@
 
 Unofficial mirror of [ModelScope Docs](https://www.modelscope.cn/docs).
 
-- Source version: `20260903004848`
-- CDN: `https://resouces.modelscope.cn/document/docdata/2026-9-3_0-48-CN`
-- Pages: 295
+- Source version: `20260907185430`
+- CDN: `https://resouces.modelscope.cn/document/docdata/2026-9-7_18-54-CN`
+- Pages: 322
 
 ## Top sections
 
@@ -32,3 +32,4 @@ Unofficial mirror of [ModelScope Docs](https://www.modelscope.cn/docs).
 - 常见问题
 - ModelScope社区
 - 用户协议
+- 开源生态支持
