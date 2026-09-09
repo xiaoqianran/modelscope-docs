@@ -2,7 +2,7 @@
 
 Official bilingual documentation mirror.
 
-- EN: 192 pages (version 20260907185504)
-- ZH: 322 pages (version 20260907185430)
+- EN: 192 pages (version 20260909111045)
+- ZH: 322 pages (version 20260909111008)
 
 Source: https://www.modelscope.cn/docs

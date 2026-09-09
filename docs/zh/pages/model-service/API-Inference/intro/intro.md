@@ -312,7 +312,7 @@ while True:
 <td>否</td>
 <td>string</td>
 <td>lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry</td>
-<td>长度小于2000</td>
+<td>长度小于4000</td>
 </tr>
 <tr>
 <td>size</td>
