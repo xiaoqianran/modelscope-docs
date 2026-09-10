@@ -685,12 +685,30 @@
       "dir": true,
       "children": [
         {
+          "title": "AgentHub",
+          "filename": "agent-hub",
+          "url": "agent-hub",
+          "path": "agent/agent-hub/agent-hub_CN.md",
+          "intlDisabled": false,
+          "key": "0-10-0",
+          "md": true
+        },
+        {
+          "title": "Agent实验场",
+          "filename": "playground",
+          "url": "playground",
+          "path": "agent/playground/playground_CN.md",
+          "intlDisabled": false,
+          "key": "0-10-1",
+          "md": true
+        },
+        {
           "title": "Agent身份服务",
           "filename": "agent-identity",
           "url": "agent-identity",
           "path": "agent/agent-identity/agent-identity_CN.md",
           "intlDisabled": false,
-          "key": "0-10-0",
+          "key": "0-10-2",
           "md": true
         }
       ],

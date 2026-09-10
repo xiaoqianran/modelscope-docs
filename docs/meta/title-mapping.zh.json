@@ -72,6 +72,8 @@
   "Skills中心简介": "skills/intro",
   "Skills的下载安装": "skills/install",
   "Agents": "agents",
+  "AgentHub": "agents/agent-hub",
+  "Agent实验场": "agents/playground",
   "Agent身份服务": "agents/agent-identity",
   "科学智能专区": "nexa",
   "科学智能专区介绍": "nexa/intro",

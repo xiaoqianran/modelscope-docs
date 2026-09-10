@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-09-09T12:52:23.586Z",
+  "fetchedAt": "2026-09-10T12:50:30.615Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-9_11-10-EN",
-      "version": "20260909111045",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-10_15-4-EN",
+      "version": "20260910150515",
       "ok": 192,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-9_11-9-CN",
-      "version": "20260909111008",
-      "ok": 322,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-10_15-4-CN",
+      "version": "20260910150439",
+      "ok": 324,
       "failed": 0
     }
   ],
@@ -2291,11 +2291,29 @@
       },
       {
         "ok": true,
+        "rel": "agent/agent-hub/agent-hub.md",
+        "title": "AgentHub",
+        "path": "agent/agent-hub/agent-hub_CN.md",
+        "url": "agent-hub",
+        "key": "0-10-0",
+        "bytes": 7274
+      },
+      {
+        "ok": true,
+        "rel": "agent/playground/playground.md",
+        "title": "Agent实验场",
+        "path": "agent/playground/playground_CN.md",
+        "url": "playground",
+        "key": "0-10-1",
+        "bytes": 5448
+      },
+      {
+        "ok": true,
         "rel": "agent/agent-identity/agent-identity.md",
         "title": "Agent身份服务",
         "path": "agent/agent-identity/agent-identity_CN.md",
         "url": "agent-identity",
-        "key": "0-10-0",
+        "key": "0-10-2",
         "bytes": 15625
       },
       {

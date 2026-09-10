@@ -72,6 +72,8 @@
   "Introduction to Skills Center": "skills/intro",
   "Download and Install Skills": "skills/install",
   "agents": "agents",
+  "agent-hub": "agents/agent-hub",
+  "playground": "agents/playground",
   "agent-identity": "agents/agent-identity",
   "Nexa": "nexa",
   "Introduction to Nexa": "nexa/intro",

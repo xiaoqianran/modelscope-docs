@@ -685,13 +685,31 @@
       "dir": true,
       "children": [
         {
+          "title": "agent-hub",
+          "filename": "agent-hub",
+          "url": "agent-hub",
+          "path": "agent/agent-hub",
+          "dir": true,
+          "intlDisabled": false,
+          "key": "0-10-0"
+        },
+        {
+          "title": "playground",
+          "filename": "playground",
+          "url": "playground",
+          "path": "agent/playground",
+          "dir": true,
+          "intlDisabled": false,
+          "key": "0-10-1"
+        },
+        {
           "title": "agent-identity",
           "filename": "agent-identity",
           "url": "agent-identity",
           "path": "agent/agent-identity",
           "dir": true,
           "intlDisabled": false,
-          "key": "0-10-0"
+          "key": "0-10-2"
         }
       ],
       "intlDisabled": false,
