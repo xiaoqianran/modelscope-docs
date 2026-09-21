@@ -2,9 +2,9 @@
 
 Unofficial mirror of [ModelScope Docs](https://www.modelscope.cn/docs).
 
-- Source version: `20260910150439`
-- CDN: `https://resouces.modelscope.cn/document/docdata/2026-9-10_15-4-CN`
-- Pages: 324
+- Source version: `20260921194938`
+- CDN: `https://resouces.modelscope.cn/document/docdata/2026-9-21_19-49-CN`
+- Pages: 326
 
 ## Top sections
 

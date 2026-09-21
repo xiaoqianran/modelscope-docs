@@ -3507,166 +3507,184 @@
           "dir": true,
           "children": [
             {
-              "title": "dify",
+              "title": "Dify",
               "filename": "dify",
               "url": "dify",
-              "path": "ecosystem-integrations/api-usage/dify",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/dify/dify_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-0"
+              "key": "0-25-0-0",
+              "md": true
             },
             {
-              "title": "ragflow",
+              "title": "RagFlow",
               "filename": "ragflow",
               "url": "ragflow",
-              "path": "ecosystem-integrations/api-usage/ragflow",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/ragflow/ragflow_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-1"
+              "key": "0-25-0-1",
+              "md": true
             },
             {
-              "title": "cowagent",
+              "title": "CowAgent",
               "filename": "cowagent",
               "url": "cowagent",
-              "path": "ecosystem-integrations/api-usage/cowagent",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/cowagent/cowagent_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-2"
+              "key": "0-25-0-2",
+              "md": true
             },
             {
-              "title": "langbot",
+              "title": "LangBot",
               "filename": "langbot",
               "url": "langbot",
-              "path": "ecosystem-integrations/api-usage/langbot",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/langbot/langbot_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-3"
+              "key": "0-25-0-3",
+              "md": true
             },
             {
-              "title": "astrbot",
+              "title": "AstrBot",
               "filename": "astrbot",
               "url": "astrbot",
-              "path": "ecosystem-integrations/api-usage/astrbot",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/astrbot/astrbot_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-4"
+              "key": "0-25-0-4",
+              "md": true
             },
             {
               "title": "nanobot",
               "filename": "nanobot",
               "url": "nanobot",
-              "path": "ecosystem-integrations/api-usage/nanobot",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/nanobot/nanobot_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-5"
+              "key": "0-25-0-5",
+              "md": true
             },
             {
-              "title": "openhuman",
+              "title": "OpenHuman",
               "filename": "openhuman",
               "url": "openhuman",
-              "path": "ecosystem-integrations/api-usage/openhuman",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/openhuman/openhuman_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-6"
+              "key": "0-25-0-6",
+              "md": true
             },
             {
               "title": "airi",
               "filename": "airi",
               "url": "airi",
-              "path": "ecosystem-integrations/api-usage/airi",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/airi/airi_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-7"
+              "key": "0-25-0-7",
+              "md": true
             },
             {
-              "title": "browser-use",
+              "title": "Browser-use",
               "filename": "browser-use",
               "url": "browser-use",
-              "path": "ecosystem-integrations/api-usage/browser-use",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/browser-use/browser-use_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-8"
+              "key": "0-25-0-8",
+              "md": true
             },
             {
-              "title": "eko",
+              "title": "Eko",
               "filename": "eko",
               "url": "eko",
-              "path": "ecosystem-integrations/api-usage/eko",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/eko/eko_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-9"
+              "key": "0-25-0-9",
+              "md": true
             },
             {
-              "title": "moneyprinterturbo",
+              "title": "MoneyPrinterTurbo",
               "filename": "moneyprinterturbo",
               "url": "moneyprinterturbo",
-              "path": "ecosystem-integrations/api-usage/moneyprinterturbo",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/moneyprinterturbo/moneyprinterturbo_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-10"
+              "key": "0-25-0-10",
+              "md": true
             },
             {
-              "title": "next-ai-draw-io",
+              "title": "Next AI Draw.io",
               "filename": "next-ai-draw-io",
               "url": "next-ai-draw-io",
-              "path": "ecosystem-integrations/api-usage/next-ai-draw-io",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/next-ai-draw-io/next-ai-draw-io_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-11"
+              "key": "0-25-0-11",
+              "md": true
             },
             {
-              "title": "langchain",
+              "title": "LangChain",
               "filename": "langchain",
               "url": "langchain",
-              "path": "ecosystem-integrations/api-usage/langchain",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/langchain/langchain_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-12"
+              "key": "0-25-0-12",
+              "md": true
             },
             {
-              "title": "litellm",
+              "title": "LiteLLM",
               "filename": "litellm",
               "url": "litellm",
-              "path": "ecosystem-integrations/api-usage/litellm",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/litellm/litellm_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-13"
+              "key": "0-25-0-13",
+              "md": true
             },
             {
-              "title": "parlant",
+              "title": "Parlant",
               "filename": "parlant",
               "url": "parlant",
-              "path": "ecosystem-integrations/api-usage/parlant",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/parlant/parlant_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-14"
+              "key": "0-25-0-14",
+              "md": true
             },
             {
-              "title": "hermes-agent",
+              "title": "Hermes Agent",
               "filename": "hermes-agent",
               "url": "hermes-agent",
-              "path": "ecosystem-integrations/api-usage/hermes-agent",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/hermes-agent/hermes-agent_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-15"
+              "key": "0-25-0-15",
+              "md": true
             },
             {
-              "title": "vibe-trading",
+              "title": "Vibe-Trading",
               "filename": "vibe-trading",
               "url": "vibe-trading",
-              "path": "ecosystem-integrations/api-usage/vibe-trading",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/vibe-trading/vibe-trading_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-16"
+              "key": "0-25-0-16",
+              "md": true
             },
             {
-              "title": "lobehub",
+              "title": "LobeChat",
               "filename": "lobehub",
               "url": "lobehub",
-              "path": "ecosystem-integrations/api-usage/lobehub",
-              "dir": true,
+              "path": "ecosystem-integrations/api-usage/lobehub/lobehub_EN.md",
               "intlDisabled": false,
-              "key": "0-25-0-17"
+              "key": "0-25-0-17",
+              "md": true
+            },
+            {
+              "title": "DeepSeek-Reasonix",
+              "filename": "deepseek-reasonix",
+              "url": "deepseek-reasonix",
+              "path": "ecosystem-integrations/api-usage/deepseek-reasonix/deepseek-reasonix_EN.md",
+              "intlDisabled": false,
+              "key": "0-25-0-18",
+              "md": true
+            },
+            {
+              "title": "Codewhale",
+              "filename": "codewhale",
+              "url": "codewhale",
+              "path": "ecosystem-integrations/api-usage/codewhale/codewhale_EN.md",
+              "intlDisabled": false,
+              "key": "0-25-0-19",
+              "md": true
             }
           ],
           "intlDisabled": false,
@@ -3683,73 +3701,73 @@
               "title": "ms-swift",
               "filename": "ms-swift",
               "url": "ms-swift",
-              "path": "ecosystem-integrations/model-download/ms-swift",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/ms-swift/ms-swift_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-0"
+              "key": "0-25-1-0",
+              "md": true
             },
             {
-              "title": "sglang",
+              "title": "SGLang",
               "filename": "sglang",
               "url": "sglang",
-              "path": "ecosystem-integrations/model-download/sglang",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/sglang/sglang_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-1"
+              "key": "0-25-1-1",
+              "md": true
             },
             {
-              "title": "vllm",
+              "title": "vLLM",
               "filename": "vllm",
               "url": "vllm",
-              "path": "ecosystem-integrations/model-download/vllm",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/vllm/vllm_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-2"
+              "key": "0-25-1-2",
+              "md": true
             },
             {
-              "title": "lmdeploy",
+              "title": "LMDeploy",
               "filename": "lmdeploy",
               "url": "lmdeploy",
-              "path": "ecosystem-integrations/model-download/lmdeploy",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/lmdeploy/lmdeploy_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-3"
+              "key": "0-25-1-3",
+              "md": true
             },
             {
-              "title": "llama-cpp",
+              "title": "llama.cpp",
               "filename": "llama-cpp",
               "url": "llama-cpp",
-              "path": "ecosystem-integrations/model-download/llama-cpp",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/llama-cpp/llama-cpp_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-4"
+              "key": "0-25-1-4",
+              "md": true
             },
             {
-              "title": "llama-factory",
+              "title": "LLaMA-Factory",
               "filename": "llama-factory",
               "url": "llama-factory",
-              "path": "ecosystem-integrations/model-download/llama-factory",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/llama-factory/llama-factory_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-5"
+              "key": "0-25-1-5",
+              "md": true
             },
             {
-              "title": "openrlhf",
+              "title": "OpenRLHF",
               "filename": "openrlhf",
               "url": "openrlhf",
-              "path": "ecosystem-integrations/model-download/openrlhf",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/openrlhf/openrlhf_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-6"
+              "key": "0-25-1-6",
+              "md": true
             },
             {
               "title": "verl",
               "filename": "verl",
               "url": "verl",
-              "path": "ecosystem-integrations/model-download/verl",
-              "dir": true,
+              "path": "ecosystem-integrations/model-download/verl/verl_EN.md",
               "intlDisabled": false,
-              "key": "0-25-1-7"
+              "key": "0-25-1-7",
+              "md": true
             }
           ],
           "intlDisabled": false,
@@ -3763,13 +3781,13 @@
           "dir": true,
           "children": [
             {
-              "title": "minimind-twinkle",
+              "title": "minimind + Twinkle",
               "filename": "minimind-twinkle",
               "url": "minimind-twinkle",
-              "path": "ecosystem-integrations/docs-tutorials/minimind-twinkle",
-              "dir": true,
+              "path": "ecosystem-integrations/docs-tutorials/minimind-twinkle/minimind-twinkle_EN.md",
               "intlDisabled": false,
-              "key": "0-25-2-0"
+              "key": "0-25-2-0",
+              "md": true
             }
           ],
           "intlDisabled": false,

@@ -376,6 +376,8 @@
   "Hermes Agent": "ecosystem-integrations/api-usage/hermes-agent",
   "Vibe-Trading": "ecosystem-integrations/api-usage/vibe-trading",
   "LobeChat": "ecosystem-integrations/api-usage/lobehub",
+  "DeepSeek-Reasonix": "ecosystem-integrations/api-usage/deepseek-reasonix",
+  "Codewhale": "ecosystem-integrations/api-usage/codewhale",
   "模型下载": "ecosystem-integrations/model-download",
   "ms-swift": "ecosystem-integrations/model-download/ms-swift",
   "SGLang": "ecosystem-integrations/model-download/sglang",

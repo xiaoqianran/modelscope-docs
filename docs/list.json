@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-09-20T12:59:30.221Z",
+  "fetchedAt": "2026-09-21T15:00:56.320Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-10_15-4-EN",
-      "version": "20260910150515",
-      "ok": 192,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-21_19-49-EN",
+      "version": "20260921195015",
+      "ok": 221,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-10_15-4-CN",
-      "version": "20260910150439",
-      "ok": 324,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-21_19-49-CN",
+      "version": "20260921194938",
+      "ok": 326,
       "failed": 0
     }
   ],
@@ -1746,6 +1746,267 @@
         "url": "privacy",
         "key": "0-24-6",
         "bytes": 30339
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/dify/dify.md",
+        "title": "Dify",
+        "path": "ecosystem-integrations/api-usage/dify/dify_EN.md",
+        "url": "dify",
+        "key": "0-25-0-0",
+        "bytes": 3842
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/ragflow/ragflow.md",
+        "title": "RagFlow",
+        "path": "ecosystem-integrations/api-usage/ragflow/ragflow_EN.md",
+        "url": "ragflow",
+        "key": "0-25-0-1",
+        "bytes": 7328
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/cowagent/cowagent.md",
+        "title": "CowAgent",
+        "path": "ecosystem-integrations/api-usage/cowagent/cowagent_EN.md",
+        "url": "cowagent",
+        "key": "0-25-0-2",
+        "bytes": 4490
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/langbot/langbot.md",
+        "title": "LangBot",
+        "path": "ecosystem-integrations/api-usage/langbot/langbot_EN.md",
+        "url": "langbot",
+        "key": "0-25-0-3",
+        "bytes": 4252
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/astrbot/astrbot.md",
+        "title": "AstrBot",
+        "path": "ecosystem-integrations/api-usage/astrbot/astrbot_EN.md",
+        "url": "astrbot",
+        "key": "0-25-0-4",
+        "bytes": 3872
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/nanobot/nanobot.md",
+        "title": "nanobot",
+        "path": "ecosystem-integrations/api-usage/nanobot/nanobot_EN.md",
+        "url": "nanobot",
+        "key": "0-25-0-5",
+        "bytes": 5888
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/openhuman/openhuman.md",
+        "title": "OpenHuman",
+        "path": "ecosystem-integrations/api-usage/openhuman/openhuman_EN.md",
+        "url": "openhuman",
+        "key": "0-25-0-6",
+        "bytes": 5436
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/airi/airi.md",
+        "title": "airi",
+        "path": "ecosystem-integrations/api-usage/airi/airi_EN.md",
+        "url": "airi",
+        "key": "0-25-0-7",
+        "bytes": 3397
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/browser-use/browser-use.md",
+        "title": "Browser-use",
+        "path": "ecosystem-integrations/api-usage/browser-use/browser-use_EN.md",
+        "url": "browser-use",
+        "key": "0-25-0-8",
+        "bytes": 3129
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/eko/eko.md",
+        "title": "Eko",
+        "path": "ecosystem-integrations/api-usage/eko/eko_EN.md",
+        "url": "eko",
+        "key": "0-25-0-9",
+        "bytes": 2837
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/moneyprinterturbo/moneyprinterturbo.md",
+        "title": "MoneyPrinterTurbo",
+        "path": "ecosystem-integrations/api-usage/moneyprinterturbo/moneyprinterturbo_EN.md",
+        "url": "moneyprinterturbo",
+        "key": "0-25-0-10",
+        "bytes": 6299
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/next-ai-draw-io/next-ai-draw-io.md",
+        "title": "Next AI Draw.io",
+        "path": "ecosystem-integrations/api-usage/next-ai-draw-io/next-ai-draw-io_EN.md",
+        "url": "next-ai-draw-io",
+        "key": "0-25-0-11",
+        "bytes": 4679
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/langchain/langchain.md",
+        "title": "LangChain",
+        "path": "ecosystem-integrations/api-usage/langchain/langchain_EN.md",
+        "url": "langchain",
+        "key": "0-25-0-12",
+        "bytes": 6620
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/litellm/litellm.md",
+        "title": "LiteLLM",
+        "path": "ecosystem-integrations/api-usage/litellm/litellm_EN.md",
+        "url": "litellm",
+        "key": "0-25-0-13",
+        "bytes": 7675
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/parlant/parlant.md",
+        "title": "Parlant",
+        "path": "ecosystem-integrations/api-usage/parlant/parlant_EN.md",
+        "url": "parlant",
+        "key": "0-25-0-14",
+        "bytes": 4944
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/hermes-agent/hermes-agent.md",
+        "title": "Hermes Agent",
+        "path": "ecosystem-integrations/api-usage/hermes-agent/hermes-agent_EN.md",
+        "url": "hermes-agent",
+        "key": "0-25-0-15",
+        "bytes": 8525
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/vibe-trading/vibe-trading.md",
+        "title": "Vibe-Trading",
+        "path": "ecosystem-integrations/api-usage/vibe-trading/vibe-trading_EN.md",
+        "url": "vibe-trading",
+        "key": "0-25-0-16",
+        "bytes": 7479
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/lobehub/lobehub.md",
+        "title": "LobeChat",
+        "path": "ecosystem-integrations/api-usage/lobehub/lobehub_EN.md",
+        "url": "lobehub",
+        "key": "0-25-0-17",
+        "bytes": 7426
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/deepseek-reasonix/deepseek-reasonix.md",
+        "title": "DeepSeek-Reasonix",
+        "path": "ecosystem-integrations/api-usage/deepseek-reasonix/deepseek-reasonix_EN.md",
+        "url": "deepseek-reasonix",
+        "key": "0-25-0-18",
+        "bytes": 6460
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/codewhale/codewhale.md",
+        "title": "Codewhale",
+        "path": "ecosystem-integrations/api-usage/codewhale/codewhale_EN.md",
+        "url": "codewhale",
+        "key": "0-25-0-19",
+        "bytes": 5253
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/ms-swift/ms-swift.md",
+        "title": "ms-swift",
+        "path": "ecosystem-integrations/model-download/ms-swift/ms-swift_EN.md",
+        "url": "ms-swift",
+        "key": "0-25-1-0",
+        "bytes": 13926
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/sglang/sglang.md",
+        "title": "SGLang",
+        "path": "ecosystem-integrations/model-download/sglang/sglang_EN.md",
+        "url": "sglang",
+        "key": "0-25-1-1",
+        "bytes": 4571
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/vllm/vllm.md",
+        "title": "vLLM",
+        "path": "ecosystem-integrations/model-download/vllm/vllm_EN.md",
+        "url": "vllm",
+        "key": "0-25-1-2",
+        "bytes": 7810
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/lmdeploy/lmdeploy.md",
+        "title": "LMDeploy",
+        "path": "ecosystem-integrations/model-download/lmdeploy/lmdeploy_EN.md",
+        "url": "lmdeploy",
+        "key": "0-25-1-3",
+        "bytes": 6154
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/llama-cpp/llama-cpp.md",
+        "title": "llama.cpp",
+        "path": "ecosystem-integrations/model-download/llama-cpp/llama-cpp_EN.md",
+        "url": "llama-cpp",
+        "key": "0-25-1-4",
+        "bytes": 10585
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/llama-factory/llama-factory.md",
+        "title": "LLaMA-Factory",
+        "path": "ecosystem-integrations/model-download/llama-factory/llama-factory_EN.md",
+        "url": "llama-factory",
+        "key": "0-25-1-5",
+        "bytes": 9021
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/openrlhf/openrlhf.md",
+        "title": "OpenRLHF",
+        "path": "ecosystem-integrations/model-download/openrlhf/openrlhf_EN.md",
+        "url": "openrlhf",
+        "key": "0-25-1-6",
+        "bytes": 10518
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/model-download/verl/verl.md",
+        "title": "verl",
+        "path": "ecosystem-integrations/model-download/verl/verl_EN.md",
+        "url": "verl",
+        "key": "0-25-1-7",
+        "bytes": 9885
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/docs-tutorials/minimind-twinkle/minimind-twinkle.md",
+        "title": "minimind + Twinkle",
+        "path": "ecosystem-integrations/docs-tutorials/minimind-twinkle/minimind-twinkle_EN.md",
+        "url": "minimind-twinkle",
+        "key": "0-25-2-0",
+        "bytes": 7807
       }
     ],
     "zh": [
@@ -4583,6 +4844,24 @@
         "url": "lobehub",
         "key": "0-25-0-17",
         "bytes": 6554
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/deepseek-reasonix/deepseek-reasonix.md",
+        "title": "DeepSeek-Reasonix",
+        "path": "ecosystem-integrations/api-usage/deepseek-reasonix/deepseek-reasonix_CN.md",
+        "url": "deepseek-reasonix",
+        "key": "0-25-0-18",
+        "bytes": 5953
+      },
+      {
+        "ok": true,
+        "rel": "ecosystem-integrations/api-usage/codewhale/codewhale.md",
+        "title": "Codewhale",
+        "path": "ecosystem-integrations/api-usage/codewhale/codewhale_CN.md",
+        "url": "codewhale",
+        "key": "0-25-0-19",
+        "bytes": 5000
       },
       {
         "ok": true,

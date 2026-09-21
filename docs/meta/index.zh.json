@@ -3667,6 +3667,24 @@
               "intlDisabled": false,
               "key": "0-25-0-17",
               "md": true
+            },
+            {
+              "title": "DeepSeek-Reasonix",
+              "filename": "deepseek-reasonix",
+              "url": "deepseek-reasonix",
+              "path": "ecosystem-integrations/api-usage/deepseek-reasonix/deepseek-reasonix_CN.md",
+              "intlDisabled": false,
+              "key": "0-25-0-18",
+              "md": true
+            },
+            {
+              "title": "Codewhale",
+              "filename": "codewhale",
+              "url": "codewhale",
+              "path": "ecosystem-integrations/api-usage/codewhale/codewhale_CN.md",
+              "intlDisabled": false,
+              "key": "0-25-0-19",
+              "md": true
             }
           ],
           "intlDisabled": false,
