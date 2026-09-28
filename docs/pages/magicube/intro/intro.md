@@ -67,10 +67,10 @@ The actual cost shown on the confirmation screen before you run a ta
     
 *   **Priority training**: Costs 4× Magicubes (unlocks a higher image cap and elevated training queue priority).
     
-*   **Gated model training**: Costs 2× Magicubes.
+*   **Gated model training**: Costs 4× Magicubes.
     
 
-Note: Enabling both Priority training and Gated model training together results in a 5× multiplier.
+Note: Enabling both Priority training and Gated model training together results in a 7× multiplier.
 
 ### API Inference
 
