@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-08T15:28:10.261Z",
+  "fetchedAt": "2026-10-09T15:10:52.890Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-28_15-50-EN",
-      "version": "20260928155046",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-9_16-57-EN",
+      "version": "20261009165808",
       "ok": 221,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-9-28_15-49-CN",
-      "version": "20260928155008",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-9_16-57-CN",
+      "version": "20261009165732",
       "ok": 326,
       "failed": 0
     }

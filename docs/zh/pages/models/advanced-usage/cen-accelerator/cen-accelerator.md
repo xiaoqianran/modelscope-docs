@@ -97,13 +97,13 @@ $ modelscope --version
  |  |   |  |   `'  '-'  '|  '--'  / |  `---.|      | \       /(_'  '--'\    `'  '-'  ' |  |      |  `---.
  `--'   `--'     `-----' `-------'  `------'`------'  `-----'    `-----'      `-----'  `--'      `------'
 
-modelscope-hub 0.1.7
+modelscope-hub 0.4.6
 ```
 
 如果版本不满足要求，可通过以下命令升级：
 
 ```bash
-pip install "modelscope_hub>=0.1.7"
+pip install "modelscope_hub>=0.4.6"
 ```
 
 ## 使用方法
