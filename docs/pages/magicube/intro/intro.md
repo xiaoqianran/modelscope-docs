@@ -19,8 +19,7 @@ The Magicube program rewards you through multiple tiers: **Daily Login�
 | --- | --- | --- | --- | --- |
 | Daily Login Bonus | Sign in | **200 Magicubes/day** `short-term` | Issued daily upon login; valid for the current day only (does not roll over) | Once per day |
 | Account Linking Bonus | Link Alibaba Cloud account | **50 Magicubes/day** `short-term` | Issued daily upon login after linking your Alibaba Cloud account; valid for the current day only (does not roll over) | Once per day |
-| Community Engagement – Interactions | Post a comment | **5 Magicubes** `short-term` | Comment on another user's post and receive like/reply from another user | Up to 2× per day |
-|  | Favorite / Like | **2 Magicubes** `short-term` | Favorite or like another user's post | Up to 20× per day |
+| Community Engagement – Interactions | Favorite / Like | **2 Magicubes** `short-term` | Favorite or like another user's post | Up to 10× per day |
 | Community Engagement – Profile Setup | Verify email | **50 Magicubes** `long-term` | Add and verify your [email address](https://modelscope.ai/my/settings/account) | One-time only |
 |  | Write a bio | **50 Magicubes** `long-term` | Fill in your bio under [Settings → Profile](https://modelscope.ai/my/settings/profile) and save | One-time only |
 |  | Customize your profile page | **50 Magicubes** `long-term` | Pin featured items on your [profile page](https://modelscope.ai/profile) and save | One-time only |
