@@ -215,6 +215,9 @@ for chunk in response:
 ```
 ### AIGC模型
 支持API调用的模型列表，可以通过[AIGC模型](https://www.modelscope.cn/aigc/models)页面进行搜索。
+
+#### 图片推理
+
 API的调用示例如下:
 ```python
 import requests
@@ -271,7 +274,7 @@ while True:
 
     time.sleep(5)
 ```
-#### Base64 图片输入支持
+##### Base64 图片输入支持
 
 对于图像编辑模型，输入的图片建议使用线上托管的图像URL地址。如果需要使用本地文件，可以使用上方的[`image_to_data_url`](#base64-本地图片编码工具函数)函数对本地图片进行Base64编码，并将编码后的数据作为`image_url`传递给模型。一个典型的调用方式是：
 ```python
@@ -280,7 +283,7 @@ while True:
            image_to_data_url("path/to/local/image.jpg")
         ]
 ```
-更多参数说明
+图片推理参数说明
 <table>
 <tr>
 <td>参数名</td>
@@ -365,5 +368,74 @@ while True:
 </td>
 <td>多LoRA权重总和须为1.0，最多6个</td>
 </tr>
+</table>
 
+#### 音频推理
 
+API的调用示例如下:
+```python
+import requests
+import time
+import json
+from pathlib import Path
+from urllib.parse import urlparse
+
+base_url = 'https://api-inference.modelscope.cn/'
+api_key = "<MODELSCOPE_SDK_TOKEN>"
+
+common_headers = {
+    "Authorization": f"Bearer {api_key}",
+    "Content-Type": "application/json",
+}
+
+response = requests.post(
+    f"{base_url}v1/audios/generations",
+    headers={**common_headers, "X-ModelScope-Async-Mode": "true"},
+    data=json.dumps({
+        "model": "ACE-Step/acestep-v15-xl-sft",
+        "prompt": "一首温暖的原声流行歌曲，配以轻柔的吉他、舒缓的鼓点和清晰的普通话人声。",
+        "lyrics": "[Verse]\n微风吹过夏日的街道\n阳光落在你微笑的嘴角\n[Chorus]\n让我们迎着风轻轻歌唱\n把每个平凡的日子点亮",
+        "duration": 30,
+    }, ensure_ascii=False).encode('utf-8'),
+    timeout=60,
+)
+response.raise_for_status()
+submit_result = response.json()
+if submit_result["status"] == "FAILED":
+    raise RuntimeError(f"Audio Generation Failed: {submit_result.get('errors')}")
+task_id = submit_result["task_id"]
+
+while True:
+    result = requests.get(
+        f"{base_url}v1/tasks/{task_id}",
+        headers={**common_headers, "X-ModelScope-Task-Type": "audio_generation"},
+        timeout=60,
+    )
+    result.raise_for_status()
+    data = result.json()
+
+    if data["task_status"] == "SUCCEED":
+        audio_url = data["outputs"]["url"]
+        audio = requests.get(audio_url, timeout=60)
+        audio.raise_for_status()
+        suffix = Path(urlparse(audio_url).path).suffix or ".audio"
+        output_path = Path(f"result_audio{suffix}")
+        output_path.write_bytes(audio.content)
+        print(f"Audio saved to {output_path}")
+        break
+    elif data["task_status"] == "FAILED":
+        raise RuntimeError(f"Audio Generation Failed: {data.get('errors')}")
+
+    time.sleep(5)
+```
+
+示例中的参数说明：
+
+| 参数名 | 参数说明 | 是否必须 | 参数类型 |
+| --- | --- | --- | --- |
+| `model` | 支持 API 调用的音乐模型 ID。 | 是 | string |
+| `prompt` | 描述音乐风格、情绪、乐器或人声等。 | 是 | string |
+| `lyrics` | 歌词文本，可使用 `[Verse]`、`[Chorus]` 等段落标记。 | 否 | string |
+| `duration` | 生成音频的时长，单位为秒。 | 是 | int |
+
+查询任务时，需设置请求头 `X-ModelScope-Task-Type: audio_generation`。`task_status` 为 `PENDING` 或 `RUNNING` 时继续等待，为 `SUCCEED` 时下载音频，为 `FAILED` 时查看 `errors` 中的错误信息。

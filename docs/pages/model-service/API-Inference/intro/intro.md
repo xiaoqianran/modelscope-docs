@@ -190,6 +190,9 @@ Models with visual understanding capabilities (such as Qwen2.5-VL and other spec
 ```
 ### AIGC Models
 The list of models supporting API calls can be searched on the [AIGC Models](https://www.modelscope.cn/aigc/models) page.
+
+#### Image Inference
+
 An example API call is as follows:
 ```python
 import requests
@@ -246,7 +249,7 @@ while True:
 
     time.sleep(5)
 ```
-#### Base64 Image Input Support
+##### Base64 Image Input Support
 
 For image editing models, it's recommended to use online hosted image URLs for input. If you need to use local files, you can use the [`image_to_data_url`](#base64-local-image-encoding-utility-function) function above to Base64 encode local images and pass the encoded data as `image_url` to the model. A typical calling method is:
 ```python
@@ -255,7 +258,7 @@ For image editing models, it's recommended to use online hosted image URLs for i
            image_to_data_url("path/to/local/image.jpg")
         ]
 ```
-Additional Parameter Descriptions
+Image Inference Parameter Descriptions
 <table>
 <tr>
 <td>Parameter Name</td>
@@ -341,3 +344,73 @@ Multiple LoRAs: {"&lt;lora-repo-id1&gt;": 0.6, "&lt;lora-repo-id2&gt;": 0.4}
 <td>Total weight of multiple LoRAs must sum to 1.0, up to 6 LoRAs</td>
 </tr>
 </table>
+
+#### Audio Inference
+
+An example API call is as follows:
+```python
+import requests
+import time
+import json
+from pathlib import Path
+from urllib.parse import urlparse
+
+base_url = 'https://api-inference.modelscope.ai/'
+api_key = "<MODELSCOPE_SDK_TOKEN>"
+
+common_headers = {
+    "Authorization": f"Bearer {api_key}",
+    "Content-Type": "application/json",
+}
+
+response = requests.post(
+    f"{base_url}v1/audios/generations",
+    headers={**common_headers, "X-ModelScope-Async-Mode": "true"},
+    data=json.dumps({
+        "model": "ACE-Step/acestep-v15-xl-sft",
+        "prompt": "A warm acoustic pop song with gentle guitar, relaxed drum beats, and clear English vocals.",
+        "lyrics": "[Verse]\nA breeze drifts down the summer street\nSunlight dances on your smile so sweet\n[Chorus]\nLet us sing softly into the breeze\nAnd brighten every ordinary day with ease",
+        "duration": 30,
+    }, ensure_ascii=False).encode('utf-8'),
+    timeout=60,
+)
+response.raise_for_status()
+submit_result = response.json()
+if submit_result["status"] == "FAILED":
+    raise RuntimeError(f"Audio Generation Failed: {submit_result.get('errors')}")
+task_id = submit_result["task_id"]
+
+while True:
+    result = requests.get(
+        f"{base_url}v1/tasks/{task_id}",
+        headers={**common_headers, "X-ModelScope-Task-Type": "audio_generation"},
+        timeout=60,
+    )
+    result.raise_for_status()
+    data = result.json()
+
+    if data["task_status"] == "SUCCEED":
+        audio_url = data["outputs"]["url"]
+        audio = requests.get(audio_url, timeout=60)
+        audio.raise_for_status()
+        suffix = Path(urlparse(audio_url).path).suffix or ".audio"
+        output_path = Path(f"result_audio{suffix}")
+        output_path.write_bytes(audio.content)
+        print(f"Audio saved to {output_path}")
+        break
+    elif data["task_status"] == "FAILED":
+        raise RuntimeError(f"Audio Generation Failed: {data.get('errors')}")
+
+    time.sleep(5)
+```
+
+Parameters used in the example:
+
+| Parameter Name | Parameter Description | Required | Parameter Type |
+| --- | --- | --- | --- |
+| `model` | ID of a music model that supports API calls. | Yes | string |
+| `prompt` | Description of the music style, mood, instruments, or vocals. | Yes | string |
+| `lyrics` | Lyrics text, optionally including section markers such as `[Verse]` and `[Chorus]`. | No | string |
+| `duration` | Duration of the generated audio, in seconds. | Yes | int |
+
+When querying a task, set the `X-ModelScope-Task-Type: audio_generation` request header. Continue waiting while `task_status` is `PENDING` or `RUNNING`, download the audio when it is `SUCCEED`, and check `errors` for error details when it is `FAILED`.

@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-10-26T15:03:28.197Z",
+  "fetchedAt": "2026-10-27T14:16:30.571Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-20_18-23-EN",
-      "version": "20261020182423",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-27_10-18-EN",
+      "version": "20261027101913",
       "ok": 221,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-20_18-23-CN",
-      "version": "20261020182350",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-27_10-17-CN",
+      "version": "20261027101837",
       "ok": 326,
       "failed": 0
     }
@@ -1277,7 +1277,7 @@
         "path": "model-service/API-Inference/intro/intro_EN.md",
         "url": "intro",
         "key": "0-16-0-0",
-        "bytes": 13034
+        "bytes": 15758
       },
       {
         "ok": true,
@@ -3880,7 +3880,7 @@
         "path": "model-service/API-Inference/intro/intro_CN.md",
         "url": "intro",
         "key": "0-16-0-0",
-        "bytes": 12973
+        "bytes": 15593
       },
       {
         "ok": true,
