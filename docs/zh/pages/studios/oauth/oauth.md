@@ -220,4 +220,4 @@ ENTRYPOINT ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
 - **登录后没有用户资料**：确认权限范围中包含 `openid` 和 `profile`，并检查回调请求的服务端日志。
 - **登录按钮不等于访问控制**：登录前就不应公开的页面或接口，需要在服务端路由中检查会话。
 - **不要手工拼接不带 `state` 的授权请求**：使用成熟的 OIDC/OAuth 客户端库，避免登录 CSRF 和回调校验缺失。
-- **外部应用接入魔搭OAuth登录**：请参阅[](../../accounts/oauth/oauth_CN.md)
+- **外部应用接入魔搭OAuth登录**：请参阅[通过魔搭登录(OAuth)](../../accounts/oauth/oauth_CN.md)文档。
