@@ -140,7 +140,7 @@ Hermes comes with 40+ built-in tools covering file read/write, terminal, web sea
 
 - View and configure enabled tools
 - Connect MCP (Model Context Protocol) servers to extend capabilities
-- Browse the Skills Hub to preview and install new skills
+- Browse Skills to preview and install new skills
 - Manage existing skills
 
 The skill system is the core of Hermes's closed-loop learning: the Agent automatically creates skills after complex tasks, skills self-improve through use, and the system is compatible with the [agentskills.io](https://agentskills.io) open standard.

@@ -649,14 +649,14 @@
       "key": "0-8"
     },
     {
-      "title": "Skills Center",
+      "title": "Skills",
       "filename": "skills",
       "url": "skills",
       "path": "skills",
       "dir": true,
       "children": [
         {
-          "title": "Introduction to Skills Center",
+          "title": "Introduction to Skills",
           "filename": "intro",
           "url": "intro",
           "path": "skills/intro/intro_EN.md",

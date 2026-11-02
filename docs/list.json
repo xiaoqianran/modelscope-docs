@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-11-01T14:54:15.675Z",
+  "fetchedAt": "2026-11-02T18:05:28.534Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-28_19-49-EN",
-      "version": "20261028194935",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-2_18-7-EN",
+      "version": "20261102180747",
       "ok": 221,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-10-28_19-48-CN",
-      "version": "20261028194859",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-2_18-6-CN",
+      "version": "20261102180712",
       "ok": 326,
       "failed": 0
     }
@@ -526,11 +526,11 @@
       {
         "ok": true,
         "rel": "skills/intro/intro.md",
-        "title": "Introduction to Skills Center",
+        "title": "Introduction to Skills",
         "path": "skills/intro/intro_EN.md",
         "url": "intro",
         "key": "0-9-0",
-        "bytes": 6806
+        "bytes": 6784
       },
       {
         "ok": true,
@@ -1889,7 +1889,7 @@
         "path": "ecosystem-integrations/api-usage/hermes-agent/hermes-agent_EN.md",
         "url": "hermes-agent",
         "key": "0-25-0-15",
-        "bytes": 8525
+        "bytes": 8517
       },
       {
         "ok": true,

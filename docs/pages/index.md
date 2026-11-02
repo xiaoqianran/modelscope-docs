@@ -2,8 +2,8 @@
 
 Unofficial mirror of [ModelScope Docs](https://www.modelscope.cn/docs).
 
-- Source version: `20261028194935`
-- CDN: `https://resouces.modelscope.cn/document/docdata/2026-10-28_19-49-EN`
+- Source version: `20261102180747`
+- CDN: `https://resouces.modelscope.cn/document/docdata/2026-11-2_18-7-EN`
 - Pages: 221
 
 ## Top sections
@@ -17,7 +17,7 @@ Unofficial mirror of [ModelScope Docs](https://www.modelscope.cn/docs).
 - Collections
 - Civision
 - MCP
-- Skills Center
+- Skills
 - agents
 - Nexa
 - Accounts

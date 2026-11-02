@@ -1,6 +1,6 @@
-<!-- modelscope-docs: Introduction to Skills Center | skills/intro/intro_EN.md -->
+<!-- modelscope-docs: Introduction to Skills | skills/intro/intro_EN.md -->
 
-**Welcome to the ModelScope Skills Center!**
+**Welcome to ModelScope Skills!**
 
 ## What is a Skill
 ### Original Meaning
@@ -35,7 +35,7 @@ description: A brief description of the functionality
 
 ## How to Search and Discover Skills
 
-After entering the ModelScope Skills Center, you can find the skills you need through the following methods:
+After entering ModelScope Skills, you can find the skills you need through the following methods:
 
 **Keyword Search**
 Enter a functional description in the search box, such as "weather," "code execution," or "PDF parsing." The system will match skill names, descriptions, and tags.
