@@ -388,5 +388,7 @@
   "OpenRLHF": "ecosystem-integrations/model-download/openrlhf",
   "verl": "ecosystem-integrations/model-download/verl",
   "文档与教程": "ecosystem-integrations/docs-tutorials",
-  "minimind + Twinkle": "ecosystem-integrations/docs-tutorials/minimind-twinkle"
+  "minimind + Twinkle": "ecosystem-integrations/docs-tutorials/minimind-twinkle",
+  "开放平台": "open-platform",
+  "站点开放入口": "open-platform/site-entry"
 }

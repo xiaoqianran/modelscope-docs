@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-11-04T16:07:33.906Z",
+  "fetchedAt": "2026-11-05T16:21:44.622Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-2_18-7-EN",
-      "version": "20261102180747",
-      "ok": 221,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-5_11-41-EN",
+      "version": "20261105114214",
+      "ok": 222,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-2_18-6-CN",
-      "version": "20261102180712",
-      "ok": 326,
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-5_11-41-CN",
+      "version": "20261105114137",
+      "ok": 327,
       "failed": 0
     }
   ],
@@ -2007,6 +2007,15 @@
         "url": "minimind-twinkle",
         "key": "0-25-2-0",
         "bytes": 7807
+      },
+      {
+        "ok": true,
+        "rel": "open-platform/site-entry/site-entry.md",
+        "title": "Site Open Entry Points",
+        "path": "open-platform/site-entry/site-entry_EN.md",
+        "url": "site-entry",
+        "key": "0-26-0",
+        "bytes": 6707
       }
     ],
     "zh": [
@@ -4943,6 +4952,15 @@
         "url": "minimind-twinkle",
         "key": "0-25-2-0",
         "bytes": 6868
+      },
+      {
+        "ok": true,
+        "rel": "open-platform/site-entry/site-entry.md",
+        "title": "站点开放入口",
+        "path": "open-platform/site-entry/site-entry_CN.md",
+        "url": "site-entry",
+        "key": "0-26-0",
+        "bytes": 5865
       }
     ]
   },

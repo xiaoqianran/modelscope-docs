@@ -3796,6 +3796,26 @@
       ],
       "intlDisabled": false,
       "key": "0-25"
+    },
+    {
+      "title": "开放平台",
+      "filename": "open-platform",
+      "url": "open-platform",
+      "path": "open-platform",
+      "dir": true,
+      "children": [
+        {
+          "title": "站点开放入口",
+          "filename": "site-entry",
+          "url": "site-entry",
+          "path": "open-platform/site-entry/site-entry_CN.md",
+          "intlDisabled": false,
+          "key": "0-26-0",
+          "md": true
+        }
+      ],
+      "intlDisabled": false,
+      "key": "0-26"
     }
   ],
   "intlDisabled": false,
