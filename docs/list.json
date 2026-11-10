@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-11-09T18:36:35.887Z",
+  "fetchedAt": "2026-11-10T16:20:27.112Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-5_11-41-EN",
-      "version": "20261105114214",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-10_17-30-EN",
+      "version": "20261110173045",
       "ok": 222,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-5_11-41-CN",
-      "version": "20261105114137",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-10_17-29-CN",
+      "version": "20261110173005",
       "ok": 327,
       "failed": 0
     }
@@ -125,7 +125,7 @@
         "path": "models/advanced-usage/cloud-accelerator/cloud-accelerator_EN.md",
         "url": "cloud-accelerator",
         "key": "0-2-6-3",
-        "bytes": 4964
+        "bytes": 5093
       },
       {
         "ok": true,
@@ -2134,7 +2134,7 @@
         "path": "models/advanced-usage/cloud-accelerator/cloud-accelerator_CN.md",
         "url": "cloud-accelerator",
         "key": "0-2-6-3",
-        "bytes": 4696
+        "bytes": 4802
       },
       {
         "ok": true,

@@ -2,8 +2,8 @@
 
 Unofficial mirror of [ModelScope Docs](https://www.modelscope.cn/docs).
 
-- Source version: `20261105114214`
-- CDN: `https://resouces.modelscope.cn/document/docdata/2026-11-5_11-41-EN`
+- Source version: `20261110173045`
+- CDN: `https://resouces.modelscope.cn/document/docdata/2026-11-10_17-30-EN`
 - Pages: 222
 
 ## Top sections

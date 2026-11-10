@@ -85,10 +85,11 @@ Please also note:
 
 ## Configure Local DNS Resolution
 
-After obtaining the VPC intranet address, simply **point the domain www.modelscope.ai to this address**.
+After obtaining the VPC intranet address, simply **point the domains modelscope.ai and www.modelscope.ai to this address**.
 
 Method 1: Modify local hosts file (suitable for single-machine scenarios)
 
+    echo '{replace this with the intranet address obtained in the previous step} modelscope.ai' >> /etc/hosts
     echo '{replace this with the intranet address obtained in the previous step} www.modelscope.ai' >> /etc/hosts
 
 Method 2: Use Alibaba Cloud DNS products such as [PrivateZone](https://help.aliyun.com/document_detail/2592934.html), which allows modifying domain name resolution across your entire VPC.

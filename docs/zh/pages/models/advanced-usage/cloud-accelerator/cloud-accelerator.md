@@ -85,10 +85,11 @@
 
 ## 配置本地DNS解析
 
-当获取vpc内网地址后，将www.modelscope.cn域名**指向该地址**即可。
+当获取vpc内网地址后，将modelscope.cn和www.modelscope.cn域名**指向该地址**即可。
 
 方法一：修改本地hosts文件，适用于单机情况
 
+    echo '{这里换成你在上一步获取的内网地址} modelscope.cn' >> /etc/hosts
     echo '{这里换成你在上一步获取的内网地址} www.modelscope.cn' >> /etc/hosts
 
 方法二：使用阿里云DNS相关产品，如：[内网DNS解析 (PrivateZone)](https://help.aliyun.com/document_detail/2592934.html)，该方案能够修改整个用户VPC内的域名解析。
