@@ -50,11 +50,19 @@ In professional mode, we support more powerful prompt functionality, richer base
 >For detailed tutorials, please refer to [Quick Image Generation](./quick-image-generation.md) and [Professional Image Generation](./professional-image-generation.md).
 
 ## 5. Video Generation
-Our newly launched video generation feature currently supports text-to-video generation, with plans to unlock image-to-video functionality in the future.
+Our newly launched video generation feature currently supports the following modes:
+
+- **Text-to-Video**: Generate videos from text descriptions
+- **Image-to-Video**: Generate videos based on input images
+- **Omni Video Generation**: Supports multi-modal reference materials (image/audio/video)
 
 After entering your prompt, you can utilize our powerful prompt optimization tools to customize and refine prompts based on different base models, combined with rich LoRA combinations to create unique and creative videos.
 
 ![image.png](./_resources/en/video_generation.png)
+
+### API Access
+
+In addition to the online experience, you can also access video generation capabilities via API. For detailed API documentation, please refer to [API-Inference Video Inference](../../model-service/API-Inference/API-Inference-Introduction.md#video-inference).
 
 ## 6. Model Training
 For users seeking deeper personalization, the model training page enables you to train custom LoRA models using your uploaded datasets based on existing Civision base models.

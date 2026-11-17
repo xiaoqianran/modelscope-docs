@@ -414,3 +414,83 @@ Parameters used in the example:
 | `duration` | Duration of the generated audio, in seconds. | Yes | int |
 
 When querying a task, set the `X-ModelScope-Task-Type: audio_generation` request header. Continue waiting while `task_status` is `PENDING` or `RUNNING`, download the audio when it is `SUCCEED`, and check `errors` for error details when it is `FAILED`.
+
+#### Video Inference
+
+API call example:
+```python
+import requests
+import time
+import json
+from pathlib import Path
+from urllib.parse import urlparse
+
+base_url = 'https://api-inference.modelscope.cn'
+api_key = '<MODELSCOPE_TOKEN>'
+
+common_headers = {
+    "Authorization": f"Bearer {api_key}",
+    "Content-Type": "application/json",
+}
+
+response = requests.post(
+    f"{base_url}/v1/videos/generations",
+    headers={**common_headers},
+    data=json.dumps({
+        "model": "MiniMax/MiniMax-H3",
+        "prompt": "A cat walking on the street",
+        "size": "768x1280",
+        "duration": 5,
+        "steps": 20,
+        # LoRA configuration (optional)
+        # "loras": {"<lora-repo-id>": 0.8},  # Single LoRA with weight 0.8
+        # "loras": {"<lora-repo-id1>": 0.6, "<lora-repo-id2>": 0.4},  # Multiple LoRAs
+    }, ensure_ascii=False).encode('utf-8'),
+    timeout=60,
+)
+response.raise_for_status()
+submit_result = response.json()
+if submit_result["status"] == "FAILED":
+    raise RuntimeError(f"Video Generation Failed: {submit_result.get('errors')}")
+task_id = submit_result["task_id"]
+
+while True:
+    result = requests.get(
+        f"{base_url}/v1/tasks/{task_id}",
+        headers={**common_headers, "X-ModelScope-Task-Type": "video_generation"},
+        timeout=60,
+    )
+    result.raise_for_status()
+    data = result.json()
+
+    if data["task_status"] == "SUCCEED":
+        video_url = data["outputs"]["url"]
+        video = requests.get(video_url, timeout=60)
+        video.raise_for_status()
+        suffix = Path(urlparse(video_url).path).suffix or ".mp4"
+        output_path = Path(f"result_video{suffix}")
+        output_path.write_bytes(video.content)
+        print(f"Video saved to {output_path}")
+        break
+    elif data["task_status"] == "FAILED":
+        raise RuntimeError(f"Video Generation Failed: {data.get('errors')}")
+
+    time.sleep(5)
+```
+
+Parameters used in the example:
+
+| Parameter Name | Parameter Description | Required | Parameter Type |
+| --- | --- | --- | --- |
+| `model` | ID of a video model that supports API calls. | Yes | string |
+| `prompt` | Description of the video content. English prompts are recommended for better results. | Yes | string |
+| `media` | Input media list for image-to-video scenarios. Format: `[{"type": "image", "url": "<image-url>"}]`.<br> Only one image is supported. **Required when using image-to-video models**, not needed for text-to-video models. | No | array |
+| `negative_prompt` | Negative prompt, describing what should not appear. | No | string |
+| `size` | Resolution of the generated video, e.g., `768x1280`. | No | string |
+| `duration` | Duration of the generated video, in seconds. Different models support different values:<br>- **MiniMax series models**: Only supports 3, 5, 10<br>- **Lighttricks/LTX-2.3**: Supports 1, 2, 3, 4, 5, 10<br>- **Other models**: Range [1, 5] | No | int |
+| `steps` | Number of sampling steps. A larger value may improve quality but increases inference time. Automatically set to 4 when LoRA acceleration is enabled. | No | int |
+| `guidance` | Guidance scale, controls the consistency between the generated result and the prompt. | No | float |
+| `seed` | Random seed for reproducing results. | No | int |
+| `loras` | LoRA model configuration for style transfer or detail enhancement. Format: `{"<lora-repo-id>": weight}`. Up to 6 LoRAs supported.<br> Search for compatible LoRA models in the [AIGC Zone Model Library](https://modelscope.ai/aigc/models). | No | object |
+
+When querying a task, set the `X-ModelScope-Task-Type: video_generation` request header. Continue waiting while `task_status` is `PENDING` or `RUNNING`, download the video when it is `SUCCEED`, and check `errors` for error details when it is `FAILED`.

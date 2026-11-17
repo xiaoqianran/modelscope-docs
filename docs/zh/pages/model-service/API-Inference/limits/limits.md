@@ -19,7 +19,7 @@
 如果需要高并发，大额度的调用，可以考虑通过[API-Provider](./API-Provider介绍)来绑定外部API提供方后使用。
 
 # API-Inference 支持的模型范围
-当前API-Inference为魔搭平台上的部分开源**大语言模型（LLM）**，**多模态模型（MLLM）**，以及[**AIGC专区文生图模型**](https://www.modelscope.cn/aigc/models)等，提供了可直接使用的API。
+当前API-Inference为魔搭平台上的部分开源**大语言模型（LLM）**，**多模态模型（MLLM）**，[**AIGC专区文生图模型**](https://www.modelscope.cn/aigc/models)，**AIGC专区音频生成模型**，以及**AIGC专区视频生成模型**等，提供了可直接使用的API。
 
 API-Inference覆盖的模型范围，主要根据模型在魔搭社区中的关注程度（参考了点赞，下载等数据）来判断。因此，在能力更强，关注度更高的下一代开源模型发布之后，支持的模型清单也会持续迭代。开发者可根据模型页面的过滤条件直接筛选，根据标记有“蓝绿色闪电”的 API-Inference logo 来判断。
 ![img.png](./_resources/api-inference-logo.png)

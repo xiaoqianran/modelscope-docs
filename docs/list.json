@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-11-16T18:14:04.123Z",
+  "fetchedAt": "2026-11-17T17:31:57.407Z",
   "method": "modelscope-cdn-dist",
   "locales": [
     {
       "locale": "en",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-10_17-30-EN",
-      "version": "20261110173045",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-17_11-26-EN-7e009695-7c06-454d-8c49-ac41f8f7465e",
+      "version": "20261117112651",
       "ok": 222,
       "failed": 101
     },
     {
       "locale": "zh",
-      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-10_17-29-CN",
-      "version": "20261110173005",
+      "prefix": "https://resouces.modelscope.cn/document/docdata/2026-11-17_11-25-CN-e68874c2-998c-4a91-a0ef-78f9555168c9",
+      "version": "20261117112612",
       "ok": 327,
       "failed": 0
     }
@@ -404,7 +404,7 @@
         "path": "aigc/intro/intro_EN.md",
         "url": "intro",
         "key": "0-7-0",
-        "bytes": 6097
+        "bytes": 6514
       },
       {
         "ok": true,
@@ -1277,7 +1277,7 @@
         "path": "model-service/API-Inference/intro/intro_EN.md",
         "url": "intro",
         "key": "0-16-0-0",
-        "bytes": 15758
+        "bytes": 19506
       },
       {
         "ok": true,
@@ -1286,7 +1286,7 @@
         "path": "model-service/API-Inference/limits/limits_EN.md",
         "url": "limits",
         "key": "0-16-0-1",
-        "bytes": 3538
+        "bytes": 3606
       },
       {
         "ok": true,
@@ -2422,7 +2422,7 @@
         "path": "aigc/intro/intro_CN.md",
         "url": "intro",
         "key": "0-7-0",
-        "bytes": 5096
+        "bytes": 5409
       },
       {
         "ok": true,
@@ -3889,7 +3889,7 @@
         "path": "model-service/API-Inference/intro/intro_CN.md",
         "url": "intro",
         "key": "0-16-0-0",
-        "bytes": 15593
+        "bytes": 20393
       },
       {
         "ok": true,
@@ -3898,7 +3898,7 @@
         "path": "model-service/API-Inference/limits/limits_CN.md",
         "url": "limits",
         "key": "0-16-0-1",
-        "bytes": 3110
+        "bytes": 3180
       },
       {
         "ok": true,

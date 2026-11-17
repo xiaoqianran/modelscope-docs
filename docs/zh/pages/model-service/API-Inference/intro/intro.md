@@ -439,3 +439,83 @@ while True:
 | `duration` | 生成音频的时长，单位为秒。 | 是 | int |
 
 查询任务时，需设置请求头 `X-ModelScope-Task-Type: audio_generation`。`task_status` 为 `PENDING` 或 `RUNNING` 时继续等待，为 `SUCCEED` 时下载音频，为 `FAILED` 时查看 `errors` 中的错误信息。
+
+#### 视频推理
+
+API的调用示例如下:
+```python
+import requests
+import time
+import json
+from pathlib import Path
+from urllib.parse import urlparse
+
+base_url = 'https://api-inference.modelscope.cn'
+api_key = '<MODELSCOPE_TOKEN>'
+
+common_headers = {
+    "Authorization": f"Bearer {api_key}",
+    "Content-Type": "application/json",
+}
+
+response = requests.post(
+    f"{base_url}/v1/videos/generations",
+    headers={**common_headers},
+    data=json.dumps({
+        "model": "MiniMax/MiniMax-H3",
+        "prompt": "A cat walking on the street",
+        "size": "768x1280",
+        "duration": 5,
+        "steps": 20,
+        # LoRA 配置（可选）
+        # "loras": {"<lora-repo-id>": 0.8},  # 单个 LoRA，权重 0.8
+        # "loras": {"<lora-repo-id1>": 0.6, "<lora-repo-id2>": 0.4},  # 多个 LoRA
+    }, ensure_ascii=False).encode('utf-8'),
+    timeout=60,
+)
+response.raise_for_status()
+submit_result = response.json()
+if submit_result["status"] == "FAILED":
+    raise RuntimeError(f"Video Generation Failed: {submit_result.get('errors')}")
+task_id = submit_result["task_id"]
+
+while True:
+    result = requests.get(
+        f"{base_url}/v1/tasks/{task_id}",
+        headers={**common_headers, "X-ModelScope-Task-Type": "video_generation"},
+        timeout=60,
+    )
+    result.raise_for_status()
+    data = result.json()
+
+    if data["task_status"] == "SUCCEED":
+        video_url = data["outputs"]["url"]
+        video = requests.get(video_url, timeout=60)
+        video.raise_for_status()
+        suffix = Path(urlparse(video_url).path).suffix or ".mp4"
+        output_path = Path(f"result_video{suffix}")
+        output_path.write_bytes(video.content)
+        print(f"Video saved to {output_path}")
+        break
+    elif data["task_status"] == "FAILED":
+        raise RuntimeError(f"Video Generation Failed: {data.get('errors')}")
+
+    time.sleep(5)
+```
+
+示例中的参数说明：
+
+| 参数名 | 参数说明                                                                                                                                            | 是否必须 | 参数类型 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------| --- | --- |
+| `model` | 支持 API 调用的视频模型 ID。                                                                                                                              | 是 | string |
+| `prompt` | 描述视频内容的文本，建议使用英文提示词效果较好。                                                                                                                        | 是 | string |
+| `media` | 输入媒体列表，用于图生视频场景，格式为 `[{"type": "image", "url": "<image-url>"}]`<br>仅支持传入一张图片，**使用图生视频模型时必填**，文生视频模型无需传入。                                        | 否 | array |
+| `negative_prompt` | 负向提示词，描述不希望出现的内容。                                                                                                                               | 否 | string |
+| `size` | 生成视频分辨率大小，如 `768x1280`。                                                                                                                         | 否 | string |
+| `duration` | 生成视频的时长，单位为秒。不同模型支持的值有所不同：<br>- **MiniMax 系列模型**：仅支持 3、5、10<br>- **Lighttricks/LTX-2.3**：支持 1、2、3、4、5、10<br>- **其他模型**：范围 [1, 5]                | 否 | int |
+| `steps` | 采样步数，值越大生成质量可能越高，但耗时也会增加。使用 LoRA 加速时自动设为 4。                                                                                                     | 否 | int |
+| `guidance` | 提示词引导系数，控制生成结果与提示词的一致性。                                                                                                                         | 否 | float |
+| `seed` | 随机种子，用于复现生成结果。                                                                                                                                  | 否 | int |
+| `loras` | LoRA 模型配置，用于风格迁移或细节增强。格式为 `{"<lora-repo-id>": weight}`，最多支持 6 个 LoRA。<br>请在 [AIGC 专区模型库](https://modelscope.cn/aigc/models) 查找与基础模型兼容的 LoRA 模型。 | 否 | object |
+
+查询任务时，需设置请求头 `X-ModelScope-Task-Type: video_generation`。`task_status` 为 `PENDING` 或 `RUNNING` 时继续等待，为 `SUCCEED` 时下载视频，为 `FAILED` 时查看 `errors` 中的错误信息。

@@ -23,7 +23,7 @@ In the top-right corner of the code example, when "ModelScope Community" is sele
 
 
 # Models Supported by API Inference
-Currently, API Inference provides ready-to-use APIs for selected open-source **large language models (LLM)**, **multimodal models (MLLM)**, and **[AIGC text-to-image models](https://www.modelscope.ai/aigc/models)** on the ModelScope platform.
+Currently, API Inference provides ready-to-use APIs for selected open-source **large language models (LLM)**, **multimodal models (MLLM)**, **[AIGC text-to-image models](https://www.modelscope.ai/aigc/models)**, **AIGC audio generation models**, and **AIGC video generation models** on the ModelScope platform.
 
 The range of models covered by API Inference is primarily determined by the model's popularity in the ModelScope community (based on metrics such as likes and downloads). Therefore, as more capable and popular next-generation open-source models are released, the supported model list will continue to evolve. Developers can directly filter models on the model page and identify API Inference support by looking for the "blue-green lightning" API Inference logo.
 ![img.png](./_resources/api-inference-logo.png)
