@@ -81,6 +81,8 @@ API Inference costs are grouped into three tiers based on model size�
     
 *   **Flagship models**: ~2 Magicubes per call
 
+*   **Multi-modal generation models**: ~ For actual Magicubes consumption, please refer to the model page.
+
 ## 3. Important Notes
 
 1.  **Magicube Expiration & Deduction Order**
